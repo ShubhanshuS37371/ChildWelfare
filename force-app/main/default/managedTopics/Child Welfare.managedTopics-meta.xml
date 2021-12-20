@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>Child Welfare.Featured:Achieving &amp; Maintaining Permanency</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Achieving &amp; Maintaining Permanency</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Child Welfare.Featured:Adoptions</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Adoptions</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Child Welfare.Featured:FAQs</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>FAQs</name>
+        <parentName></parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Child Welfare.Featured:Family Centered Practices</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Family Centered Practices</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Child Welfare.Featured:Special Needs</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Special Needs</name>
+        <parentName></parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Child Welfare.Featured:Supporting &amp; Preserving Families</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Supporting &amp; Preserving Families</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+</ManagedTopics>

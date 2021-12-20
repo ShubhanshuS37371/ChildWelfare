@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>vlocity_ps__HouseholdNodeElements</name>
+    </fieldSets>
+    <recordTypes>
+        <label></label>
+        <name>vlocity_ps__Group</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>vlocity_ps__Household</name>
+    </recordTypes>
+</CustomObjectTranslation>

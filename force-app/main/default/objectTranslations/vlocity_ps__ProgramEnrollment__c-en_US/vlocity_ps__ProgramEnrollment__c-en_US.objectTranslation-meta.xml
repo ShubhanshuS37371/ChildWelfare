@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Child Care Program Enrollment Layout</layout>
+        <sections>
+            <label></label>
+            <section>Eligibility Determination</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Child_Care</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Covid_Placements</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>Foster_Care_Children_Placement</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Foster_Care_Parent_Recruitment</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>vlocity_ps__WaitlistRemovedReasonNotNull</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>Calculate_Daily_Rate</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ongoing_Cases</fullName>
+    <columns>NAME</columns>
+    <columns>vlocity_ps__Status__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>vlocity_ps__Case__c.Child_Welfare</value>
+    </filters>
+    <filters>
+        <field>vlocity_ps__Status__c</field>
+        <operation>notEqual</operation>
+        <value>Closed,Unfounded-Closed,Founded-Transfer to Ongoing</value>
+    </filters>
+    <label>Ongoing Cases</label>
+</ListView>

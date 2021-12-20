@@ -1,0 +1,11 @@
+<design:component label="Left Sidebar + Main Page">
+    
+	<flexipage:template >
+        
+		<!-- The default width for the "left" region is "MEDIUM". In tablets, the width is "SMALL" -->
+		<flexipage:region name="left" defaultWidth="SMALL" />
+		<flexipage:region name="right" defaultWidth="MEDIUM" />
+        
+	</flexipage:template>
+    
+</design:component>

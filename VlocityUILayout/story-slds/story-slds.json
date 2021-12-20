@@ -1,0 +1,47 @@
+{
+    "Cards": [
+        "Program Enrollment Story",
+        "Benefit Case Story",
+        "Application Story"
+    ],
+    "componentName": "cfStorySlds",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "a323h000000y5BJAAY"
+            }
+        ],
+        "type": "Dual",
+        "value": {
+            "apexRemoteResultVar": "Stories",
+            "apexRestResultVar": "Stories",
+            "endpoint": "/services/apexrest/%vlocity_namespace%/v1/story/{{params.id}}?pageSize=10",
+            "inputMap": {
+                "pageSize": "10",
+                "storyId": "{{params.id}}"
+            },
+            "methodType": "GET",
+            "remoteClass": "StoryListHandler",
+            "remoteMethod": "getStories",
+            "remoteNSPrefix": "%vlocity_namespace%"
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+        {
+            "name": "Title",
+            "val": "\"My Title\""
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "story-card-canvas-ps"
+        }
+    },
+    "workspace": [
+        "Program Enrollment Story/vlocity-ps/null/1521653916276",
+        "Benefit Case Story/vlocity-ps/null/1521653916277",
+        "Application Story/vlocity-ps/null/1521653916277"
+    ]
+}

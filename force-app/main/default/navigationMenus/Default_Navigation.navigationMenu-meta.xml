@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>Foster Parent Portal</container>
+    <containerType>Network</containerType>
+    <label>Default Navigation</label>
+    <navigationMenuItem>
+        <label>Steps to Become Foster Parent</label>
+        <position>1</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/steps-to-become-a-foster-parent</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>My Foster Kids</label>
+        <position>2</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/my-kids</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Topics</label>
+        <position>3</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>ShowMoreTopics</target>
+        <type>NavigationalTopic</type>
+    </navigationMenuItem>
+</NavigationMenu>

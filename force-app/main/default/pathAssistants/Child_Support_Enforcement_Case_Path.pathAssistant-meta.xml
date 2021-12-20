@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>vlocity_ps__Case__c</entityName>
+    <fieldName>vlocity_ps__Stage__c</fieldName>
+    <masterLabel>Child Support Enforcement Case Path</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Monitor compliance with support orders and initiate enforcement actions.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Enforcement</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Initiate actions for the establishment of paternity, including administrative establishment of paternity, for all cases in which paternity has not yet been established. &lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Establishment</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Within 20 days:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Establish a case record,&lt;/li&gt;&lt;li&gt;Refer the case to the appropriate processing unit (e.g., locate or paternity establishment),&lt;/li&gt;&lt;li&gt;Submit the case to Federal Case Registry &lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Initiation</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Locate the non-custodial parent using any or all of the following services:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The Federal Parent Locator Service.&lt;/li&gt;&lt;li&gt;Interstate location networks.&lt;/li&gt;&lt;li&gt;Relatives and friends of the noncustodial parent.&lt;/li&gt;&lt;li&gt;Current or past employers.&lt;/li&gt;&lt;li&gt;The local telephone company.&lt;/li&gt;&lt;li&gt;The U.S. Postal Service.&lt;/li&gt;&lt;li&gt;Financial references.&lt;/li&gt;&lt;li&gt;Unions.&lt;/li&gt;&lt;li&gt;Police, parole and probation records.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Location</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Direct the case to the appropriate function, e.g. locate, paternity establishment, and initiate the appropriate case action. &lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Monitoring</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Child_Support_Enforcement</recordTypeName>
+</PathAssistant>

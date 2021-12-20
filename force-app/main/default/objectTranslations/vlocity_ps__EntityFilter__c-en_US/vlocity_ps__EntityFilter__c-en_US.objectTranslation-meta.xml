@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>vlocity_ps__ConsoleAdminSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>vlocity_ps__Entity_Filter_Edit_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>vlocity_ps__NewRule</name>
+    </fieldSets>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>vlocity_ps__EvaluationCriteriaNotNull</name>
+    </validationRules>
+</CustomObjectTranslation>

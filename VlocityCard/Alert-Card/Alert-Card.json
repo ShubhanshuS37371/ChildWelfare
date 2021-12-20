@@ -1,0 +1,76 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "type": null,
+        "value": {
+            "bundle": "GetAlerts",
+            "inputMap": {
+                "Id": "{{parent.obj.Id}}"
+            },
+            "resultVar": "['FosterChildren']"
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['Alert']['Id']",
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['Alert']['Status']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "'Created'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "extraParams": {
+                        },
+                        "hasExtraParams": false,
+                        "id": "Test_Alert",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Alert']['Message']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['Alert']['Message']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Alert']['Status']",
+                    "group": "Custom Properties",
+                    "label": "Alert Status",
+                    "name": "['Alert']['Status']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Alert']['Status'] == 'Created'",
+            "name": "Alert",
+            "sObjectType": "Contact",
+            "templateUrl": "card-alert-1x-slds"
+        }
+    ],
+    "title": "Alert"
+}

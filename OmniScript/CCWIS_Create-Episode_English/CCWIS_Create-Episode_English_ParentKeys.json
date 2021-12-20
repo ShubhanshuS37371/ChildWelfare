@@ -1,0 +1,6 @@
+[
+    "DataRaptor/CW-CreateEpisodeForInvestigation",
+    "DataRaptor/CW-CreateEpisodeForOngoingCase",
+    "DataRaptor/CW-GetAllegedVictims",
+    "DataRaptor/CW-GetCaseType"
+]

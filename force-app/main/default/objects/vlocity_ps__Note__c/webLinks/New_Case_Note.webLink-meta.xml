@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Case_Note</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>New Case Note</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>/apex/vlocity_ps__OmniScriptUniversalPage?id={!vlocity_ps__Case__c.Id}&amp;layout=lightning#/OmniScriptType/VPL 100-1/OmniScriptSubType/Create Case Note/OmniScriptLang/English/ContextId/{!vlocity_ps__Case__c.Id}/PrefillDataRaptorBundle//true</url>
+</WebLink>

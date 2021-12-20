@@ -1,0 +1,82 @@
+<!--------- ZONE TEMPLATE
+            Zones are an intermediate layer or container between a Layout and a Card. You can have several Cards with related characteristics inside of one Zone plus another set of Cards with different related characteristics inside of another Zone with both Zones falling inside of one Layout.
+            
+            This layout is configured as follows:
+            
+            -------------------------------------------------------------------
+            [Zone Lable]
+                           Header
+            -------------------------------------------------------------------
+            [Zone Label]     | [Zone Lable]            
+                             |    
+                             |            Body1
+                             |    
+                  L          |            
+                  e          |--------------------------------------------------           
+                  f          | [Zone Label]           
+                  t          |            
+                             |            Body2
+                             |            
+                             |            
+                             |--------------------------------------------------    
+    -->
+    <div class="via-slds">
+   <!-- <form class="slds-grid slds-m-around--small slds-wrap slds-grid--pull-padded">
+        <div class="slds-col slds-col--padded slds-size--1-of-2 slds-medium-size--1-of-2 slds-large-size--4-of-12 slds-form-element">
+          <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon--left">
+            <slds-svg-icon sprite="'utility'" icon="'search'" extra-classes="'slds-input__icon'"></slds-svg-icon>
+            <input ng-model="searchTerm" class="slds-input" type="text" placeholder="{{::$root.vlocity.getCustomLabel('SearchCards', 'Search Cards')}}" />
+          </div>
+        </div>
+        <div class="slds-col slds-col--bump-left slds-button slds-col--padded">
+            <button class="slds-button slds-button--neutral slds-float--right" onclick="window.location.reload()">
+                <slds-button-svg-icon sprite="'utility'" icon="'refresh'" no-hint="true" extra-classes="'slds-button__icon--left'"></slds-button-svg-icon>
+              {{::$root.vlocity.getCustomLabel('Refresh', 'Refresh')}}</button>
+        </div>
+    </form>  -->
+    <!-- After adding zones in template designer we can reference them inside the template like
+        - To get cards of a specific zone 
+            data.zones['<Name of Zone>'].cards
+        - Zone Labels are set in card designer Lebel field for the Zone
+    -->
+    <!-- Header Zone -->
+    <div class="slds-grid slds-grid_vertical slds-grid--pull-padded cards-container">
+        <!-- Name of zone here is "Header" -->
+        <h2 class="slds-text-heading--medium slds-m-left--large">{{data.zones['Header'].label}}</h2>
+            <div ng-repeat="card in data.zones['Header'].cards |orderBy:order|filter: searchFunc(card, searchTerm)" vloc-card ctrl="{{ctrl}}" ng-model="card" data="card" records="records" index="{{$index}}" session-id="{{sessionId}}"
+                class="slds-m-top--small slds-m-left--small slds-m-right--small slds-size--1-of-1" use-existing-element-type></div>
+            </div>
+        <span id="flyout" class="slds-p-around--small slds-size-1-of-1"></span>
+    </div>
+    <!-- Body Zones -->
+    <div class="slds-grid slds-gutters">
+    <!-- Left Zone -->    
+        <div class="slds-col--padded slds-size--2-of-6">
+            <!-- Name of zone here is "Left" -->
+            <!--<h2 class="slds-text-heading--medium slds-m-left--large">{{data.zones['Left'].label}}</h2>-->
+            <div class="slds-text-heading--medium slds-m-left--large"><strong>{{data.zones['Left'].label}}</strong></div>
+            <div ng-repeat="card in data.zones['Left'].cards |orderBy:order|filter: searchFunc(card, searchTerm)" vloc-card ctrl="{{ctrl}}" ng-model="card" data="card" records="records" index="{{$index}}" session-id="{{sessionId}}"
+                class="slds-p-around--small slds-size--1-of-1" use-existing-element-type>
+            </div>
+            <span id="flyout" class="slds-p-around--small slds-size-1-of-1"></span>
+        </div>    
+        <!-- Right Body Zones -->
+        <div class="slds-col--padded slds-size--4-of-6">
+                <!-- Name of zone here is "Body1" -->
+                <!--<h2 class="slds-text-heading--medium slds-m-left--large">{{data.zones['Body1'].label}}</h2>-->
+                <div class="slds-text-heading--medium slds-m-left--large"><strong>{{data.zones['Body1'].label}}</strong></div>
+                <div class="slds-grid slds-wrap slds-m-around--small slds-grid--pull-padded cards-container">
+                    <div ng-repeat="card in data.zones['Body1'].cards |orderBy:order|filter: searchFunc(card, searchTerm)" vloc-card ctrl="{{ctrl}}" ng-model="card" data="card" records="records" index="{{$index}}" session-id="{{sessionId}}"
+                    class="slds-col--padded slds-size--1-of-2" use-existing-element-type>
+                    </div>
+                <span id="flyout" class="slds-p-around--small slds-size-1-of-1"></span>
+                </div>
+                <!-- Name of zone here is "Body2" -->
+                <h2 class="slds-text-heading--medium slds-m-left--large">{{data.zones['Body2'].label}}</h2>
+                <div class="slds-grid slds-wrap slds-m-around--small slds-grid--pull-padded cards-container">
+                    <div ng-repeat="card in data.zones['Body2'].cards |orderBy:order|filter: searchFunc(card, searchTerm)" vloc-card ctrl="{{ctrl}}" ng-model="card" data="card" records="records" index="{{$index}}" session-id="{{sessionId}}"
+                    class="slds-col--padded slds-size--1-of-3" use-existing-element-type>
+                    </div>
+                <span id="flyout" class="slds-p-around--small slds-size-1-of-1"></span>
+        </div>
+</div>

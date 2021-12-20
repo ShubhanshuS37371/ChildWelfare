@@ -1,0 +1,23 @@
+{
+    "AlertId": "a4O3i0000004bwJEAQ",
+    "ContextId": "",
+    "NewStatus": "Acknowledged",
+    "Step1": {
+        "Acknowledge": true,
+        "Continue": "Yes",
+        "Plan": "We will review the materials on food allergies provided by DCS, remove any potentially dangerous products from our home, monitor new groceries for this issue and discuss this peanut allergy with Ryan to help him avoid peanuts when he is at school or otherwise away from our home."
+    },
+    "id": "a2H3i000000PzqTEAS",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://fl-fostercare-demo--vlocity-ps.visualforce.com",
+    "timeStamp": "2019-08-30T19:53:19.953Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053i000001GWOrAAO",
+    "userName": "jblankenship@fl.fostercare.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    }
+}

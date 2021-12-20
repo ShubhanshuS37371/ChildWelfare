@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <rules>
+        <fullName>Notify Court Hearing Scheduled</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Court_Hearing__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Scheduled</value>
+        </criteriaItems>
+        <description>Sends an email notification to Benefit Case Party Relationships associated to the Ongoing_Case__c of the Court Hearing</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

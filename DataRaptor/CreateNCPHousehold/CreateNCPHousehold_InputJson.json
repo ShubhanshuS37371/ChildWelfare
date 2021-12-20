@@ -1,0 +1,34 @@
+{
+    "ChildrenInHousehold": {
+        "Children": [
+            {
+                "ChildAge": 3,
+                "ChildDOB": "2016-04-01",
+                "ChildFirstName": "Rebecca",
+                "ChildLastName": "Larson",
+                "VictimIndicator": "No"
+            },
+            {
+                "ChildAge": 11,
+                "ChildDOB": "2008-03-07",
+                "ChildFirstName": "Chris",
+                "ChildLastName": "Larson",
+                "VictimIndicator": "Yes"
+            }
+        ]
+    },
+    "NonCustodialParent": {
+        "NCPAddress-Block": {
+            "NCPAddress": "1 Stephen King Dr, Augusta ME 04330",
+            "NCPCity": "Augusta",
+            "NCPCountry": "USA",
+            "NCPPostalCode": null,
+            "NCPState": "ME",
+            "NCPStreetAddress": "1 Stephen King Dr"
+        },
+        "NCPFirstName": "Brad",
+        "NCPLastName": "Smith",
+        "NCPTelephone": "(207) 555-2823",
+        "NCPWorkTelephone": "(207) 555-6578"
+    }
+}

@@ -1,0 +1,16 @@
+<apex:page standardStylesheets="false" showHeader="true" sidebar="true" standardController="vlocity_ps__Application__c" extensions="vlocity_ps.VFPageControllerBase" docType="html-5.0" >
+    <div ng-app="ApplicationReview" class='vlocity via-slds' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <a ng-if="!isSforce" ng-href="/{!currentRecord['Id']}" ><i class="fa fa-caret-left"></i>Go back </a> 
+        <a ng-if="isSforce" href="javascript:sforce.one.navigateToURL('/{!currentRecord['Id']}')"><i class="icon  icon-v-left-caret"></i></a>
+        <hr/>
+        <vlocity_ps:BusinessProcessComponent strNamespacePrefixList="{!sNS}"
+                                    strApplicationId="{!vlocity_ps__Application__c.Id}"
+                                    scriptState="review"
+                                    scriptLayout="lightning"/>
+        <script type="text/javascript">
+            var modules = ['vlocity-business-process'];
+            var myModule = angular.module('ApplicationReview', modules);
+        </script>
+    </div>
+    <vlocity_ps:VFActionFunction />
+</apex:page>

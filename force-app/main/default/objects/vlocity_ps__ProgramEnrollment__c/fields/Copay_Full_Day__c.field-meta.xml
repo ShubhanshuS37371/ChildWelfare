@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copay_Full_Day__c</fullName>
+    <description>Used in Child Care to determine copay for parents for Child Care</description>
+    <externalId>false</externalId>
+    <label>Copay Full Day</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

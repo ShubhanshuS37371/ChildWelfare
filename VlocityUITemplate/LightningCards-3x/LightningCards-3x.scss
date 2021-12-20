@@ -1,0 +1,9 @@
+.via-slds:not(html) {
+    background-color: #FFFFFF;
+    border: 1px solid transparent;
+}
+
+.slds-grid .slds-wrap .slds-grid--pull-padded .cards-container
+{padding-left: 20px;
+padding-right: 20px;
+}

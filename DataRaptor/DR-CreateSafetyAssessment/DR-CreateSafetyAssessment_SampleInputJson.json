@@ -1,0 +1,51 @@
+{
+    "CommentsImages": {
+        "Comments": null,
+        "Images": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "ContextId": null,
+    "Done": {
+    },
+    "General": {
+        "ExteriorLight": null,
+        "Isolation": null,
+        "Lights": null,
+        "Log": null,
+        "Plan": null,
+        "Supplies": null,
+        "System": null,
+        "Toxins": null
+    },
+    "Head": {
+    },
+    "QuestionCount": 8,
+    "Sign": {
+        "Name": null,
+        "Score": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "CommentsImages": null,
+        "DR-CreateSafetyAssessment": null,
+        "DR-UpdatePEStage": null,
+        "DataRaptorExtractAction1": null,
+        "Done": null,
+        "General": null,
+        "Head": null,
+        "SendSMS": null,
+        "SetValues1": null,
+        "Sign": null
+    }
+}

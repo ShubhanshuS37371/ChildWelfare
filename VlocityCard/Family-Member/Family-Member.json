@@ -1,0 +1,138 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+            "resultVar": "['FosterChildren']"
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "blankStateCheck": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "Update",
+                        "hasExtraParams": false,
+                        "id": "Update Family Member",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/apex/",
+                        "vlocityIcon": "icon-v-edit2"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Get Medical Records",
+                        "hasExtraParams": false,
+                        "id": "Get Records",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/apex/",
+                        "vlocityIcon": "icon-v-folder-line"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Reimbursement Request",
+                        "hasExtraParams": false,
+                        "id": "Reimburse",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/apex/%vlocity_namespace%__OmniScriptUniversalPage?id={0}&OmniScriptType=Foster%20Care&OmniScriptSubType=Reimbursement&OmniScriptLang=English&PrefillDataRaptorBundle=&scriptMode=vertical&layout=lightning&ContextId={0}",
+                        "vlocityIcon": "icon-v-upload"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "View Assessments",
+                        "hasExtraParams": false,
+                        "id": "Assessments",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/apex/",
+                        "vlocityIcon": "icon-v-customize"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Gender']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Gender",
+                    "name": "['Gender']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Age']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Age",
+                    "name": "['Age']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['DOB']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "DOB",
+                    "name": "['DOB']",
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Joined Home",
+                    "name": "['JoinedHome']",
+                    "type": "date"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Status']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "type": "string"
+                }
+            ],
+            "name": "Active",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Name",
+                    "type": "string",
+                    "value": "['Name']"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Image",
+                    "type": "string",
+                    "value": "['Image']"
+                }
+            ],
+            "templateUrl": "card-active-clone"
+        }
+    ],
+    "title": "Family Member"
+}

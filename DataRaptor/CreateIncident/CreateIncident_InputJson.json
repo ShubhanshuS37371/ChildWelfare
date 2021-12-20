@@ -1,0 +1,120 @@
+{
+    "Adults": [
+        "Sarah Larson",
+        "Grandpa Larson",
+        "Jason Beavers",
+        "Brad Smith"
+    ],
+    "AdultsInHousehold": {
+        "OtherAdult": [
+            {
+                "OtherAdultFirstName": "Grandpa",
+                "OtherAdultIsCP": "No",
+                "OtherAdultLastName": "Larson",
+                "OtherAdultRelationship": "Grandparent",
+                "OtherAdultTelephone": "2076632232"
+            },
+            {
+                "OtherAdultFirstName": "Jason",
+                "OtherAdultIsCP": "No",
+                "OtherAdultLastName": "Beavers",
+                "OtherAdultRelationship": "Boyfriend",
+                "OtherAdultTelephone": null
+            }
+        ]
+    },
+    "ChildrenInHousehold": {
+        "Children": [
+            {
+                "ChildAge": 3,
+                "ChildDOB": "2016-04-01",
+                "ChildFirstName": "Rebecca",
+                "ChildLastName": "Larson",
+                "VictimIndicator": "No"
+            },
+            {
+                "ChildAge": 11,
+                "ChildDOB": "2008-03-07",
+                "ChildFirstName": "Chris",
+                "ChildLastName": "Larson",
+                "VictimIndicator": "Yes"
+            }
+        ]
+    },
+    "Concerns": {
+        "AllegedPerpetrator-Block": {
+            "AllegedPerpetrator": "Brad Smith"
+        },
+        "DomesticViolenceConcerns": null,
+        "MentalHealthConcerns": "No mental health concerns identified at this time.",
+        "PressingIssue": "Christopher Larson, a 3rd grader at Sylvio Gilbert Elementary, was sent to the principal's office for picking a fight with another student. The principal talked to the child and then asked the school nurse to evaluate him. She observed a large scratch on his face that he could not explain and extensive bruising on his back and legs. The physical conditions, combined with the recent change in his behavior towards teachers and other students raise concern about his situation at home.",
+        "SubstanceAbuseConcerns": "No signs of substance abuse identified."
+    },
+    "ContextId": "",
+    "DRId_%vlocity_namespace%__Household__c": "a0n4P00000EK5IdQAL",
+    "DRId_%vlocity_namespace%__PartyRelationship__c": "a1G4P00000FWVEoUAP",
+    "DRId_Account": "0014P000029gU7eQAE",
+    "DRId_Contact": "0034P00002W8S64QAF",
+    "EvidenceText": "Large scratch on his face + extensive bruising on his back and legs.",
+    "Household": {
+        "CustodialParent": {
+            "CPAddress-Block": {
+                "CPAddress": "201 Civic Center Dr, Augusta ME 04330",
+                "CPCity": "Augusta",
+                "CPCountry": "USA",
+                "CPPostalCode": null,
+                "CPState": "ME",
+                "CPStreetAddress": "201 Civic Center Dr"
+            },
+            "CPFirstName": "Sarah",
+            "CPLastName": "Larson",
+            "CPTelephone": "(207) 623-8223",
+            "CPWorkTelephone": "(207) 555-5678"
+        }
+    },
+    "ImmediatePlan": "Move Chris into a different class, with a teacher who has more experience with challenging student. Work with DCFS on more extensive follow-up plan.",
+    "NonCustodialParent": {
+        "NCPAddress-Block": {
+            "NCPAddress": "1 Stephen King Dr, Augusta ME 04330",
+            "NCPCity": "Augusta",
+            "NCPCountry": "USA",
+            "NCPPostalCode": null,
+            "NCPState": "ME",
+            "NCPStreetAddress": "1 Stephen King Dr"
+        },
+        "NCPFirstName": "Brad",
+        "NCPLastName": "Smith",
+        "NCPTelephone": "(207) 555-2823",
+        "NCPWorkTelephone": "(207) 555-6578"
+    },
+    "NonCustodialParentExists": {
+        "NCPExists": "Yes"
+    },
+    "PerpName": "Brian Weatherly",
+    "Remarks": "Chris mentioned that his mother has a new boyfriend. When the principal asked if Chris likes the new boyfriend, the child broke eye contact and became sullen.",
+    "Reporter": {
+        "AddressReporter": "16 Sunset Ave. Augusta, ME 04330",
+        "Category": "School Nurse",
+        "EmailReporter": "karen.baker@augustaschools.demo",
+        "FacilityReporter": "Sylvio Gilbert Elementary",
+        "FirstNameReporter": "Karen",
+        "LastNameReporter": "Baker",
+        "TelephoneReporter": "(207) 555-2491"
+    },
+    "Screening": {
+        "Confidentiality": "Yes"
+    },
+    "id": "a174P000011ikt4QAA",
+    "isdtp": "p1",
+    "layout": "newport",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://maine-ccwis-demo-2019--vlocity-ps.visualforce.com",
+    "timeStamp": "2019-06-30T23:44:32.950Z",
+    "userCurrencyCode": "USD",
+    "userId": "0054P000009t59QQAQ",
+    "userName": "sschupbach@maine.ccwis.demo",
+    "userProfile": "Vlocity Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

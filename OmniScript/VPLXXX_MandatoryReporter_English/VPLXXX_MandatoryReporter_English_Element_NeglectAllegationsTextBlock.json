@@ -1,0 +1,40 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "VPLXXX-ChildWelfareResponseScreen",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPLXXX/MandatoryReporter/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "VPLXXX-ChildWelfareResponseScreen",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPLXXX/MandatoryReporter/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "NeglectAllegationsBlock",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPLXXX/MandatoryReporter/English/NeglectAllegationsBlock",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "NeglectAllegationsBlock",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "show": null,
+        "text": "<p>Is there severe neglect?</p>\n<p><strong>%SevereNeglect%</strong></p>\n<p></p>\n<p>Is there diagnosed malnutrition? (automatic 24-hour)</p>\n<p><strong>%DiagnosedMalnutrition%</strong></p>\n<p></p>\n<p>Is there non-organic failure to thrive?</p>\n<p><strong>%NonOrganicFailure%</strong></p>\n<p></p>\n<p>Is the child's health endangered?</p>\n<p><strong>%ChildHealthEndangered%</strong></p>\n<p></p>\n<p>Is there death of a child due to neglect and another child in the home? (automatic 24-hour)</p>\n<p><strong>%ChildNeglectAnotherChild%</strong></p>\n<p></p>\n<p>Is there general neglect?</p>\n<p><strong>%GeneralNeglect%</strong></p>\n<p></p>\n<p>Is there inadequate food?</p>\n<p><strong>%InadequateFood%</strong></p>\n<p></p>\n<p>Is there inadequate clothing/hygiene?</p>\n<p><strong>%InadequateClothing%</strong></p>\n<p></p>\n<p>Is there inadequate/hazardous shelter?</p>\n<p><strong>%InadequateShelter%</strong></p>\n<p></p>\n<p>Is there inadequate supervision?</p>\n<p><strong>%InadequateSupervision%</strong></p>\n<p></p>\n<p>Is there inadequate medical/mental health care?</p>\n<p><strong>%InadequateHealthcare%</strong></p>\n<p></p>\n<p>Is the caregiver absent?&nbsp; Has the caregiver abandoned the child/children?</p>\n<p><strong>%CaregiverAbsence%</strong></p>\n<p></p>\n<p>Is there failure to protect?</p>\n<p><strong>%FailureToProtect%</strong></p>\n<p></p>\n<p>Has the child (or children) been involved in criminal activity?</p>\n<p><strong>%ChildrenInvolvedInCriminalActivity%</strong></p>\n<p></p>\n<p>Is there threat of neglect?</p>\n<p><strong>%ThreatOfNeglect%</strong></p>\n<p></p>\n<p>Is there prior failed reunification or severe neglect and a new child (or children) in household?</p>\n<p><strong>%PriorFailedReunification%</strong></p>\n<p></p>\n<p>Is the child (or children) being allowed to use alcohol or other drugs?</p>\n<p><strong>%ChildAllowedToUseDrugs%</strong></p>\n<p></p>\n<p>Is there prior death of a child due to neglect and a new child, of any age, in the home?</p>\n<p><strong>%PriorDeathDueToNeglect%</strong></p>\n<p></p>\n<p>Is there prenatal substance use?</p>\n<p><strong>%PreNatalSubstanceUse%</strong></p>\n<p></p>\n<p>Has there been other high-risk birth (or births)?</p>\n<p><strong>%HighRiskBirth%</strong></p>\n<p></p>\n<p>Does the child require immediate medical/mental health evaluation or care?</p>\n<p><strong>%ChildRequiresImmediateMedicalMental%</strong></p>\n<p></p>\n<p>Are the child&rsquo;s physical living conditions immediately hazardous to health or safety?</p>\n<p><strong>%ChildsPhysicalLivingConditionsHazardous%</strong></p>\n<p></p>\n<p>Is the child currently unsupervised and in need of supervision?</p>\n<p><strong>%ChildCurrentlyUnsupervised%</strong></p>\n<p></p>\n<p>Will a substance-exposed newborn be discharged within ten (10) days with no caregiver willing and able to provide for the infant upon discharge?</p>\n<p><strong>%SubstanceExposedNewbornDischargedin10Days%</strong></p>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "CurrencyIsoCode": "USD",
+    "Name": "NeglectAllegationsTextBlock",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPLXXX/MandatoryReporter/English/NeglectAllegationsTextBlock"
+}

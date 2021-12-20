@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ps__Name__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF( ISBLANK(vlocity_ps__PartyId__c), &apos;Anonymous&apos;,  IF(vlocity_ps__IsPersonAccount__c || vlocity_ps__PartyType__c == &apos;Contact&apos; , vlocity_ps__PartyId__r.vlocity_ps__ContactId__r.FirstName &amp; &quot; &quot; &amp; vlocity_ps__PartyId__r.vlocity_ps__ContactId__r.LastName , vlocity_ps__PartyId__r.vlocity_ps__PartyEntityName__c ))</formula>
+    <label>Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

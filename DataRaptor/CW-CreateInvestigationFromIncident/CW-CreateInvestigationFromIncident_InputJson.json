@@ -1,0 +1,30 @@
+{
+    "AccusedId": "0033h000008ETg7AAG",
+    "AccusedName": "Andrea Rousy",
+    "CaseName": "Andrea Rousy - Investigation",
+    "Household": "a1m3h0000016MW7AAM",
+    "IncidentAllegation": {
+        "%vlocity_namespace%__IncidentId__c": "a1t3h000000UagNAAS",
+        "%vlocity_namespace%__Status__c": "Open",
+        "Allegation_Type__c": "Physical Abuse",
+        "Alleged_Child__c": "0033h000008ETg9AAG",
+        "Alleged_Maltreater__c": "0033h000008ETg7AAG",
+        "Name": "Child Abuse"
+    },
+    "IncidentId": "a1t3h000000UagNAAS",
+    "IncidentName": "Rousy",
+    "PartyRelationship": [
+        {
+            "Name": "Samuel Rousy",
+            "PartyId": "a2b3h000000UFfrAAG",
+            "Role": "Alleged Victim"
+        },
+        {
+            "Name": "Andrea Rousy",
+            "PartyId": "a2b3h000000UFfoAAG",
+            "Role": "Accused"
+        }
+    ],
+    "RecResponseTime": "24 Hours",
+    "RecordTypeId": "0123h000000hS9jAAE"
+}

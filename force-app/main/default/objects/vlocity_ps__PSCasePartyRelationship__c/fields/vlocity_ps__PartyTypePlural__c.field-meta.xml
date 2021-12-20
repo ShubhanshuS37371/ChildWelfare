@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ps__PartyTypePlural__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(vlocity_ps__PartyType__c == &apos;Household&apos;, &apos;Households&apos;, IF( vlocity_ps__PartyType__c == &apos;Contact&apos;, &apos;People&apos;,IF (vlocity_ps__PartyType__c ==&apos;Account&apos; &amp;&amp;  vlocity_ps__IsPersonAccount__c == true, &apos;People&apos;, &apos;Accounts&apos;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Party Type Plural</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

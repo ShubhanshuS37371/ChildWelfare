@@ -1,0 +1,40 @@
+{
+    "ContextId": "",
+    "DRId_%vlocity_namespace%__Household__c": "a0n3i0000015zodAAA",
+    "DRId_Account": "0013i000004fWzpAAE",
+    "DRId_Contact": "0033i0000040Z8JAAU",
+    "Requestor": {
+        "Birthdate": "1973-06-19",
+        "ChannelToReceiveApplication": "Mail",
+        "Email": null,
+        "FirstName": "Alisha",
+        "LastName": "Adams",
+        "MailingAddress-Block": {
+            "City": null,
+            "Country": null,
+            "MailingAddress": null,
+            "PostalCode": null,
+            "State": null,
+            "Street": null
+        },
+        "Phone": "(972) 926-3602",
+        "RequestReceivedChannel": "In Person"
+    },
+    "SearchResults": {
+    },
+    "SelectedParticipant": "",
+    "SelectedParticipants": "",
+    "id": "a173i000000ch2zAAA",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://invest-conduent-demo--vlocity-ps.visualforce.com",
+    "timeStamp": "2019-08-15T16:19:52.661Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053i000000WEXNAA4",
+    "userName": "sschupbach@invest.conduent.demo",
+    "userProfile": "Vlocity Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

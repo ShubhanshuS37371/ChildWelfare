@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>vlocity_ps__AccessibilityFeatures__c</name>
+    <picklistValues>
+        <masterLabel>Roll-In Shower</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

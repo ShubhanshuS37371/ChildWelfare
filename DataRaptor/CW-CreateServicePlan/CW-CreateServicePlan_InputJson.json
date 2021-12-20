@@ -1,0 +1,40 @@
+{
+    "CaseMemberName": [
+        "Andrea Rousy",
+        "Samuel Rousy"
+    ],
+    "CasePlanOutline": {
+        "CasePlanName": "CAse Plan",
+        "CasePlanNeedsStatement": "This is what we need",
+        "Participant": [
+            {
+                "CasePlanParticipant-Block": {
+                    "CasePlanParticipant": "Andrea Rousy"
+                },
+                "ParticipantGoal": "None"
+            },
+            {
+                "CasePlanParticipant-Block": {
+                    "CasePlanParticipant": "Samuel Rousy"
+                },
+                "ParticipantGoal": "Nothing"
+            }
+        ],
+        "StartDate": "2020-02-06",
+        "TargetEndDate": "2020-02-20"
+    },
+    "ContextId": "a0h6g0000033iTAAAY",
+    "id": "a2H6g000000iKR3EAM",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://jb-vko2020--vlocity-ps.visualforce.com",
+    "timeStamp": "2020-02-18T21:07:08.635Z",
+    "userCurrencyCode": "USD",
+    "userId": "0056g000003NOAyAAO",
+    "userName": "jblankenship@jb-vko2020.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    }
+}

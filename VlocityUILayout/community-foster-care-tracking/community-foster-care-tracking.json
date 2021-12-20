@@ -1,0 +1,46 @@
+{
+    "Cards": [
+        "foster-card-header",
+        "initial-interest-form",
+        "safety-assessment",
+        "complete-training",
+        "complete-application",
+        "review",
+        "approval"
+    ],
+    "bypassSave": true,
+    "componentName": "cfCommunityFosterCareTracking",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "$root.vlocity.userContactId",
+                "val": "0033h000008OPfJAAW"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "body": "{ \"name\":\"John\", \"age\":30, \"car\":null }",
+            "bundle": "FC-GetEnrollmentv3",
+            "inputMap": {
+                "ContactId": "{{$root.vlocity.userContactId}}"
+            }
+        }
+    },
+    "previewType": "runTime",
+    "sessionVars": [
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "list-card-canvas-simple"
+        }
+    },
+    "workspace": [
+        "foster-card-header/Vlocity, Inc./1/1566243250436",
+        "initial-interest-form/Vlocity, Inc./1/1566220645156",
+        "safety-assessment/Vlocity, Inc./1/1566220710345",
+        "complete-training/Vlocity, Inc./1/1566220725735",
+        "complete-application/Vlocity, Inc./1/1566220740017",
+        "review/Vlocity, Inc./1/1566220754289",
+        "approval/Vlocity, Inc./1/1566220765302"
+    ]
+}

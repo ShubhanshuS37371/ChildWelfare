@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ps__SourceTargetValidation</fullName>
+    <active>true</active>
+    <errorConditionFormula>vlocity_ps__SourceIncidentId__c ==  vlocity_ps__TargetIncidentId__c</errorConditionFormula>
+    <errorMessage>Source Incident and Target Incident is same. Please choose a different Target Incident</errorMessage>
+</ValidationRule>

@@ -1,0 +1,48 @@
+.alert-card {
+    overflow: hidden;
+    // min-height: 400px;
+    padding: 5px;
+}
+
+
+.level-High-Created .alert-card-body {
+    background-color: #ffb0b0;
+    // min-height: 310px;
+}
+
+.level-High-Created .alert-card-header {
+    background-color: #ff8080;
+    
+}
+
+.level-High-Acknowledged .alert-card-body {
+    background-color: #ffE0E0;
+    // min-height: 310px;
+}
+
+.level-High-Acknowledged .alert-card-header {
+    background-color: #ffD0D0;
+    
+}
+
+
+.level-Medium-Created .alert-card-body {
+    background-color: #fff;
+    // min-height: 310px;
+}
+
+.level-Medium-Created .alert-card-header {
+    background-color: #eFcF00;
+    
+}
+
+
+.level-Medium-Acknowledged .alert-card-body {
+    background-color: #fff;
+    // min-height: 310px;
+}
+
+.level-Medium-Acknowledged .alert-card-header {
+    background-color: #eFcF80;
+    
+}

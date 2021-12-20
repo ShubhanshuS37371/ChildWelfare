@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>vlocity_ps__AddNewSiteFieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>vlocity_ps__SiteDetailFieldSet</name>
+    </fieldSets>
+    <webLinks>
+        <label></label>
+        <name>vlocity_ps__AddSiteProducts</name>
+    </webLinks>
+</CustomObjectTranslation>

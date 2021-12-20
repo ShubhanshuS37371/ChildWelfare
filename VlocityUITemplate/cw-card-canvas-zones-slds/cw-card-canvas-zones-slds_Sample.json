@@ -1,0 +1,77 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.AccountId",
+                "val": "001f400000Hv70H"
+            },
+            {
+                "name": "params.id",
+                "val": "a3Zf4000000gvtT"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "TRNGGetInteractionContAcct",
+            "inputMap": {
+                "Id": "{{params.id}}"
+            }
+        }
+    },
+    "sessionVars": [
+        {
+            "name": "Zip",
+            "val": "records.BillingPostalCode"
+        },
+        {
+            "name": "Block4",
+            "val": "'Cases'"
+        },
+        {
+            "name": "embeddedLayout",
+            "val": "'sample-case-cards-list-slds'"
+        }
+    ],
+    "templates": {
+        "0": {
+            "templateUrl": "rr-card-canvas-zones-slds"
+        }
+    },
+    "workspace": [
+        "Sample-Asset-Account/RoadRunner/1/1521657337460",
+        "Sample-Appointment-Account/RoadRunner/1/1521657771420",
+        "Sample-Contact-Account/RoadRunner/1/1521658214341",
+        "Sample-Weather-Banner/RoadRunner/1/1521660087703",
+        "Sample SLA Action Required/RoadRunner/1/1521669615050"
+    ],
+    "zones": {
+        "BodyTop": {
+            "cardNames": [
+                "Sample-Appointment-Account"
+            ],
+            "label": "BodyTop",
+            "layouts": [
+            ],
+            "name": "BodyTop"
+        },
+        "Header": {
+            "cardNames": [
+                "Sample SLA Action Required",
+                "Sample-Weather-Banner"
+            ],
+            "label": "Header",
+            "layouts": [
+            ],
+            "name": "Header"
+        },
+        "Left": {
+            "cardNames": [
+                "Sample-Asset-Account"
+            ],
+            "label": "Left",
+            "layouts": [
+            ],
+            "name": "Left"
+        }
+    }
+}

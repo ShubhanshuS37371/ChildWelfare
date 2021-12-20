@@ -1,0 +1,35 @@
+<div class="panel panel-default">
+    <table class="table slds-table slds-table--bordered slds-table--cell-buffer" style="table-layout: auto;">
+      <thead>
+        <tr>
+          <th class="slds-cell-shrink">Select</th>
+            <th>Id</th>
+            <th>Class</th>
+            <th># of classes</th>
+            <th>Duration</th>
+            <th>Class Time</th>
+            <th>Start Date</th>
+            <th>Schedule</th>
+        </tr>
+      </thead>
+    <tbody class="ins">
+       <tr ng-repeat='p in control.vlcSI[control.itemsKey]' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" >
+          <td class="slds-cell-shrink">
+            <label class="slds-checkbox">
+          <input type="checkbox" ng-model='p.vlcSelected'
+            ng-change='onSelectItem(control, p, $index, this)'/>
+          <span class="slds-checkbox--faux"></span>
+        </label>
+      </td>
+      <td>{{p.Id}}</td>
+      <td>{{p.class_name}}</td>
+      <td>{{p.number}}</td>
+      <td>{{p.duration}}</td>
+      <td>{{p.class_time}}</td>
+      <td>{{p.start_date}}</td>
+      <td>{{p.schedule}}</td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+ <p> </p>

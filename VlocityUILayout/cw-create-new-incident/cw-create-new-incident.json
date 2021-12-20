@@ -1,0 +1,23 @@
+{
+    "Cards": [
+        "cw-create-new-incident"
+    ],
+    "componentName": "cfWpcBarrierActions",
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "type": "Query",
+        "value": {
+            "body": "{{params.id}}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-simple-slds"
+        }
+    },
+    "workspace": [
+        "cw-create-new-incident/jb-fc09062019/1/1576265231191"
+    ]
+}

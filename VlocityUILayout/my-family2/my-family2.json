@@ -1,0 +1,78 @@
+{
+    "Cards": [
+        "Family Member",
+        "Alert Card 3"
+    ],
+    "dataSource": {
+        "type": "Custom",
+        "value": {
+            "body": "{\n    \"FosterChildren\": [\n        {\n             \"Priority__c\": \"High\",\n              \"Status__c\": \"Created\",\n            \"Alert\": {\n                \"Status\": \"Created\",\n                \"Message\": \"Ryan is allergic to peanuts and products that contain peanuts.\",\n                \"Id\": \"a4O3i0000004bwJEAQ\"\n            },\n            \"Image\": \"../resource/RyanSilver\",\n            \"Id\": \"0033i000003Q1P0AAK\",\n            \"Status\": \"Active\",\n            \"DOB\": \"2013-08-18\",\n            \"Age\": 6,\n            \"JoinedHome\":\"2019-08-20\",\n            \"Name\": \"Ryan Silver\"\n        },\n        {\n            \"Image\": \"../resource/PaulSilver\",\n            \"Id\": \"0033i000003Q1P1AAK\",\n            \"Status\":\"Active\",\n            \"DOB\": \"2011-04-22\",\n            \"Age\": 8,\n             \"JoinedHome\":\"2019-08-20\",\n            \"Name\": \"Paul Silver\"\n        }\n    ],\n    \"RelatedFosterChildren\": [\n        {\n            \"Id\": \"0033i000003Q1P0AAK\"\n        },\n        {\n            \"Id\": \"0033i000003Q1P1AAK\"\n        }\n    ],\n    \"Household\": {\n        \"Id\": \"a2b3i000000PY3WAAW\"\n    },\n    \"Party\": {\n        \"Id\": \"a2b3i000000PY3RAAW\"\n    }\n}",
+            "bundle": "FC-GetFosterChildren",
+            "inputMap": {
+                "ContactId": "0033i000003Q1OrAAK"
+            }
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-3x-zones-slds"
+        }
+    },
+    "workspace": [
+        "Family Member/%vlocity_namespace%_child_welfare/1/1539266091683",
+        "Alert Card/CCWIS Intake Hotline/3/1539276653987",
+        "Alert Card/CCWIS Intake Hotline/2/1539266125330",
+        "Alert Card 3/Florida Department of Children and Families/1/1567165482753"
+    ],
+    "zones": {
+        "Body": {
+            "cardNames": [
+            ],
+            "label": "Body",
+            "layouts": [
+            ],
+            "name": "Body",
+            "zoneCards": [
+                {
+                    "Author": "%vlocity_namespace%_child_welfare",
+                    "Name": "Family Member",
+                    "Version": 1,
+                    "globalKey": "Family Member/%vlocity_namespace%_child_welfare/1/1539266091683"
+                }
+            ]
+        },
+        "Footer": {
+            "cardNames": [
+            ],
+            "label": "Footer",
+            "layouts": [
+            ],
+            "name": "Footer",
+            "zoneCards": [
+            ]
+        },
+        "Header": {
+            "cardNames": [
+            ],
+            "label": "Header",
+            "layouts": [
+            ],
+            "name": "Header",
+            "zoneCards": [
+                {
+                    "Author": "CCWIS Intake Hotline",
+                    "Name": "Alert Card",
+                    "Version": 3,
+                    "globalKey": "Alert Card/CCWIS Intake Hotline/3/1539276653987"
+                },
+                {
+                    "Author": "Florida Department of Children and Families",
+                    "Name": "Alert Card 3",
+                    "Version": 1,
+                    "globalKey": "Alert Card 3/Florida Department of Children and Families/1/1567165482753"
+                }
+            ]
+        }
+    }
+}

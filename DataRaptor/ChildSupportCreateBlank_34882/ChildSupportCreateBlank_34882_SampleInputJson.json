@@ -1,0 +1,44 @@
+{
+    "Application": {
+        "Name": "APP-000713",
+        "PreferredCommunicationChannel": "Email",
+        "ReferenceNumber": "APP-000713",
+        "RequestedDate": "2019-08-29T19:52:41.000Z",
+        "Status": "Sent to Applicant"
+    },
+    "ContextId": "",
+    "DRId_%vlocity_namespace%__Application__c": "a053i0000049OUCAA2",
+    "PDFAction1": {
+        "attachmentId": "00P3i000000hvvKEAQ"
+    },
+    "Requestor": {
+        "Birthdate": "1973-06-19",
+        "ChannelToReceiveApplication": "Email",
+        "Email": "sschupbach@vlocity.com",
+        "FirstName": "Shannon",
+        "LastName": "Schupbach",
+        "MailingAddress-Block": {
+            "City": null,
+            "Country": null,
+            "MailingAddress": null,
+            "PostalCode": null,
+            "State": null,
+            "Street": null
+        },
+        "Phone": "9729263602",
+        "RequestReceivedChannel": "In Person"
+    },
+    "id": "a173i000000clikAAA",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://invest-conduent-demo--vlocity-ps.visualforce.com",
+    "timeStamp": "2019-08-29T19:51:43.409Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053i000000WEXNAA4",
+    "userName": "sschupbach@invest.conduent.demo",
+    "userProfile": "Vlocity Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

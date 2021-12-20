@@ -1,0 +1,69 @@
+{
+    "data": {
+        "actions": [
+            {
+                "displayName": "Call",
+                "id": "Call",
+                "type": "Vlocity Action",
+                "vlocityIcon": "icon-v-phone"
+            },
+            {
+                "displayName": "Email",
+                "id": "Email",
+                "type": "Vlocity Action",
+                "vlocityIcon": "icon-v-email"
+            }
+        ],
+        "fields": [
+            {
+                "collapse": true,
+                "fieldType": "standard",
+                "label": "Name",
+                "name": "['Name']",
+                "type": "string"
+            },
+            {
+                "collapse": true,
+                "fieldType": "standard",
+                "label": "Title",
+                "name": "['Title']",
+                "type": "string"
+            },
+            {
+                "collapse": true,
+                "editing": false,
+                "fieldType": "standard",
+                "label": "Email",
+                "name": "['Email']",
+                "type": "string"
+            },
+            {
+                "collapse": true,
+                "editing": false,
+                "fieldType": "custom",
+                "label": "Mobile",
+                "name": "['MobilePhone']",
+                "type": "phone"
+            },
+            {
+                "collapse": true,
+                "fieldType": "standard",
+                "label": "Birthdate",
+                "name": "['Birthdate']",
+                "type": "date"
+            }
+        ],
+        "icon": "contact",
+        "sprite": "standard",
+        "title": "_RR-card-small-image-slds"
+    },
+    "obj": {
+        "Birthdate": "1970-07-23",
+        "Email": "edward@acme.com",
+        "Image": "/services/images/photo/0033600000JZjBAAA1",
+        "Name": "Edward Stamos",
+        "Title": "President and CEO",
+        "icon": "task2",
+        "sprite": "standard"
+    }
+}

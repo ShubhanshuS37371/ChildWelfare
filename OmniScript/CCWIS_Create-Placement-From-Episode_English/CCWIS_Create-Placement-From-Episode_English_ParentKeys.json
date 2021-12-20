@@ -1,0 +1,8 @@
+[
+    "DataRaptor/CW-CreatePlacementFromEpisode",
+    "DataRaptor/CW-CreateProgramEnrollmentFromEpisodeForFCT",
+    "DataRaptor/CW-GetCandidateFosterHomeswithoutFCT",
+    "DataRaptor/CW-GetEpisodeDetails",
+    "DataRaptor/CW-UpdateContactForFCTMatching",
+    "VlocityUITemplate/FosterParentList"
+]

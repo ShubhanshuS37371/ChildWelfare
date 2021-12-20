@@ -1,0 +1,138 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Mandatory Reporter",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CCWIS/Mandatory Reporter/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Mandatory Reporter",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CCWIS/Mandatory Reporter/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "Reporter",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/CCWIS/Mandatory Reporter/English/Reporter",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "Reporter",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": true,
+        "imageCountInRow": 3,
+        "label": "Reporter Category",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "name": "Attending Physician",
+                "value": "Attending Physician"
+            },
+            {
+                "name": "Surgeon",
+                "value": "Surgeon"
+            },
+            {
+                "name": "Hospital Administrator",
+                "value": "Hospital Administrator"
+            },
+            {
+                "name": "Medical Examiner",
+                "value": "Medical Examiner"
+            },
+            {
+                "name": "Coroner",
+                "value": "Coroner"
+            },
+            {
+                "name": "Registered Nurse",
+                "value": "Registered Nurse"
+            },
+            {
+                "name": "School Teacher",
+                "value": "School Teacher"
+            },
+            {
+                "name": "Licensed Practical Nurse",
+                "value": "Licensed Practical Nurse"
+            },
+            {
+                "name": "Dentist",
+                "value": "Dentist"
+            },
+            {
+                "name": "Osteopath",
+                "value": "Osteopath"
+            },
+            {
+                "name": "Podiatrist",
+                "value": "Podiatrist"
+            },
+            {
+                "name": "Chiropractor",
+                "value": "Chiropractor"
+            },
+            {
+                "name": "Christian Science Practitioner",
+                "value": "Christian Science Practitioner"
+            },
+            {
+                "name": "Social Worker",
+                "value": "Social Worker"
+            },
+            {
+                "name": "Social Services Administrator",
+                "value": "Social Services Administrator"
+            },
+            {
+                "name": "Registered Psychologist",
+                "value": "Registered Psychologist"
+            },
+            {
+                "name": "Psychiatrist",
+                "value": "Psychiatrist"
+            },
+            {
+                "name": "Advanced Practice Nurse",
+                "value": "Advanced Practice Nurse"
+            },
+            {
+                "name": "Other",
+                "value": "Other"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": false,
+        "show": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Radio",
+    "CurrencyIsoCode": "USD",
+    "Name": "Category",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/CCWIS/Mandatory Reporter/English/Category"
+}

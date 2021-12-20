@@ -1,0 +1,60 @@
+{
+    "Application Id": "a04j0000002lfDmAAI",
+    "Asset Details": {
+        "Assets": {
+            "Asset Belongs To": "Tim Allen",
+            "Asset Type": {
+                "name": "02",
+                "value": "Vehicle"
+            },
+            "Asset Value": 750
+        }
+    },
+    "Expense Details": {
+        "Expenses": {
+            "Expense Amount": 250,
+            "Expense Belongs To": "Tim Allen",
+            "Expense Frequency": {
+                "name": "01",
+                "value": "Monthly"
+            },
+            "Expense Type": {
+                "name": "01",
+                "value": "Housing"
+            }
+        }
+    },
+    "Income Details": {
+        "Income": {
+            "Income Amount": 200,
+            "Income Belongs To": "Tim Allen",
+            "Income Frequency": {
+                "name": "02",
+                "value": "Bi-Monthly"
+            },
+            "Income Type": {
+                "name": "01",
+                "value": "Salary"
+            }
+        }
+    },
+    "Primary Details": {
+        "Address": {
+            "City": "San Ramon",
+            "State": {
+                "name": "01",
+                "value": "CA"
+            },
+            "Street Address": "7338 Balmoral Way",
+            "Zip Code": 94582
+        },
+        "People": {
+            "Date of Birth": "1960-12-28T08:00:00.000Z",
+            "First Name": "Tim",
+            "Last Name": "Allen",
+            "SSN": "",
+            "US Citizen?": true
+        }
+    },
+    "Submit Step": ""
+}

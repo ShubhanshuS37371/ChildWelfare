@@ -1,0 +1,20 @@
+{
+    "%vlocity_namespace%__Author__c": "vlocityDev",
+    "%vlocity_namespace%__CSS__c": "",
+    "%vlocity_namespace%__CustomJavascript__c": "",
+    "%vlocity_namespace%__Definition__c": "{\"zones\":[{\"name\":\"Header\",\"label\":\"\",\"$$hashKey\":\"object:12387\"},{\"name\":\"Left\",\"label\":\"\",\"$$hashKey\":\"object:12447\"},{\"name\":\"Body1\",\"label\":\"\",\"$$hashKey\":\"object:7530\"},{\"name\":\"Body2\",\"label\":\"\",\"$$hashKey\":\"object:84713\"}],\"placeholders\":[]}",
+    "%vlocity_namespace%__Description__c": "rr-card-canvas-zones-slds\n\nLightning grid layout with a responsive layout using zones:\n\nlarge: 3 columns\nmedium: 2 columns\nsmall: 1 column\n\nContaining four zones:\nHeader, Left, Body1 and Body2",
+    "%vlocity_namespace%__DisplayOn__c": "All",
+    "%vlocity_namespace%__ExternalID__c": "cw-card-canvas-zones-slds/2/vlocityDev/1579265390935",
+    "%vlocity_namespace%__HTML__c": "cw-card-canvas-zones-slds.html",
+    "%vlocity_namespace%__ParentID__c": "rr-card-canvas-zones-slds/1/RaodRunner/1526418709523",
+    "%vlocity_namespace%__SampleJson__c": "cw-card-canvas-zones-slds_Sample.json",
+    "%vlocity_namespace%__Sass__c": "",
+    "%vlocity_namespace%__Type__c": "Containers",
+    "%vlocity_namespace%__Version__c": 2,
+    "CurrencyIsoCode": "USD",
+    "Name": "cw-card-canvas-zones-slds",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/cw-card-canvas-zones-slds"
+}

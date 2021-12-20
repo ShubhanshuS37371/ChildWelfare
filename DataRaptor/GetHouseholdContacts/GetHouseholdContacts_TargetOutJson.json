@@ -1,0 +1,19 @@
+{
+    "HouseholdStep": {
+        "HHBlock": {
+            "HHAge": null,
+            "HHDOB": null,
+            "HHFirstName": null,
+            "HHFullName": null,
+            "HHLastName": null,
+            "HHNeedsChildCare": null,
+            "HHOtherParent": null,
+            "HHOtherParentInHome": null,
+            "HHRelationship": null,
+            "HHRelationshipLabel": null,
+            "HHSSN": null,
+            "HHSpecialNeeds": null,
+            "HHSpecialNeedsVerification": null
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.via-slds .via-slds-card--active {
+     border:v1px solid vrgb(221, 219, 218);
+     box-shadow:none;
+
+    .via-slds-card__body {
+        overflow: hidden;
+        min-height: 337px;
+    }
+     
+    .via-slds-card__contactheader {
+        //background-clip: padding-box;
+        //background-color: #f4f6f9;
+        border:0px;
+        box-shadow:none;
+        margin-bottom: 0;
+        cursor: pointer;
+    }
+     
+    .via-slds-card__footer {
+        //border-top: 1px solid #d8dde6;
+        margin-top: 0;
+        text-align: left;
+    }
+     
+    .via-slds-flyout-grid > :not(:empty) {
+        width: 100%;
+    }
+     
+    .via-action-icon:before {
+        font-size: 200%;
+    }
+}

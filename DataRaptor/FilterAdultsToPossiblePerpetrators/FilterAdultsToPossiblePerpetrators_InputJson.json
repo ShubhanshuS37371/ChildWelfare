@@ -1,0 +1,68 @@
+{
+    "AdultsInHousehold": {
+        "OtherAdult": [
+            {
+                "OtherAdultFirstName": "Grandpa",
+                "OtherAdultIsCP": "No",
+                "OtherAdultLastName": "Larson",
+                "OtherAdultRelationship": "Grandparent",
+                "OtherAdultTelephone": "2076632232"
+            },
+            {
+                "OtherAdultFirstName": "Jason",
+                "OtherAdultIsCP": "No",
+                "OtherAdultLastName": "Beavers",
+                "OtherAdultRelationship": "Boyfriend",
+                "OtherAdultTelephone": null
+            }
+        ]
+    },
+    "ChildrenInHousehold": {
+        "Children": [
+            {
+                "ChildAge": 3,
+                "ChildDOB": "2016-04-01",
+                "ChildFirstName": "Rebecca",
+                "ChildLastName": "Larson",
+                "VictimIndicator": "No"
+            },
+            {
+                "ChildAge": 11,
+                "ChildDOB": "2008-03-07",
+                "ChildFirstName": "Chris",
+                "ChildLastName": "Larson",
+                "VictimIndicator": "Yes"
+            }
+        ]
+    },
+    "Household": {
+        "CustodialParent": {
+            "CPAddress-Block": {
+                "CPAddress": "201 Civic Center Dr, Augusta ME 04330",
+                "CPCity": "Augusta",
+                "CPCountry": "USA",
+                "CPPostalCode": null,
+                "CPState": "ME",
+                "CPStreetAddress": "201 Civic Center Dr"
+            },
+            "CPFirstName": "Sarah",
+            "CPLastName": "Larson",
+            "CPTelephone": "(207) 623-8223",
+            "CPWorkTelephone": "(207) 555-5678"
+        }
+    },
+    "NonCustodialParent": {
+        "NCPAddress-Block": {
+            "NCPAddress": "1 Stephen King Dr, Augusta ME 04330",
+            "NCPCity": "Augusta",
+            "NCPCountry": "USA",
+            "NCPPostalCode": null,
+            "NCPState": "ME",
+            "NCPStreetAddress": "1 Stephen King Dr"
+        },
+        "NCPFirstName": "Brad",
+        "NCPLastName": "Smith",
+        "NCPTelephone": "(207) 555-2823",
+        "NCPWorkTelephone": "(207) 555-6578"
+    }
+}

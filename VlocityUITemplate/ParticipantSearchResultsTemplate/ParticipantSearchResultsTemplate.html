@@ -1,0 +1,33 @@
+<div class="panel panel-default div-tpl_wuyvc"  ng-controller='siController_wuyvc'>
+    <table class="table slds-table slds-table--bordered slds-table--cell-buffer nds-table nds-table_bordered nds-table_cell-buffer nds-table_striped" style="table-layout: auto;">
+      <thead>
+        <tr class="tpl_wuyvc">
+          <th class="slds-cell-shrink">Select&nbsp;&nbsp;</th>
+            <th><a href="" ng-click="setOrderBy('TotalMatchScore')">Match Score&nbsp;&nbsp;</a></th>
+            <!-- <th><a href="" ng-click="setOrderBy('SocialSecurityNumber')">SSN&nbsp;&nbsp;</a></th> -->
+            <th><a href="" ng-click="setOrderBy('LastName')">Last Name&nbsp;&nbsp;</a></th>
+            <th><a href="" ng-click="setOrderBy('FirstName')">First Name&nbsp;&nbsp;</a></th>
+            <th><a href="" ng-click="setOrderBy('Birthdate')">Birthdate&nbsp;&nbsp;</a></th>
+            <th><a href="" ng-click="setOrderBy('MailingAddress')">Mailing Address</a></th>
+            <th>Id</th>            
+        </tr>
+      </thead>
+    <tbody class="ins">
+       <tr class='tpl_wuyvc' ng-repeat='p in control.vlcSI[control.itemsKey] | orderBy : orderByField' ng-class="{ 'vlc-selectableitem-selected' : p.vlcSelected }" >
+          <td class="slds-cell-shrink">
+            <label class="slds-checkbox">
+          <input type="checkbox" ng-model='p.vlcSelected' ng-change='onSelectItem(control, p, $index, this)'/>
+          <span class="slds-checkbox--faux"></span>
+        </label>
+      </td>
+      <td>{{p["TotalMatchScore"]}}&nbsp;&nbsp;</td>
+      <!-- <td>{{p["SocialSecurityNumber"]}}&nbsp;&nbsp;</td> -->
+      <td>{{p["LastName"]}}&nbsp;&nbsp;</td>
+      <td>{{p["FirstName"]}}&nbsp;&nbsp;</td>
+      <td>{{p["Birthdate"]}}&nbsp;&nbsp;</td>
+      <td>{{p["MailingAddress"]}}</td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+ <p>&nbsp;</p>

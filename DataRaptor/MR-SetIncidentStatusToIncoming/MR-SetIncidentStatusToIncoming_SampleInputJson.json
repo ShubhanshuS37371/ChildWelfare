@@ -1,0 +1,120 @@
+{
+    "AdultsInHousehold": {
+        "OtherAdult": {
+            "OtherAdultFirstName": null,
+            "OtherAdultIsCP": null,
+            "OtherAdultLastName": null,
+            "OtherAdultRelationship": null,
+            "OtherAdultTelephone": null
+        }
+    },
+    "ChildrenInHousehold": {
+        "Children": {
+            "ChildAge": null,
+            "ChildDOB": null,
+            "ChildFirstName": null,
+            "ChildLastName": null,
+            "VictimIndicator": null
+        }
+    },
+    "Concerns": {
+        "AllegedPerpetrator-Block": {
+            "AllegedPerpetrator": null
+        },
+        "DomesticViolenceConcerns": null,
+        "EvidenceText": null,
+        "MentalHealthConcerns": null,
+        "PressingIssue": null,
+        "SubstanceAbuseConcerns": null
+    },
+    "ContextId": null,
+    "Evidence": {
+        "EvidencePicture": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "Household": {
+        "CustodialParent": {
+            "CPAddress-Block": {
+                "CPAddress": null,
+                "CPCity": null,
+                "CPCountry": null,
+                "CPPostalCode": null,
+                "CPState": null,
+                "CPStreetAddress": null
+            },
+            "CPDateOfBirth": null,
+            "CPFirstName": null,
+            "CPLastName": null,
+            "CPTelephone": null,
+            "CPWorkTelephone": null
+        }
+    },
+    "NonCustodialParent": {
+        "NCPAddress-Block": {
+            "NCPAddress": null,
+            "NCPCity": null,
+            "NCPCountry": null,
+            "NCPPostalCode": null,
+            "NCPState": null,
+            "NCPStreetAddress": null
+        },
+        "NCPDateOfBirth": null,
+        "NCPFirstName": null,
+        "NCPLastName": null,
+        "NCPTelephone": null,
+        "NCPWorkTelephone": null
+    },
+    "NonCustodialParentExists": {
+        "NCPExists": null
+    },
+    "Reporter": {
+        "AddressReporter": null,
+        "Category": null,
+        "EmailReporter": null,
+        "FacilityReporter": null,
+        "FirstNameReporter": null,
+        "LastNameReporter": null,
+        "TelephoneReporter": null
+    },
+    "Screening": {
+        "Confidentiality": null
+    },
+    "Summary": {
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AdultsInHousehold": null,
+        "ChildrenInHousehold": null,
+        "Concerns": null,
+        "CreateCPHousehold": null,
+        "CreateIncident": null,
+        "CreateNCPHousehold": null,
+        "DemoReset": null,
+        "DoneAction": null,
+        "Evidence": null,
+        "GetIncident": null,
+        "GetPossiblePerpetuators": null,
+        "GetSamuelRonaldIds": null,
+        "Household": null,
+        "LinkSamuelRonald": null,
+        "NonCustodialParent": null,
+        "NonCustodialParentExists": null,
+        "Reporter": null,
+        "Screening": null,
+        "SendPushNotification": null,
+        "SetAdultsToEmpty": null,
+        "SetIncidentStatusToIncoming": null,
+        "Summary": null
+    }
+}

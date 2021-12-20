@@ -1,0 +1,20 @@
+[
+    {
+        "Id": "111111",
+        "Name": "Foster Parenting 101",
+        "class_time": "6:30pm",
+        "duration": "2 hours",
+        "number": "4",
+        "schedule": "M-F-W",
+        "start_date": "10/15/2018"
+    },
+    {
+        "Id": "111111",
+        "Name": "Foster Parenting 101",
+        "class_time": "9:00am",
+        "duration": "8 hours",
+        "number": "1",
+        "schedule": "Saturday - all day",
+        "start_date": "10/20/2018"
+    }
+]

@@ -1,0 +1,60 @@
+{
+    "Cards": [
+        "Child Care",
+        "TANF",
+        "Medicaid Part D",
+        "SNAP",
+        "Help Me Grow",
+        "Vocational Rehabilitation",
+        "Unemployment Insurance",
+        "Housing Assistance",
+        "TANF-Blank",
+        "SNAP-Blank",
+        "WIC",
+        "Medicaid-Blank",
+        "Medicaid D - Blank",
+        "Child Care - Blank",
+        "Help Me Grow - Blank",
+        "WIC - Blank"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0031U00000zRzRtQAK"
+            }
+        ],
+        "orderBy": {
+            "name": "LastModifiedDate"
+        },
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.Id||params.id\":\"{{params.Id||params.id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "LightningCards-3x"
+        }
+    },
+    "workspace": [
+        "Child Care/vlocity-ps/null/1521653916273",
+        "TANF/vlocity-ps/1/1537048514028",
+        "Medicaid/vlocity-ps/1/1550704311631",
+        "Medicaid Part D/vlocity-ps/1/1550709904680",
+        "SNAP/vlocity-ps/2/1537047618944",
+        "Help Me Grow/vlocity-ps/null/1521653916272",
+        "Unemployment Insurance/Vlocity Foster Care TSO/1/1586192837479",
+        "Vocational Rehabilitation/Vlocity Foster Care TSO/1/1586183537038",
+        "Housing Assistance/vlocity-ps/null/1521653916272",
+        "TANF-Blank/vlocity-ps/1/1550704534587",
+        "SNAP-Blank/vlocity-ps/1/1550699394800",
+        "WIC/vlocity-ps/null/1521653916278",
+        "Medicaid-Blank/vlocity-ps/1/1550704475892",
+        "Medicaid D - Blank/vlocity-ps/1/1550709991130",
+        "Child Care - Blank/vlocity-ps/1/1550704825339",
+        "Help Me Grow - Blank/vlocity-ps/1/1550704940268",
+        "WIC - Blank/vlocity-ps/1/1550705454530"
+    ]
+}

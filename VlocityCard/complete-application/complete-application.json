@@ -1,0 +1,238 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+            "body": "{ \"name\":\"John\", \"age\":30, \"car\":null , \"status\":\"In Progress\",\"vlocityIcon\":\"icon-v-follow-up\"}"
+        }
+    },
+    "filter": {
+    },
+    "icon": "unmatched",
+    "sprite": "standard",
+    "states": [
+        {
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['Stage']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "Application Received"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "Click Here to Complete Detailed Application",
+                        "hasExtraParams": false,
+                        "id": "Custom Action",
+                        "isCustomAction": true,
+                        "openUrlIn": "_self",
+                        "type": "Custom",
+                        "url": "/apex/%vlocity_namespace%__OmniScriptUniversalPage?id={0}&layout=lightning#/OmniScriptType/Foster Care/OmniScriptSubType/Foster Care Application Form/OmniScriptLang/English/ContextId/{0}/PrefillDataRaptorBundle//true"
+                    }
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "4. Formal Application",
+                    "name": "['expr0']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "standard",
+                    "name": "sprite",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "note",
+                    "name": "icon",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['Stage'] == 'Application Received'",
+            "isSmartAction": false,
+            "name": "In Progress",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "orange",
+                    "name": "Status",
+                    "type": "string",
+                    "value": "In Progress"
+                }
+            ],
+            "smartAction": {
+            },
+            "templateUrl": "AssessmentCard"
+        },
+        {
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['ApplicationComplete']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "true"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "4. Formal Application",
+                    "name": "['expr0']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "standard",
+                    "name": "sprite",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "task2",
+                    "name": "icon",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['ApplicationComplete'] == true",
+            "isSmartAction": false,
+            "name": "Completed",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "green",
+                    "name": "Status",
+                    "type": "string",
+                    "value": "Completed"
+                }
+            ],
+            "smartAction": {
+            },
+            "templateUrl": "AssessmentCard"
+        },
+        {
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['ApplicationComplete']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "false"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "4. Formal Application",
+                    "name": "['expr0']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "standard",
+                    "name": "sprite",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "event",
+                    "name": "icon",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['ApplicationComplete'] == false",
+            "isSmartAction": false,
+            "name": "Not Started",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "red",
+                    "name": "Status",
+                    "type": "string",
+                    "value": "Not Started"
+                }
+            ],
+            "smartAction": {
+            },
+            "templateUrl": "AssessmentCard"
+        }
+    ],
+    "title": "4. Formal Application"
+}

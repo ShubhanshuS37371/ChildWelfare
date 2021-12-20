@@ -1,0 +1,44 @@
+<div class="slds-card" data-card="card-{{cardIndex}}" ng-class="{selected:isSelected(cardIndex)}">
+    
+    <header class="via-slds-card-alert via-slds-card__header slds-card__header slds-grid slds-grid--vertical-align-centre slds-p-around--medium">
+        
+        <div class="slds-media slds-media--center slds-has-flexi-truncate">
+        
+        <div class="slds-media__figure">
+             <span class="slds-icon_container slds-icon-{{data.fields[1].label}}-{{data.fields[2].label}}" title="description of icon when needed">
+               <slds-svg-icon
+                       sprite="data.fields[1].label"
+                       icon="data.fields[2].label"
+                       size="'medium'"
+                       no-hint="true"
+                   ></slds-svg-icon> 
+            </span>
+        </div>
+        
+        <div class="slds-media__body slds-truncate">
+        <a href="javascript:void(0);" class="slds-text-link--reset" tooltip-placement="bottom" tooltip="{{data.fields[0].label}} {{obj | getter:data.fields[0] | picker:data.fields[0].type}}">
+          <span class="slds-text-heading--small">{{data.fields[0].label}} {{obj | getter:data.fields[0] | picker:data.fields[0].type}}</span>
+        </a>
+        
+            <span class="slds-text-heading--label slds-truncate">
+                <div ng-repeat="field in data.fields.slice(1)" ng-show="key != 'attributes'" ng-if="(obj | getter: field)">
+                    <span class="slds-text-heading--label">{{field.label}} </span>
+                    <span class="slds-text-body--regular">{{obj | getter: field | picker: field.type}}
+                    </span>
+                </div>
+                <div>
+                    <span style="color:{{placeholder.Status.label}}" class="slds-text-body--regular">{{placeholder.Status.value}}
+                    </span>
+                </div>
+            </span>
+        </div>
+    </div>
+    <div class="slds-no-flex">
+        <button class="slds-button slds-button--neutral slds-col--bump-left" ng-click="performAction(action)" ng-repeat="action in data.actions | limitTo: (data.limitActionLinksTo?data.limitActionLinksTo:3)">      
+            <i ng-if="!action.imageRef" class="icon {{action.vlocityIcon}}"></i>{{action.displayName}}
+            <span ng-if="action.imageRef"><img ng-src="{{action.imageRef}}" alt="{{action.displayName}}"/></span>
+        </button>
+      
+    </div>
+  </header>
+ </div>

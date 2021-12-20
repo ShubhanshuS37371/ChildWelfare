@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Foster Home</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Foster Homes</value>
+    </caseValues>
+    <fieldSets>
+        <label></label>
+        <name>vlocity_ps__Amenities</name>
+    </fieldSets>
+    <layouts>
+        <layout>Foster Home Layout</layout>
+        <sections>
+            <label></label>
+            <section>Unit Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Foster Home Name</nameFieldLabel>
+    <recordTypes>
+        <label></label>
+        <name>Foster_Home</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>vlocity_ps__PublishDateValidation</name>
+    </validationRules>
+</CustomObjectTranslation>

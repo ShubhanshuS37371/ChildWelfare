@@ -1,0 +1,131 @@
+{
+    "ApplicantContactId": "XXX",
+    "ApplicantStep": {
+        "ApplicantFirstName": null,
+        "ApplicantLastName": null,
+        "CellPhone": null,
+        "DOB": null,
+        "Email": null,
+        "Home Address-Block": {
+            "Home Address": null,
+            "HomeCity": null,
+            "HomeCounty": null,
+            "HomeState": null,
+            "HomeStreet": null,
+            "HomeZip": null
+        },
+        "HomePhone": null,
+        "Marital Status": null,
+        "MilitaryStatus": null,
+        "National Guard": null,
+        "Race": null,
+        "SocialSecurityNumber": null,
+        "SpecificTribe": null,
+        "Tribe": null,
+        "USCitizen": null
+    },
+    "ContextId": null,
+    "DeterminationBlock": {
+    },
+    "Documents and eSignature": {
+        "Signature": null
+    },
+    "DoneStep": {
+    },
+    "HouseholdStep": {
+        "HHBlock": {
+            "HHAge": null,
+            "HHDOB": null,
+            "HHFirstName": null,
+            "HHFullName": null,
+            "HHLastName": null,
+            "HHNeedsChildCare": null,
+            "HHOtherParent": null,
+            "HHOtherParentInHome": null,
+            "HHRelationship": null,
+            "HHRelationshipLabel": null,
+            "HHSSN": null,
+            "HHSpecialNeeds": null,
+            "HHSpecialNeedsVerification": null
+        }
+    },
+    "IncomeStep": {
+        "IncomeBlock": {
+            "Amount": null,
+            "AmountLabel": null,
+            "EmployerName": null,
+            "End Date": null,
+            "Frequency": null,
+            "FrequencyLabel": null,
+            "Hours per week": null,
+            "IncomeTypeLabel": null,
+            "Self Employment Business Type": null,
+            "SelfEmploymentExpenses": null,
+            "SetSchedule": null,
+            "Start Date": null,
+            "Type": null
+        }
+    },
+    "IntroStep": {
+    },
+    "NoticeStep": {
+        "I agree": null
+    },
+    "OmniScriptSource": "community",
+    "ProviderStep": {
+        "Provider Address": null,
+        "ProviderName": null,
+        "ProviderPhone": null
+    },
+    "ReasonsStep": {
+        "AssistanceInAnotherState": null,
+        "ChildCareLast30Days": null,
+        "Reasons": null,
+        "TeenParentInfo": {
+            "School Name": null,
+            "Semester Begin Date": null,
+            "Semester End Date": null
+        },
+        "WhichState": null
+    },
+    "SSSStep": {
+        "FileBlock": {
+            "Files": [
+                {
+                    "data": null,
+                    "filename": null,
+                    "size": null
+                }
+            ]
+        },
+        "SelfSuffStatement": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "ApplicantStep": null,
+        "CalculateLookupDistrict": null,
+        "CreateApplication": null,
+        "DR-GetHouseholdContacts": null,
+        "DR-LoadIncome": null,
+        "DRCreateProgramEnrollment": null,
+        "DRGetDemoData": null,
+        "DRUpdateApplication": null,
+        "DeterminationBlock": null,
+        "Documents and eSignature": null,
+        "DoneStep": null,
+        "HouseholdStep": null,
+        "IncomeStep": null,
+        "IntroStep": null,
+        "NoticeStep": null,
+        "ProviderStep": null,
+        "ReasonsStep": null,
+        "SSSStep": null,
+        "SV-DebugMode-PrimaryContact": null
+    }
+}

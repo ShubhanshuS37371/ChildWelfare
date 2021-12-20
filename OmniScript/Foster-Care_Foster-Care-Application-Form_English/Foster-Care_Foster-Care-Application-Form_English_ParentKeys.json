@@ -1,0 +1,7 @@
+[
+    "DataRaptor/FC-UpdateApplication",
+    "DataRaptor/FS-GetDemoData",
+    "DataRaptor/VPL-ExtractParty",
+    "DataRaptor/VPLCreatePartyRelation",
+    "VlocityUITemplate/demoButton"
+]

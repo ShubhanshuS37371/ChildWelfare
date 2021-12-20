@@ -1,0 +1,20 @@
+{
+    "AlertId": "aDY0b000000PN4l",
+    "ContextId": "",
+    "NewStatus": "Acknowledged",
+    "Step1": {
+        "Acknowledge": false,
+        "Continue": "No",
+        "Plan": null
+    },
+    "id": "aBX0b000000kAMZGA2",
+    "layout": "lightning",
+    "timeStamp": "2018-10-11T16:18:59.020Z",
+    "userCurrencyCode": "USD",
+    "userId": "0050b000004rJ7DAAU",
+    "userName": "mattq@ccwis.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

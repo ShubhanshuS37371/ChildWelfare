@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ps__SafetyDecision__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Safety decision outcome associated with safety assessment.</description>
+    <externalId>false</externalId>
+    <label>Safety Decision</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Safe</fullName>
+                <default>false</default>
+                <label>Safe</label>
+            </value>
+            <value>
+                <fullName>Safe with plan</fullName>
+                <default>false</default>
+                <label>Safe with plan</label>
+            </value>
+            <value>
+                <fullName>Unsafe</fullName>
+                <default>false</default>
+                <label>Unsafe</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

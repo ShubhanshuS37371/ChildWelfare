@@ -1,0 +1,38 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "VPL-CareGiverStrengthsandNeedsAssessment-105-1",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL105/CareGiverStrengthsandNeedsAssessment/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "VPL-CareGiverStrengthsandNeedsAssessment-105-1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL105/CareGiverStrengthsandNeedsAssessment/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "CaregiverDomain",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL105/CareGiverStrengthsandNeedsAssessment/English/CaregiverDomain",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "CaregiverDomain",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "label": "<h5 class=\"p1\">Indicate whether the caregiver&rsquo;s behaviors in each domain (a) actively help create safety, permanency, or well-being for the child/youth/young adult; (b) are neither a strength nor a barrier for child/youth/young adult safety, permanency, or well-being; (c) make it difficult to create long-term safety, permanency, or well-being (i.e., are a barrier); or (d) directly contribute to a safety threat. Always select the highest priority that applies, e.g., if caregiver actions fit definitions &ldquo;c&rdquo; and &ldquo;d,&rdquo; select &ldquo;d.&rdquo;</h5>\n<h5 class=\"p1\"><strong>Domains and behaviors identified as &ldquo;d&rdquo; on the following table must relate directly to a safety threat identified on the most recent SDM safety assessment. If there are no safety threats currently identified, do not rate any of the below domains as &ldquo;d.&rdquo; </strong></h5>",
+        "labelKey": "",
+        "show": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Headline",
+    "CurrencyIsoCode": "USD",
+    "Name": "SectionHeadline2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL105/CareGiverStrengthsandNeedsAssessment/English/SectionHeadline2"
+}

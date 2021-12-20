@@ -1,0 +1,27 @@
+{
+    "ContextId": null,
+    "ServiceDetails": {
+        "Description": null,
+        "ParticipantName-Block": {
+            "ParticipantName": null
+        },
+        "Quantity": null,
+        "Service-Block": {
+            "Service": null
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRCreateService": null,
+        "DRGetParticipants": null,
+        "DRGetProducts": null,
+        "ServiceDetails": null,
+        "SetContextId": null
+    }
+}

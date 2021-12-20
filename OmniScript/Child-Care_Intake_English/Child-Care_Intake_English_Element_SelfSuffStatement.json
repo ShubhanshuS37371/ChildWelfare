@@ -1,0 +1,136 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Child Care Intake",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Child Care/Intake/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Child Care Intake",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Child Care/Intake/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "SSSStep",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Child Care/Intake/English/SSSStep",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "SSSStep",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": false,
+        "imageCountInRow": 3,
+        "label": "I have made the following efforts to improve my skills and move toward self-sufficiency in the last 12 months.",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "name": "01",
+                "value": "I registered or job searched via One Stop Career Centers, Job Service, other public or private employment agencies, or independently."
+            },
+            {
+                "imgId": null,
+                "name": "02",
+                "value": "I applied for a better job."
+            },
+            {
+                "imgId": null,
+                "name": "03",
+                "value": "I have been consistently employed."
+            },
+            {
+                "imgId": null,
+                "name": "04",
+                "value": "I was laid-off but found new employment within 60 days."
+            },
+            {
+                "imgId": null,
+                "name": "05",
+                "value": "I left one job for a better job (higher pay, more hours, or better benefits)."
+            },
+            {
+                "imgId": null,
+                "name": "06",
+                "value": "I consistently demonstrated a net profit in my self- employment activity."
+            },
+            {
+                "imgId": null,
+                "name": "07",
+                "value": "I attended remedial education for the attainment of a high school diploma or GED."
+            },
+            {
+                "imgId": null,
+                "name": "08",
+                "value": "I attended English for Speakers of Other Languages (ESOL) classes."
+            },
+            {
+                "imgId": null,
+                "name": "09",
+                "value": "attended a trade/vocational school, college or university and made satisfactory progress in the activity."
+            },
+            {
+                "imgId": null,
+                "name": "10",
+                "value": "I attended work related school or training, or pursued a degree or certificate that will lead to enhanced career opportunities."
+            },
+            {
+                "imgId": null,
+                "name": "11",
+                "value": "I have NOT requested TANF (Temporary Assistance to Needy Families) Cash Assistance for myself."
+            },
+            {
+                "imgId": null,
+                "name": "12",
+                "value": "I made contact with DES Child Support Enforcement about support from an absent parent or paternity establishment."
+            },
+            {
+                "imgId": null,
+                "name": "13",
+                "value": "I continued with my treatment plan under the direction of a physician, psychiatrist, or psychologist."
+            },
+            {
+                "imgId": null,
+                "name": "14",
+                "value": "I followed a domestic violence/homeless shelter case plan."
+            },
+            {
+                "imgId": null,
+                "name": "15",
+                "value": "I completed or am in the process of completing a drug/alcohol rehabilitation or court ordered community service program."
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "required": false,
+        "show": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Multi-select",
+    "CurrencyIsoCode": "USD",
+    "Name": "SelfSuffStatement",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Child Care/Intake/English/SelfSuffStatement"
+}

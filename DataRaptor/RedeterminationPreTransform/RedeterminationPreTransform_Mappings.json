@@ -1,0 +1,72 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "input:District",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "District",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "RedeterminationPreTransformCustom9993",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "USD",
+        "Name": "RedeterminationPreTransform",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "input:FamilySize",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "Family Size",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "RedeterminationPreTransformCustom477",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "USD",
+        "Name": "RedeterminationPreTransform",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "input:Income",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "IncomeStep:CurrentIncome",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "RedeterminationPreTransformCustom8752",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "USD",
+        "Name": "RedeterminationPreTransform",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "input:PrevFullDay",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "PrevFullDay",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "RedeterminationPreTransformCustom6492",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "USD",
+        "Name": "RedeterminationPreTransform",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "input:PrevPartDay",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "PrevHalfDay",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "RedeterminationPreTransformCustom8918",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "CurrencyIsoCode": "USD",
+        "Name": "RedeterminationPreTransform",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

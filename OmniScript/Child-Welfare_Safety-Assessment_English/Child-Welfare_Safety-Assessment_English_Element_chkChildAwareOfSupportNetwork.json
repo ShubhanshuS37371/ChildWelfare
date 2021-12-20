@@ -1,0 +1,48 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Child Welfare Safety Assessment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Child Welfare/Safety Assessment/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Child Welfare Safety Assessment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Child Welfare/Safety Assessment/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "stpHouseholdStrengthsProtectiveActions",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Child Welfare/Safety Assessment/English/stpHouseholdStrengthsProtectiveActions",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "stpHouseholdStrengthsProtectiveActions",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "checkLabel": "At least one child is aware of his/her support network members and knows how to contact these individuals when needed.",
+        "conditionType": "Hide if False",
+        "controlWidth": 5,
+        "defaultValue": false,
+        "disOnTplt": false,
+        "help": true,
+        "helpText": "When faced with a potentially dangerous situation, at least one child can currently name adults who care about him/her and who would be able to help him/her in the future. Child also has strategies for how to reach the adults.",
+        "hide": false,
+        "label": "At least one child is aware of his/her support network members and knows how to contact these individuals when needed.",
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "show": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Checkbox",
+    "CurrencyIsoCode": "USD",
+    "Name": "chkChildAwareOfSupportNetwork",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Child Welfare/Safety Assessment/English/chkChildAwareOfSupportNetwork"
+}

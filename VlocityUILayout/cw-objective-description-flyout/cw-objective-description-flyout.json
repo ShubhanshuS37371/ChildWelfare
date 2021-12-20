@@ -1,0 +1,27 @@
+{
+    "Cards": [
+        "cw-serviceplanobjective-flyout"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "parent.obj.ObjectiveId",
+                "val": "a4p6g000000Y80iAAC"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "body": "[\n    {\n        \"Objective_Description\": \"This is the story of a lovely lady that was living..\",\n        \"PartyName\": \"Samuel Rousy\",\n        \"ServicePlanOutcome\": \"Samuel Rousy\",\n        \"Progress\": \"Some\",\n        \"Status\": \"In Progress\",\n        \"Target_Completion_Date\": \"2020-02-26\",\n        \"Start_Date\": \"2020-02-05\",\n        \"ObjectiveName\": \"Test2\"\n    },\n    {\n        \"Objective_Description\": \"test\",\n        \"PartyName\": \"Andrea Rousy\",\n        \"ServicePlanOutcome\": \"Andrea Rousy\",\n        \"Status\": \"In Progress\",\n        \"Target_Completion_Date\": \"2020-02-05\",\n        \"Start_Date\": \"2020-02-05\",\n        \"ObjectiveName\": \"Test\"\n    }\n]",
+            "jsonMap": "{\"parent.obj.ObjectiveId\":\"{{parent.obj.ObjectiveId}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "flyout-grid-noActions-slds"
+        }
+    },
+    "workspace": [
+        "cw-serviceplanobjective-flyout/vlocityDev/1/1582127694531"
+    ]
+}

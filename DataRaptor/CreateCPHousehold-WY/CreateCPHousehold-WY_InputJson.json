@@ -1,0 +1,54 @@
+{
+    "AdultsInHousehold": {
+        "OtherAdult": [
+            {
+                "OtherAdultFirstName": "Grandpa",
+                "OtherAdultIsCP": "No",
+                "OtherAdultLastName": "Larson",
+                "OtherAdultRelationship": "Grandparent",
+                "OtherAdultTelephone": "2076632232"
+            },
+            {
+                "OtherAdultFirstName": "Jason",
+                "OtherAdultIsCP": "No",
+                "OtherAdultLastName": "Beavers",
+                "OtherAdultRelationship": "Boyfriend",
+                "OtherAdultTelephone": null
+            }
+        ]
+    },
+    "ChildrenInHousehold": {
+        "Children": [
+            {
+                "ChildAge": 3,
+                "ChildDOB": "2016-04-01",
+                "ChildFirstName": "Rebecca",
+                "ChildLastName": "Larson",
+                "VictimIndicator": "No"
+            },
+            {
+                "ChildAge": 11,
+                "ChildDOB": "2008-03-07",
+                "ChildFirstName": "Chris",
+                "ChildLastName": "Larson",
+                "VictimIndicator": "Yes"
+            }
+        ]
+    },
+    "Household": {
+        "CustodialParent": {
+            "CPAddress-Block": {
+                "CPAddress": "201 Civic Center Dr, Augusta, ME 04330, USA",
+                "CPCity": "Augusta",
+                "CPCountry": "United States",
+                "CPPostalCode": "04330",
+                "CPState": "ME",
+                "CPStreetAddress": "201 Civic Center Drive"
+            },
+            "CPFirstName": "Sarah",
+            "CPLastName": "Larson",
+            "CPTelephone": "(207) 623-8223",
+            "CPWorkTelephone": "(207) 555-5678"
+        }
+    }
+}

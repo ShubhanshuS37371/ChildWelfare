@@ -1,0 +1,28 @@
+{
+    "Cards": [
+        "profile-contact-slds",
+        "profile-contact-info-slds"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0034T000004jvM1QAI"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.id\":\"{{params.id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "left-sidebar-no-profiler"
+        }
+    },
+    "workspace": [
+        "profile-contact-slds/vlocity-ps/null/1521653916276",
+        "profile-contact-info-slds/vlocity-ps/null/1521653916276"
+    ]
+}

@@ -1,0 +1,119 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "a0h6g000002LOo3AAG"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "CW-GetInvestigationSummary",
+            "inputMap": {
+                "Id": "{{params.id}}"
+            }
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['InvestigationId']",
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "hasExtraParams": false,
+                        "id": "CW-OpenInvestigation",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['InvestigationName']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Investigation Summary:",
+                    "name": "['InvestigationName']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['NumberOfAllegations']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "# of Allegations",
+                    "name": "['NumberOfAllegations']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['RiskAssessmentScore']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Risk Score",
+                    "name": "['RiskAssessmentScore']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['AllegedMaltreator']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Alleged Maltreator",
+                    "name": "['AllegedMaltreator']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['AllegedVictim']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Alleged Victim",
+                    "name": "['AllegedVictim']",
+                    "type": "string"
+                }
+            ],
+            "flyout": {
+                "layout": null
+            },
+            "name": "Active",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "Incident Summary -",
+                    "name": "Title",
+                    "type": "string",
+                    "value": "['IncidentName']"
+                }
+            ],
+            "sObjectType": "Contact",
+            "templateUrl": "cw-incident-summary-header"
+        }
+    ],
+    "title": "Investigation Summary"
+}

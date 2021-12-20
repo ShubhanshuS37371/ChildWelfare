@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ps__UIDisplayType__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>UI Display Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Check-box</fullName>
+                <default>true</default>
+                <label>Check-box</label>
+            </value>
+            <value>
+                <fullName>Drop-down</fullName>
+                <default>false</default>
+                <label>Drop-down</label>
+            </value>
+            <value>
+                <fullName>Radio-button</fullName>
+                <default>false</default>
+                <label>Radio-button</label>
+            </value>
+            <value>
+                <fullName>Range-Slider</fullName>
+                <default>false</default>
+                <label>Range-Slider</label>
+            </value>
+            <value>
+                <fullName>Text-box</fullName>
+                <default>false</default>
+                <label>Text-box</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

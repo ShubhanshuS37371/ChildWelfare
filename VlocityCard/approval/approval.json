@@ -1,0 +1,159 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+            "body": "{ \"name\":\"John\", \"age\":30, \"car\":null , \"status\":\"In Progress\",\"vlocityIcon\":\"standard-task2\",\"sprite\":\"standard\",\"icon\":\"task2\"}"
+        }
+    },
+    "filter": {
+    },
+    "icon": "unmatched",
+    "sprite": "standard",
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['ApprovalComplete']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "true"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "6. Approval",
+                    "name": "['expr0']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "standard",
+                    "name": "sprite",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "task2",
+                    "name": "icon",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['StageText']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['StageText']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['ApprovalComplete'] == true",
+            "name": "Completed",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "green",
+                    "name": "Status",
+                    "type": "string",
+                    "value": "Completed"
+                }
+            ],
+            "templateUrl": "AssessmentCard"
+        },
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['ApprovalComplete']",
+                        "logicalOperator": "&&",
+                        "operator": "==",
+                        "type": "custom",
+                        "value": "false"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "6. Approval",
+                    "name": "['expr0']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "standard",
+                    "name": "sprite",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "event",
+                    "name": "icon",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['ApprovalComplete'] == false",
+            "name": "Not Started",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "red",
+                    "name": "Status",
+                    "type": "string",
+                    "value": "Not Started"
+                }
+            ],
+            "templateUrl": "AssessmentCard"
+        }
+    ],
+    "title": "6. Approval"
+}

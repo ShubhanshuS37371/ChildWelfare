@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ps__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Court Action Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Court Order</fullName>
+                <default>false</default>
+                <label>Court Order</label>
+            </value>
+            <value>
+                <fullName>Emergency Protection Order</fullName>
+                <default>false</default>
+                <label>Emergency Protection Order</label>
+            </value>
+            <value>
+                <fullName>Dispositional Hearing</fullName>
+                <default>false</default>
+                <label>Dispositional Hearing</label>
+            </value>
+            <value>
+                <fullName>Review Hearing</fullName>
+                <default>false</default>
+                <label>Review Hearing</label>
+            </value>
+            <value>
+                <fullName>Permanency Hearing</fullName>
+                <default>false</default>
+                <label>Permanency Hearing</label>
+            </value>
+            <value>
+                <fullName>Termination of Parental Rights Hearing</fullName>
+                <default>false</default>
+                <label>Termination of Parental Rights Hearing</label>
+            </value>
+            <value>
+                <fullName>Complaint</fullName>
+                <default>false</default>
+                <label>Complaint</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

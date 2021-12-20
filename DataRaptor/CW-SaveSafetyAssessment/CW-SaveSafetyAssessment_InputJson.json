@@ -1,0 +1,88 @@
+{
+    "ContextId": null,
+    "StepSafetyDecision": {
+        "OtherSafeWithPlan": null,
+        "SafetyDecision": null,
+        "UnsafeSelection": null,
+        "chkAllegedPerpLeaveHome": null,
+        "chkCaregvierAppropriatelyProtectVictimFromPerp": null,
+        "chkCommunityAgenciesSafetyResources": null,
+        "chkInterventionByWorker": null,
+        "chkLegalActionPlannedChildRemains": null,
+        "chkNonOffendingCaregiverMoveToSafeEnvironment": null,
+        "chkSafeWithPlanOther": null,
+        "chkSafetyResources": null,
+        "chkTribalServiceAgency": null
+    },
+    "stepHeader": {
+        "AllegationsInThisHousehold": null,
+        "AssessmentDate": null,
+        "AssessmentType": null,
+        "ChildrenName": null,
+        "HouseholdName": null,
+        "NativeAmerican": null,
+        "chkAge0-5": null,
+        "chkDiagnoisedMentalDisorder": null,
+        "chkDiminishedMentalCapacity": null,
+        "chkDiminishedPhysicalCapacity": null,
+        "chkNotAccessibleToCommunityOversight": null
+    },
+    "stpCaregiverComplicatingFactors": {
+        "ComplicatingOtherDetails": null,
+        "chkComplicatingDevelopmentalImpairment": null,
+        "chkComplicatingDomesticViolence": null,
+        "chkComplicatingMentalHealth": null,
+        "chkComplicatingOther": null,
+        "chkComplicatingPhysicalCondition": null,
+        "chkComplicatingSubstanceAbuse": null
+    },
+    "stpHouseholdStrengthsProtectiveActions": {
+        "chkCaregiverArticulatesStrategy": null,
+        "chkCaregiverIdentifiesAndAcknowledgesProblem": null,
+        "chkCaregiverStableSupportNetwork": null,
+        "chkCaregiverSupportiveRelationship": null,
+        "chkCaregiverWillingToWorkWithAgency": null,
+        "chkChildActsToProtect": null,
+        "chkChildAwareOfSupportNetwork": null,
+        "chkChildEmotionallyIntellectuallyAble": null,
+        "chkChildPursuedSupport": null,
+        "chkHouseholdStrengthOther": null,
+        "chkNonOffendingCaregiverExists": null,
+        "chkProtectiveActionOther": null
+    },
+    "stpSafetyThreats": {
+        "OtherSafetyConcern": null,
+        "chkCaregiverCausedPhysicalHarm": null,
+        "chkCaregiverDescribesChildNegatively": null,
+        "chkCaregiverDoesNotMeetChildImmediateNeeds": null,
+        "chkCaregiverFearsMaltreat": null,
+        "chkCaregiverUnableToProtectChild": null,
+        "chkCaregiversExplanationOfInjuryQuestionable": null,
+        "chkChildImmediateDanger": null,
+        "chkDomesticViolenceLikelyInjureChild": null,
+        "chkDrugAlcoholExposedInfant": null,
+        "chkExcessiveDisciplineForce": null,
+        "chkFamilyRefusesAccess": null,
+        "chkOtherSafety": null,
+        "chkPhysicalLivingConditionsHazardous": null,
+        "chkSeriousInjuryOrAbuseToChild": null,
+        "chkSexualAbuseSuspected": null,
+        "chkThreatToHarmAgainstChildren": null,
+        "frmDetermineSafe": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "SaveSafetyAssessment": null,
+        "StepSafetyDecision": null,
+        "stepHeader": null,
+        "stpCaregiverComplicatingFactors": null,
+        "stpHouseholdStrengthsProtectiveActions": null,
+        "stpSafetyThreats": null
+    }
+}

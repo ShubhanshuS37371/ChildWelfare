@@ -1,0 +1,58 @@
+{
+    "Confirmation": {
+    },
+    "ContextId": null,
+    "FosterParentInformation": {
+        "AddressTypeAhead-Block": {
+            "AddressTypeAhead": null,
+            "City": null,
+            "Country": null,
+            "PostalCode": null,
+            "State": null,
+            "Street": null
+        },
+        "ContactInfo": {
+            "HomePhone": null,
+            "MobileNumber": null,
+            "WorkPhone": null
+        },
+        "Email1": null,
+        "FN": null,
+        "LN": null
+    },
+    "FosterReferenceCheck": {
+        "Block3": {
+            "Address": {
+                "RefCity": null,
+                "RefCountry": null,
+                "RefPostalCode": null,
+                "RefState": null,
+                "RefStreet": null
+            },
+            "Email2": null,
+            "First Name": null,
+            "LastName": null,
+            "Phone": null,
+            "Relationship": null
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Confirmation": null,
+        "DR-CreateApplicant": null,
+        "DR-CreateReference": null,
+        "DataRaptorPostAction3": null,
+        "DoneAction1": null,
+        "FosterParentInformation": null,
+        "FosterReferenceCheck": null,
+        "PosttoObjectAction1": null,
+        "ReferenceExtraction": null,
+        "SourceExtraction": null
+    }
+}

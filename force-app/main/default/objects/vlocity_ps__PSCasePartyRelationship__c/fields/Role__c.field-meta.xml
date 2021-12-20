@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Role</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accused</fullName>
+                <default>false</default>
+                <label>Accused</label>
+            </value>
+            <value>
+                <fullName>Investigator</fullName>
+                <default>false</default>
+                <label>Investigator</label>
+            </value>
+            <value>
+                <fullName>Victim</fullName>
+                <default>false</default>
+                <label>Victim</label>
+            </value>
+            <value>
+                <fullName>Witness</fullName>
+                <default>false</default>
+                <label>Witness</label>
+            </value>
+            <value>
+                <fullName>Alleged Victim</fullName>
+                <default>false</default>
+                <label>Alleged Victim</label>
+            </value>
+            <value>
+                <fullName>Alleged Maltreater</fullName>
+                <default>false</default>
+                <label>Alleged Maltreater</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,18 @@
+{
+    "Cards": [
+        "respite-center-card"
+    ],
+    "componentName": "cfRespiteCenterLayout",
+    "dataSource": {
+        "type": null
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "placement-list-table"
+        }
+    },
+    "workspace": [
+        "respite-center-card/Salesforce Industries/1/1592326122311"
+    ]
+}

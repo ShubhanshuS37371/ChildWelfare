@@ -1,0 +1,26 @@
+{
+    "Cards": [
+        "cw-incident-flyout-narrative"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "parent.obj.IncidentId",
+                "val": "a1t6g000000ZvOjAAK"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"parent.obj.IncidentId\":\"{{parent.obj.IncidentId}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "flyout-grid-noActions-slds"
+        }
+    },
+    "workspace": [
+        "cw-incident-flyout-narrative/jb-fc010820/1/1578674290883"
+    ]
+}

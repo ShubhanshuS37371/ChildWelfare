@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ps__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type category of the note.</description>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Scheduled Meeting</fullName>
+                <default>false</default>
+                <label>Scheduled Meeting</label>
+            </value>
+            <value>
+                <fullName>Outreach</fullName>
+                <default>false</default>
+                <label>Outreach</label>
+            </value>
+            <value>
+                <fullName>Drop-In</fullName>
+                <default>false</default>
+                <label>Drop-In</label>
+            </value>
+            <value>
+                <fullName>(Forsenic) Interview</fullName>
+                <default>false</default>
+                <label>(Forsenic) Interview</label>
+            </value>
+            <value>
+                <fullName>(Initial Responder) Interview</fullName>
+                <default>false</default>
+                <label>(Initial Responder) Interview</label>
+            </value>
+            <value>
+                <fullName>Home Visit</fullName>
+                <default>false</default>
+                <label>Home Visit</label>
+            </value>
+            <value>
+                <fullName>Foster Home Visit</fullName>
+                <default>false</default>
+                <label>Foster Home Visit</label>
+            </value>
+            <value>
+                <fullName>Family Team Meeting</fullName>
+                <default>false</default>
+                <label>Family Team Meeting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

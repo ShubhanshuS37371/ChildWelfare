@@ -1,0 +1,48 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Child Welfare Safety Assessment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Child Welfare/Safety Assessment/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Child Welfare Safety Assessment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Child Welfare/Safety Assessment/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "stpSafetyThreats",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Child Welfare/Safety Assessment/English/stpSafetyThreats",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "stpSafetyThreats",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "checkLabel": "9.  Current circumstances, combined with information that the caregiver has or may have previously maltreated a child in his/her care, suggest that the child’s safety may be of immediate concern based on the severity of the previous maltreatment or the caregiver’s response to the previous incident.",
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "defaultValue": false,
+        "disOnTplt": false,
+        "help": true,
+        "helpText": "There must be both current, immediate threats to child safety AND related previous maltreatment that was severe and/or represents an unresolved pattern of maltreatment. Previous maltreatment includes any of the following: • Prior death of a child as a result of maltreatment. • Prior serious injury or abuse to the child other than accidental. The caregiver caused serious injury, defined as brain damage, skull or bone fracture, subdural hemorrhage or hematoma, dislocations, sprains, internal injuries, poisoning, burns, scalds, severe cuts, or any other physical injury that seriously impairs the health or well-being of the child and required medical treatment. • Failed reunification. The caregiver had reunification efforts terminated in connection with a prior CPS investigation. • Prior removal of a child. Removal/placement of a child by CPS or other responsible agency or concerned party was necessary for the safety of the child. • Prior CPS substantiation. A prior CPS investigation was substantiated for maltreatment. • Prior inconclusive CPS investigation. Factors to be considered include seriousness, chronicity, and/or patterns of abuse/neglect allegations. • Prior threat of serious harm to a child. Previous maltreatment could have caused severe injury, there was retaliation or threatened retaliation against a child for previous incidents, or prior domestic violence resulted in serious harm or threatened harm to a child. • Prior service failure. Failure to successfully complete court-ordered or voluntary services.",
+        "hide": false,
+        "label": "9.  Current circumstances, combined with information that the caregiver has or may have previously maltreated a child in his/her care, suggest that the child’s safety may be of immediate concern based on the severity of the previous maltreatment or the caregiver’s response to the previous incident.",
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "show": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Checkbox",
+    "CurrencyIsoCode": "USD",
+    "Name": "chkChildImmediateDanger",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Child Welfare/Safety Assessment/English/chkChildImmediateDanger"
+}

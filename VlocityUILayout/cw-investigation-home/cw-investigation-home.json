@@ -1,0 +1,79 @@
+{
+    "Cards": [
+        "cw-incident-summary",
+        "cw-assessment-summary",
+        "cw-checklist-zones"
+    ],
+    "componentName": "cfCwInvestigationHome",
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "cw-card-canvas-zones-slds"
+        }
+    },
+    "workspace": [
+        "cw-incident-summary/jb-fc010820/1/1578671082041",
+        "cw-assessment-summary/jb-fc010820/1/1578923263796",
+        "cw-checklist-zones/jb-fc010820/1/1578923183819"
+    ],
+    "zones": {
+        "Body1": {
+            "cardNames": [
+            ],
+            "label": "Assessment Summary",
+            "layouts": [
+            ],
+            "name": "Body1",
+            "zoneCards": [
+                {
+                    "Author": "jb-fc010820",
+                    "Name": "cw-assessment-summary",
+                    "Version": 1,
+                    "globalKey": "cw-assessment-summary/jb-fc010820/1/1578923263796"
+                }
+            ]
+        },
+        "Body2": {
+            "cardNames": [
+            ],
+            "label": "",
+            "layouts": [
+            ],
+            "name": "Body2",
+            "zoneCards": [
+            ]
+        },
+        "Header": {
+            "cardNames": [
+            ],
+            "label": "",
+            "layouts": [
+            ],
+            "name": "Header",
+            "zoneCards": [
+                {
+                    "Author": "jb-fc010820",
+                    "Name": "cw-incident-summary",
+                    "Version": 1,
+                    "globalKey": "cw-incident-summary/jb-fc010820/1/1578671082041"
+                }
+            ]
+        },
+        "Left": {
+            "cardNames": [
+            ],
+            "label": "Investigation Checklist",
+            "layouts": [
+            ],
+            "name": "Left",
+            "zoneCards": [
+                {
+                    "Author": "jb-fc010820",
+                    "Name": "cw-checklist-zones",
+                    "Version": 1,
+                    "globalKey": "cw-checklist-zones/jb-fc010820/1/1578923183819"
+                }
+            ]
+        }
+    }
+}

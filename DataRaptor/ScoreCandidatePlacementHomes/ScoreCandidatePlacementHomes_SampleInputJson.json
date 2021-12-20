@@ -1,0 +1,39 @@
+{
+    "FosterHome": [
+        {
+            "LicensedAvailability": 2,
+            "MoreThanOneYearExperience": "Yes",
+            "Name": "Bennett",
+            "PreferredAvailability": 2,
+            "PrimaryContactId": "0033i000003Lb0dAAC",
+            "Religion": "Christianity",
+            "SchoolDistrict": "Allen",
+            "WillingToAdopt": "Yes"
+        },
+        {
+            "County": "Jefferson",
+            "LicensedAvailability": 3,
+            "MoreThanOneYearExperience": "Yes",
+            "Name": "Weatherford Household",
+            "PreferredAvailability": 2,
+            "PrimaryContactId": "0033i000003Q1P3AAK",
+            "WillingToAdopt": "Yes",
+            "WouldConsider": "History of Chronic Lying"
+        }
+    ],
+    "GetFosterCareChildInformation": {
+        "FosterChild": {
+            "Age": 8,
+            "Behavior": "None",
+            "Gender": "Male",
+            "InterestsActivities": "Basketball;Soccer",
+            "LevelOfCare": "General",
+            "MedicalDiagnoses": "None",
+            "MentalHealthDiagnoses": "None",
+            "Name": "Braeden Anderson",
+            "Race": "Black or African American",
+            "Religion": "Christianity",
+            "SchoolDistrict": "Allen"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+[
+    "VlocityAction/CRM_newCase",
+    "VlocityAction/CRM_newEvent",
+    "VlocityAction/CRM_newNote",
+    "VlocityAction/CRM_newOpportunity",
+    "VlocityAction/CRM_newReferral",
+    "VlocityAction/CRM_newTask",
+    "VlocityAction/FC_Assessment",
+    "VlocityUITemplate/mobile-action-grid-card-slds"
+]

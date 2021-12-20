@@ -1,0 +1,152 @@
+{
+    "AgencyName": "Indiana",
+    "AvailabilitySchools": {
+        "BedroomAvailability": "Y",
+        "Elementary": "Muffley Elementary School",
+        "FosterCareProgram": "Short-Term Care",
+        "High": "Eisenhower High School",
+        "Middle": "Thomas Jefferson Middle School",
+        "Number1": null,
+        "Radio3": "Y"
+    },
+    "BackgroundInfo": {
+        "Alcohol": "No",
+        "AutoInsurance": "Yes",
+        "DeniedLicense": "No",
+        "Driverlicense": "Yes",
+        "Drugs": "No",
+        "Felony": "No",
+        "Illness": "No",
+        "LicenseRevoked": "No",
+        "Predator": "No",
+        "RestrictionsonLicense": "No"
+    },
+    "ContactId": "0033i000003Q1OzAAK",
+    "ContextId": "",
+    "CountyName": "Decatur",
+    "FosterBackground": {
+        "Employer": "Decatur Public Schools",
+        "Profession": "School Teacher",
+        "SpokenLanguages": "Spanish"
+    },
+    "FosterParentInformation": {
+        "City": "Indianapolis",
+        "ContactInfo": {
+            "CellPhoneNumber": "8044024733",
+            "HomePhone": "4638876600",
+            "WorkPhone": null
+        },
+        "Email": "jblankenship@vlocity.com",
+        "FirstName": "Kate",
+        "Gender": "Female",
+        "LastName": "Miller",
+        "PostalCode": "46201",
+        "State": "IN",
+        "StreetAddress": "810 North Dearborn Street"
+    },
+    "FosterReferenceCheck": {
+        "Block3": [
+            {
+                "Address": {
+                    "RefCity": "Geneva",
+                    "RefPostalCode": "46740",
+                    "RefState": "IN",
+                    "RefStreet": "210 Decatur Street"
+                },
+                "RefEmail": "eroberts@salesforce.com",
+                "RefFirstName": "Eric",
+                "RefLastName": "Roberts",
+                "RefPhone": "6588764653",
+                "Relationship": "Friend"
+            },
+            {
+                "Address": {
+                    "RefCity": "East Chicago",
+                    "RefPostalCode": "46312",
+                    "RefState": "IN",
+                    "RefStreet": "5578 Indianapolis Boulevard"
+                },
+                "RefEmail": "ewalsh@example.com",
+                "RefFirstName": "Erin",
+                "RefLastName": "Walsh",
+                "RefPhone": "9255556788",
+                "Relationship": "Co-Worker"
+            }
+        ]
+    },
+    "MyHousehold": {
+        "FamilyMembers": [
+            {
+                "CurrentlyPregnantFamily": null,
+                "DOBFamily": "10/15/1970",
+                "DisabilityFamily": {
+                    "DisabilitydetailsFamily": null,
+                    "DisabilitydurationFamily": null,
+                    "HasDisabilityFamily": "No"
+                },
+                "DueDateFamily": null,
+                "FamilyRelationship": "Spouse (Co-Applicant)",
+                "FirstFamily": "Robert",
+                "GenderFamily": "Male",
+                "LastFamily": "Miller"
+            },
+            {
+                "CurrentlyPregnantFamily": null,
+                "DOBFamily": "02/27/2015",
+                "DisabilityFamily": {
+                    "DisabilitydetailsFamily": null,
+                    "DisabilitydurationFamily": null,
+                    "HasDisabilityFamily": "No"
+                },
+                "DueDateFamily": null,
+                "FamilyRelationship": "Child",
+                "FirstFamily": "Timothy",
+                "GenderFamily": "Male",
+                "LastFamily": "Miller"
+            }
+        ]
+    },
+    "PartyId": "a2b3i000000PY3PAAW",
+    "PriorFosterExperience": {
+        "AgeRangeFrom": null,
+        "AgeRangeTo": null,
+        "GenderPreference": null,
+        "Numberofchildren": null,
+        "Preference": "Yes",
+        "Radio1": "Y",
+        "TextArea1": "We previously provided foster care for two twin girls back in 2012.",
+        "US_State": null
+    },
+    "ProgramEnrollmentId": "a323i000000Q68KAAS",
+    "TrainingDate1": "2019-09-24",
+    "TrainingDate2": "2019-09-27",
+    "applicationId": "a0A3i000001swvREAQ",
+    "applicationRefNumber": null,
+    "error": "OK",
+    "id": "a2H3i000000QMhGEAW",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://fl-fostercare-demo--vlocity-ps.visualforce.com",
+    "timeStamp": "2019-09-03T16:59:43.651Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053i000001GWOrAAO",
+    "userName": "jblankenship@fl.fostercare.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AvailabilitySchools": 3195,
+        "BackgroundInfo": 3827,
+        "DRGetDemoData": 1164,
+        "FosterBackground": 3485,
+        "FosterParentInformation": 6214,
+        "FosterReferenceCheck": 4744,
+        "MyHousehold": 3690,
+        "OmniScriptSessionToken": "b440ec6b-d4c9-401f-bbb1-7a7735cce081",
+        "PriorFosterExperience": 3426,
+        "SaveApplication": 1033,
+        "UpdateApplication": 378
+    }
+}

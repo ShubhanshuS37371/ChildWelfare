@@ -1,0 +1,99 @@
+{
+    "AdjustmentsStp": {
+        "ChildHealthInsPremiunWkly": null,
+        "ChildHealthInsPremiunWklyRadio": null,
+        "ParentingTimeCredit": null,
+        "ParentingTimeCreditRadio": null,
+        "PostSecondaryEduOb": null,
+        "PostSecondaryEduObRadio": null,
+        "WorkExpenseChildCare": null,
+        "WorkExpenseChildCareRadio": null
+    },
+    "BasicCSOStp": {
+        "BasicCSOFather": null,
+        "BasicCSOGross": null,
+        "BasicCSOMother": null,
+        "ChildHealthInsPremiumWklyFather": null,
+        "ChildHealthInsPremiumWklyMother": null,
+        "TotalCSOFormula": null,
+        "WorkExpenseChildCareFather": null,
+        "WorkExpenseChildCareMother": null
+    },
+    "Children": {
+        "NumChildren": {
+            "ChildFN": null,
+            "ChildLN": null,
+            "DOB": null
+        }
+    },
+    "ConfirmationStp": {
+    },
+    "ContextId": null,
+    "GrossIncomeWkly": {
+        "GrossIncWkly": {
+            "ChildSupportCourtOrderPBFather": null,
+            "ChildSupportCourtOrderPBMother": null,
+            "ChildSupportLegalDutyPBFather": null,
+            "ChildSupportLegalDutyPBMother": null,
+            "CombinedWAIFormula": null,
+            "GrossIncWklyFather": null,
+            "GrossIncWklyMother": null,
+            "MaintenancePaidFather": null,
+            "MaintenancePaidMother": null,
+            "PercentShrWAIFatherFormula": null,
+            "PercentShrWAIMotherFormula": null,
+            "SubsequentChildrenMultiplierCreditFather": null,
+            "SubsequentChildrenMultiplierCreditMother": null,
+            "WAIDeductionsFatherFormula": null,
+            "WAIDeductionsMotherFormula": null,
+            "WAIFatherFormula": null,
+            "WAIMotherFormula": null
+        }
+    },
+    "Header": {
+        "CaseNum": null,
+        "FNFather": null,
+        "FNMother": null,
+        "LNFather": null,
+        "LNMother": null,
+        "Reference": null
+    },
+    "ParentsCSOStp": {
+        "CSOFormulaFather": null,
+        "CSOFormulaMother": null
+    },
+    "RecommendedCSOStp": {
+        "RecommendedCSOFormula": null
+    },
+    "SignatureStp": {
+        "FatherSign": null,
+        "MotherSign": null,
+        "SignedDate": null
+    },
+    "UnInsuredHealthCareExpenseCalcStp": {
+        "CustodialAnnualParentObligation": null,
+        "CustodialParentObligation": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AdjustmentsStp": null,
+        "BasicCSOStp": null,
+        "Children": null,
+        "ConfirmationStp": null,
+        "DataRaptorPostAction2": null,
+        "DoneAction1": null,
+        "GrossIncomeWkly": null,
+        "Header": null,
+        "ParentsCSOStp": null,
+        "RecommendedCSOStp": null,
+        "SetValues1": null,
+        "SignatureStp": null,
+        "UnInsuredHealthCareExpenseCalcStp": null
+    }
+}

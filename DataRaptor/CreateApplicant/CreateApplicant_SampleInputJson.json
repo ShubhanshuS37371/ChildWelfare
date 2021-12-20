@@ -1,0 +1,66 @@
+{
+    "Availibility": {
+        "BedroomAvailability": "Y",
+        "FosterCareProgram": "Crisis Care;Specialized Care",
+        "Number1": 2,
+        "Radio3": "Y"
+    },
+    "ContextId": "",
+    "FosterBackground": {
+        "Employer": "ljlkj",
+        "Profession": "tkjhkj",
+        "SpokenLanguages": "Spanish;French"
+    },
+    "FosterParentInformation": {
+        "AddressTypeAhead-Block": {
+            "AddressTypeAhead": "6679A Broadway, Bronx, NY 10471, USA",
+            "City": null,
+            "Country": "United States",
+            "PostalCode": "10471",
+            "State": "NY",
+            "Street": "6679A Broadway"
+        },
+        "ContactInfo": {
+            "HomePhone": "4564645645",
+            "MobileNumber": "2343242234",
+            "WorkPhone": "5675675677"
+        },
+        "Email1": "abcd@kkk",
+        "FN": "Ab",
+        "LN": "Cd"
+    },
+    "FosterReferenceCheck": {
+        "Block3": {
+            "Address": "nnkj",
+            "Email2": "ert@fdfdf",
+            "Name": "jbbj",
+            "Phone": "3453455345",
+            "Relationship": null
+        }
+    },
+    "Home": "Mobile",
+    "PriorFosterExperience": {
+        "Block2": {
+            "US_State": "AR"
+        },
+        "Radio1": "Y",
+        "TextArea1": "khkhkjhkj"
+    },
+    "id": "a17f40000020NAlAAM",
+    "layout": "lightning",
+    "timeStamp": "2018-09-18T07:52:31.098Z",
+    "userCurrencyCode": "USD",
+    "userId": "005f4000000Z2TXAA0",
+    "userName": "sp@ps-demo.demo",
+    "userProfile": "Vlocity Administrator",
+    "userTimeZone": 330,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Availibility": 11843,
+        "FosterBackground": 10852,
+        "FosterParentInformation": 250082,
+        "OmniScriptSessionToken": "8aa951d2-5816-47fb-a566-cb4f582ee8ab",
+        "PriorFosterExperience": 11268
+    }
+}

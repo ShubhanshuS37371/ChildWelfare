@@ -1,0 +1,43 @@
+{
+    "data": {
+        "actions": [
+            {
+                "displayName": "Action 1",
+                "vlocityIcon": "icon-v-heart"
+            },
+            {
+                "displayName": "Action 2",
+                "vlocityIcon": "icon-v-heart"
+            }
+        ],
+        "fields": [
+            {
+                "label": "Available Loan",
+                "name": "loan",
+                "type": "currency"
+            },
+            {
+                "label": "Cash Balance",
+                "name": "cash",
+                "type": "currency"
+            },
+            {
+                "label": "Loan Balance",
+                "name": "loanBal",
+                "type": "currency"
+            },
+            {
+                "label": "Inception Date",
+                "name": "date",
+                "type": "date"
+            }
+        ],
+        "title": "Card Title"
+    },
+    "obj": {
+        "cash": "123123",
+        "date": "2017-05-26T10:28:25.958Z",
+        "loan": "123456",
+        "loanBal": "123123"
+    }
+}

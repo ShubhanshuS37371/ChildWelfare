@@ -1,0 +1,20 @@
+{
+    "%vlocity_namespace%__Author__c": "DRyan",
+    "%vlocity_namespace%__CSS__c": "",
+    "%vlocity_namespace%__CustomJavascript__c": "",
+    "%vlocity_namespace%__Definition__c": "{\"placeholders\":[{\"name\":\"Status\",\"label\":\"\",\"$$hashKey\":\"object:2337\"}]}",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "AssessmentCard/1/DRyan/1549081373378",
+    "%vlocity_namespace%__HTML__c": "AssessmentCard.html",
+    "%vlocity_namespace%__ParentID__c": "rr-card-header-NoGlow-slds/1/DRyan/1548851443144",
+    "%vlocity_namespace%__SampleJson__c": "AssessmentCard_Sample.json",
+    "%vlocity_namespace%__Sass__c": "AssessmentCard.scss",
+    "%vlocity_namespace%__Type__c": "Cards",
+    "%vlocity_namespace%__Version__c": 1,
+    "CurrencyIsoCode": "USD",
+    "Name": "AssessmentCard",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/AssessmentCard"
+}

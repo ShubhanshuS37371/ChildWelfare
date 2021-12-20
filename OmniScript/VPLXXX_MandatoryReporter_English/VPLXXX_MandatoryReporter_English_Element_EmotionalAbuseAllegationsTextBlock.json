@@ -1,0 +1,40 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "VPLXXX-ChildWelfareResponseScreen",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPLXXX/MandatoryReporter/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "VPLXXX-ChildWelfareResponseScreen",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPLXXX/MandatoryReporter/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "EmotionalAbuseAllegationsBlock",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPLXXX/MandatoryReporter/English/EmotionalAbuseAllegationsBlock",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "EmotionalAbuseAllegationsBlock",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "show": null,
+        "text": "<p>Have caregiver actions led to (or are likely to lead to) child&rsquo;s severe anxiety, depression, withdrawal, or aggressive behavior toward self or others?</p>\n<p><strong>%CaregiverActionLedTo%</strong></p>\n<p></p>\n<p>Is there exposure to domestic violence?</p>\n<p><strong>%ExposureToDomesticViolence%</strong></p>\n<p></p>\n<p>Is the child exhibiting behavior that threatens the health or safety of the child or others and no caregiver is able or willing to seek appropriate help or control the child&rsquo;s behavior?</p>\n<p><strong>%ChildExhibitingBehavior%</strong></p>\n<p></p>\n<p>Is the caregiver&rsquo;s behavior alleged to be cruel, bizarre, or dangerous to the emotional health or safety of the child?</p>\n<p><strong>%CaregiversBehaviorCruelBizarreDangerous%</strong></p>\n<p></p>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "CurrencyIsoCode": "USD",
+    "Name": "EmotionalAbuseAllegationsTextBlock",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPLXXX/MandatoryReporter/English/EmotionalAbuseAllegationsTextBlock"
+}

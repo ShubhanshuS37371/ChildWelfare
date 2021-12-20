@@ -1,0 +1,31 @@
+{
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "Foster-Care_Training-Registration_English_Element_DRGetDemoData.json",
+        "Foster-Care_Training-Registration_English_Element_SetValues.json",
+        "Foster-Care_Training-Registration_English_Element_DR-GetCelPhone.json",
+        "Foster-Care_Training-Registration_English_Element_SetValues2.json",
+        "Foster-Care_Training-Registration_English_Element_Select.json",
+        "Foster-Care_Training-Registration_English_Element_ClassList.json",
+        "Foster-Care_Training-Registration_English_Element_SendSMS.json",
+        "Foster-Care_Training-Registration_English_Element_DR-UpdatePE.json",
+        "Foster-Care_Training-Registration_English_Element_Confirmation.json",
+        "Foster-Care_Training-Registration_English_Element_Headline2.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__OmniProcessType__c": "OmniScript",
+    "%vlocity_namespace%__PropertySet__c": "Foster-Care_Training-Registration_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "Training Registration",
+    "%vlocity_namespace%__TestHTMLTemplates__c": "Foster-Care_Training-Registration_English_HTMLTemplates.html",
+    "%vlocity_namespace%__Type__c": "Foster Care",
+    "CurrencyIsoCode": "USD",
+    "Name": "Sign up for Foster Parent training",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Foster Care/Training Registration/English"
+}

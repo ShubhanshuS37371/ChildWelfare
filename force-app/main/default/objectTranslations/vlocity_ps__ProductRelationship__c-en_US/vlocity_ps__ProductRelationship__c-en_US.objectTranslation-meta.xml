@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>vlocity_ps__Default_quntity_cannot_be_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>vlocity_ps__Min_Max_should_build_a_valid_range</name>
+    </validationRules>
+</CustomObjectTranslation>

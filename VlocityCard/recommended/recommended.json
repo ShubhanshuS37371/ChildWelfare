@@ -1,0 +1,152 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "a323i000000QqCmAAK"
+            }
+        ],
+        "type": "IntegrationProcedures",
+        "value": {
+            "body": "{\n    \"Name\": \"Weatherford Household\",\n    \"County\": \"Allen\",\n    \"MoreThanOneYearExperience\": \"Yes\",\n    \"WillingToAdopt\": \"Yes\",\n    \"LicensedAvailability\": 3,\n    \"PreferredAvailability\": 2,\n    \"PrimaryContactId\": \"0033i000003Q1P3AAK\",\n    \"WouldConsider\": \"History of Chronic Lying\",\n    \"WouldNotPrefer\": \"Physical Aggression toward Animals\",\n    \"Religion\": \"Christianity\",\n    \"MatchingScore\": 75,\n    \"Recommendation\": \"Highly Recommended\"\n}",
+            "inputMap": {
+                "ProgramEnrollmentId": "{{params.id}}"
+            },
+            "ipMethod": "FosterCareTechnologies_GetRecommended",
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+            }
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "",
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "extraParams": {
+                            "InventoryItemId": "['Id']",
+                            "PlacementProgramEnrollmentId": "['PlacementProgramEnrollmentId']",
+                            "ServiceProviderId": "['ServiceProviderId']"
+                        },
+                        "hasExtraParams": true,
+                        "id": "Log a Call",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Name']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['MoreThanOneYearExperience']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": ">1 Yr Exp",
+                    "name": "['MoreThanOneYearExperience']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['SchoolDistrict']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "School District",
+                    "name": "['SchoolDistrict']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Religion']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Religion",
+                    "name": "['Religion']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['LicensedAvailability']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Lic Avail",
+                    "name": "['LicensedAvailability']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['PreferredAvailability']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Pref Avail",
+                    "name": "['PreferredAvailability']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['WouldConsider']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Would Consider",
+                    "name": "['WouldConsider']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['WouldNotPrefer']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Would Not Prefer",
+                    "name": "['WouldNotPrefer']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['WillingToAdopt']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Adopt?",
+                    "name": "['WillingToAdopt']",
+                    "type": "string"
+                }
+            ],
+            "name": "active",
+            "sObjectType": null,
+            "templateUrl": "list-table-card"
+        }
+    ],
+    "title": "Recommended"
+}

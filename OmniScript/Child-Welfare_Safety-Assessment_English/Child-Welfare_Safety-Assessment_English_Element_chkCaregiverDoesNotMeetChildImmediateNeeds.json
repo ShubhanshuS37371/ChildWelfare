@@ -1,0 +1,48 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Child Welfare Safety Assessment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Child Welfare/Safety Assessment/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Child Welfare Safety Assessment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Child Welfare/Safety Assessment/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "stpSafetyThreats",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Child Welfare/Safety Assessment/English/stpSafetyThreats",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "stpSafetyThreats",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "checkLabel": "3.  Caregiver does not meet the child’s immediate needs for supervision, food, clothing, and/or medical or mental health care.",
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "defaultValue": false,
+        "disOnTplt": false,
+        "help": true,
+        "helpText": "The caregiver is unable or unwilling to address critical areas of food, clothing, shelter, supervision, and/or medical and mental health care for the child AND the child has been seriously harmed or is in imminent danger of being seriously harmed as a result. • The child’s nutritional needs are not met, resulting in danger to the child’s health and/or safety, including malnutrition and morbid obesity. • The child is without clothing appropriate to the weather. Consider the age of the child and whether clothing is the choice of the child or has been provided by the caregiver. • The caregiver does not seek treatment for the child’s immediate, chronic, and/or dangerous medical condition(s), or does not follow prescribed treatment for such conditions, resulting in declining health status (e.g., not providing insulin for a child with diabetes, not providing follow-up care for a wound that is infected, or not providing care for a broken bone). Note: The pursuit of traditional or alternative practices rather than prescribed treatment is included here IF there is evidence that the child’s health status is declining AND there is evidence that prescribed treatment would likely be effective. • The child has exceptional needs, such as being medically fragile, which the caregiver does not or cannot meet, resulting in declining health status. The child is suicidal and/or is seriously self-harming AND the caregiver will not/cannot take protective action. • The child shows effects of maltreatment, such as serious emotional symptoms, lack of behavioral control, or serious physical symptoms. This may include situations where a child exhibits severe anxiety (e.g., nightmares, insomnia, exhibits fear) related to situations associated with domestic violence. • The caregiver is present but does not attend to the child to the extent that need for care goes unnoticed or unmet (e.g., can wander outdoors alone, play with dangerous objects, play on an unprotected window ledge, or be exposed to other serious hazards). • The caregiver leaves the child alone (time period varies with age and developmental stage) in circumstances that create opportunities for serious harm, e.g., child left unattended in vehicle. • The caregiver is unavailable (e.g., incarceration, hospitalization, abandonment, whereabouts unknown) and there are no arrangements for the child that would ensure his/her safety. • The caregiver makes inadequate and/or inappropriate babysitting or child care arrangements, or demonstrates very poor planning for the child’s care during absences, and these arrangements do not provide minimal safety for the child (e.g., temporary caregiver is intoxicated, has limited capacity, or for any reason is unable to meet child’s needs).",
+        "hide": false,
+        "label": "3.  Caregiver does not meet the child’s immediate needs for supervision, food, clothing, and/or medical or mental health care.",
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "show": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Checkbox",
+    "CurrencyIsoCode": "USD",
+    "Name": "chkCaregiverDoesNotMeetChildImmediateNeeds",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Child Welfare/Safety Assessment/English/chkCaregiverDoesNotMeetChildImmediateNeeds"
+}

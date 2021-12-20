@@ -1,0 +1,84 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "VPL-ChildYouthYoungAdultStrengthsandNeedsAssessment-105-1",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL105/ChildYouthYoungAdultStrengthsandNeedsAssessment/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "VPL-ChildYouthYoungAdultStrengthsandNeedsAssessment-105-1",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPL105/ChildYouthYoungAdultStrengthsandNeedsAssessment/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "ChildYouthYoungAdultDomainsStp",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL105/ChildYouthYoungAdultStrengthsandNeedsAssessment/English/ChildYouthYoungAdultDomainsStp",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "ChildYouthYoungAdultDomainsStp",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": false,
+        "imageCountInRow": 3,
+        "label": "CSN10. Relationship With Substitute Care Provider (if child/youth/young adult is in care)",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "name": "1",
+                "value": "Not applicable; child/youth/young adult is not in care."
+            },
+            {
+                "name": "A",
+                "value": "a. The child/youth/young adult has developed a strong attachment to at least one substitute care provider."
+            },
+            {
+                "name": "B",
+                "value": "b. The child/youth/young adult has no conflicts with the substitute care provider."
+            },
+            {
+                "name": "C",
+                "value": "c. The child/youth/young adult has some conflicts with the substitute care provider that have resulted or may result in the child/youth/young adult feeling unsafe or unaccepted in the placement; however, with support, these issues can be mitigated."
+            },
+            {
+                "name": "D",
+                "value": "d. The child/youth/young adult has serious conflicts with one or more members of the current substitute care provider’s household."
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Radio",
+    "CurrencyIsoCode": "USD",
+    "Name": "SubCareProviderRd",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPL105/ChildYouthYoungAdultStrengthsandNeedsAssessment/English/SubCareProviderRd"
+}

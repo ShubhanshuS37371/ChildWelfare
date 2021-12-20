@@ -1,0 +1,161 @@
+[
+    {
+        "%vlocity_namespace%__CalculationMatrixId__c": {
+            "Name": "Child Care Eligibility",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__CalculationMatrix__c/Child Care Eligibility",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationMatrix__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "Child Care Eligibility Redetermination",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/Child Care Eligibility Redetermination",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "Child Care Eligibility Redetermination",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/Child Care Eligibility Redetermination",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Matrix Lookup",
+        "%vlocity_namespace%__Input__c": [
+            {
+                "columnKey": "b4c36",
+                "dataType": "Text",
+                "label": null,
+                "listValues": null,
+                "name": "District"
+            },
+            {
+                "columnKey": "e1049b",
+                "dataType": "Number",
+                "label": null,
+                "listValues": null,
+                "name": "FamilySize"
+            },
+            {
+                "columnKey": "6fcc6c",
+                "dataType": "Number Range",
+                "label": null,
+                "listValues": "0,1000,2818,3775",
+                "name": "Income"
+            }
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": [
+            {
+                "columnKey": "f59b5a",
+                "dataType": "Text",
+                "label": null,
+                "listValues": null,
+                "name": "Level"
+            },
+            {
+                "columnKey": "3e7fb5",
+                "dataType": "Currency",
+                "label": null,
+                "listValues": null,
+                "name": "FullDay"
+            },
+            {
+                "columnKey": "53df4e",
+                "dataType": "Currency",
+                "label": null,
+                "listValues": null,
+                "name": "PartDay"
+            }
+        ],
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"Level\":\"ChildCareEligibility__Level\",\"FullDay\":\"ChildCareEligibility__FullDay\",\"PartDay\":\"ChildCareEligibility__PartDay\"}",
+        "%vlocity_namespace%__Sequence__c": 1,
+        "CurrencyIsoCode": "USD",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "ChildCareEligibility__FullDay",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "ChildCareEligibility__FullDay",
+                "dataType": "Currency",
+                "text": "FullDay ( Child Care Eligibility )",
+                "userDefined": false
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "Child Care Eligibility Redetermination",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/Child Care Eligibility Redetermination",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "Child Care Eligibility Redetermination",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/Child Care Eligibility Redetermination",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": [
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "NewFullDay",
+            "dataType": "Currency",
+            "name": "NewFullDay"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"NewFullDay\":\"NewFullDay\"}",
+        "%vlocity_namespace%__Sequence__c": 2,
+        "CurrencyIsoCode": "USD",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    },
+    {
+        "%vlocity_namespace%__CalculationFormulaLong__c": "ChildCareEligibility__PartDay",
+        "%vlocity_namespace%__CalculationFormulaTags__c": [
+            {
+                "alias": "ChildCareEligibility__PartDay",
+                "dataType": "Currency",
+                "text": "PartDay ( Child Care Eligibility )",
+                "userDefined": false
+            }
+        ],
+        "%vlocity_namespace%__CalculationProcedureId__c": {
+            "Name": "Child Care Eligibility Redetermination",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedure__c/Child Care Eligibility Redetermination",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedure__c"
+        },
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "Child Care Eligibility Redetermination",
+            "%vlocity_namespace%__VersionNumber__c": 1,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/1/%vlocity_namespace%__CalculationProcedure__c/Child Care Eligibility Redetermination",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__ConditionalInputDisplayData__c": [
+        ],
+        "%vlocity_namespace%__Function__c": "Calculation",
+        "%vlocity_namespace%__Input__c": [
+        ],
+        "%vlocity_namespace%__IsConditionalStep__c": false,
+        "%vlocity_namespace%__IsIncludedInResult__c": true,
+        "%vlocity_namespace%__OutputJSON__c": {
+            "alias": "NewPartDay",
+            "dataType": "Currency",
+            "name": "NewPartDay"
+        },
+        "%vlocity_namespace%__OutputMappingJSON__c": "{\"NewPartDay\":\"NewPartDay\"}",
+        "%vlocity_namespace%__Sequence__c": 3,
+        "CurrencyIsoCode": "USD",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureStep__c"
+    }
+]

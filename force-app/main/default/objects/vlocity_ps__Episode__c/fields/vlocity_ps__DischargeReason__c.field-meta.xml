@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ps__DischargeReason__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Discharge Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Adoption</fullName>
+                <default>false</default>
+                <label>Adoption</label>
+            </value>
+            <value>
+                <fullName>Reunification with Parents</fullName>
+                <default>false</default>
+                <label>Reunification with Parents</label>
+            </value>
+            <value>
+                <fullName>Provider Not a Good Fit</fullName>
+                <default>false</default>
+                <label>Provider Not a Good Fit</label>
+            </value>
+            <value>
+                <fullName>Runaway</fullName>
+                <default>false</default>
+                <label>Runaway</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

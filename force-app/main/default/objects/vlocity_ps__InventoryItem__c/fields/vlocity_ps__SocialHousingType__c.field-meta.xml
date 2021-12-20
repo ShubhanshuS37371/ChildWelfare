@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ps__SocialHousingType__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Social Housing Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Market</fullName>
+                <default>false</default>
+                <label>Market</label>
+            </value>
+            <value>
+                <fullName>RGI subsidy</fullName>
+                <default>false</default>
+                <label>RGI subsidy</label>
+            </value>
+            <value>
+                <fullName>Rent Supplement</fullName>
+                <default>false</default>
+                <label>Rent Supplement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

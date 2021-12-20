@@ -1,0 +1,84 @@
+{
+    "ApplicantContactId": "XXX",
+    "ApplicantStep": {
+        "ApplicantFirstName": "Amy",
+        "ApplicantLastName": "Weatherford",
+        "CellPhone": "8044024733",
+        "DOB": "1979-01-11T05:00:00.000Z",
+        "Email": "jblankenship@vlocity.com",
+        "Home Address-Block": {
+            "Home Address": "18428 Willow Sage Ln, Elgin, TX 78621, USA",
+            "HomeCity": "Elgin",
+            "HomeCounty": "Travis County",
+            "HomeState": "TX",
+            "HomeStreet": "18428 Willow Sage Lane",
+            "HomeZip": "78621"
+        },
+        "HomePhone": "8048979644",
+        "Marital Status": "Married",
+        "MilitaryStatus": false,
+        "National Guard": false,
+        "Race": "White",
+        "SocialSecurityNumber": "594939392",
+        "SpecificTribe": null,
+        "Tribe": "No",
+        "USCitizen": true
+    },
+    "Birthdate": "1979-01-11",
+    "CellPhoneNumber": "8044024733",
+    "City": "Elgin",
+    "ContactId": "0034T0000027AYIQA2",
+    "ContextId": "",
+    "Documents and eSignature": {
+        "Signature": null
+    },
+    "EmailOutput": "jblankenship@vlocity.com",
+    "FirstName": "Amy",
+    "Home Address-Block": {
+        "country": "United States"
+    },
+    "HomePhoneOutput": "8048979644",
+    "LastName": "Weatherford",
+    "MaritalStatus": "Married",
+    "NoticeStep": {
+        "I agree": "Yes"
+    },
+    "OmniScriptSource": "community",
+    "PostalCode": "78621",
+    "ProviderStep": {
+        "Provider Address": null,
+        "ProviderName": null,
+        "ProviderPhone": null
+    },
+    "RaceOutput": "White",
+    "ReasonsStep": {
+        "AssistanceInAnotherState": null,
+        "ChildCareLast30Days": null,
+        "Reasons": null,
+        "TeenParentInfo": null,
+        "WhichState": null
+    },
+    "SSSStep": {
+        "FileBlock": null,
+        "SelfSuffStatement": null
+    },
+    "SocialSecurityNumberOutput": "594939392",
+    "State": "TX",
+    "StreetAddress": "18428 Willow Sage Lane",
+    "error": "OK",
+    "id": "a2H4T000000HPV5UAO",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "output": [
+    ],
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://jb-fc09062019--vlocity-ps.visualforce.com",
+    "timeStamp": "2020-04-02T12:37:14.122Z",
+    "userCurrencyCode": "USD",
+    "userId": "0054T000000uFcHQAU",
+    "userName": "jblankenship@jb-fc09062019.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

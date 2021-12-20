@@ -1,0 +1,5 @@
+[
+    "DataRaptor/CW-GetInvestigationHeader",
+    "DataRaptor/CW-GetInvestigationValidation",
+    "DataRaptor/CW-UpdateInvestigation"
+]

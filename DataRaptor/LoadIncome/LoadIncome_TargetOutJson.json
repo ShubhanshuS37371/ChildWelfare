@@ -1,0 +1,19 @@
+{
+    "IncomeStep": {
+        "IncomeBlock": {
+            "Amount": null,
+            "AmountLabel": null,
+            "EmployerName": null,
+            "End Date": null,
+            "Frequency": null,
+            "FrequencyLabel": null,
+            "Hours per week": null,
+            "IncomeTypeLabel": null,
+            "Self Employment Business Type": null,
+            "SelfEmploymentExpenses": null,
+            "SetSchedule": null,
+            "Start Date": null,
+            "Type": null
+        }
+    }
+}

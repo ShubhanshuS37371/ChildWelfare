@@ -1,0 +1,21 @@
+{
+    "Cards": [
+        "MobileActionsTask"
+    ],
+    "dataSource": {
+        "type": "Custom",
+        "value": {
+            "body": "{\"result\":[]}",
+            "resultVar": "result"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-simple-slds"
+        }
+    },
+    "workspace": [
+        "MobileActionsTask/Vlocity Foster Care TSO/1/1568661470961"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "output": [
+        {
+            "aggregationResults": {
+            },
+            "calculationResults": [
+                {
+                    "CCAGrossMonthlyIncome__FullDay": 1,
+                    "CCAGrossMonthlyIncome__Level": "Level 1",
+                    "CCAGrossMonthlyIncome__PartDay": 0.5,
+                    "ID": "input",
+                    "NewFullDay": 1,
+                    "NewPartDay": 0.5
+                }
+            ]
+        }
+    ]
+}

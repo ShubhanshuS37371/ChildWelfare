@@ -1,0 +1,160 @@
+{
+    "ApplicantContactId": "XXX",
+    "ApplicantStep": {
+        "ApplicantFirstName": "Alisha",
+        "ApplicantLastName": "Adams",
+        "CellPhone": "8044024733",
+        "DOB": "1980-12-01T05:00:00.000Z",
+        "Email": "jblankenship@vlocity.com",
+        "Home Address-Block": {
+            "Home Address": "432 Pleasant Run",
+            "HomeCity": null,
+            "HomeState": null,
+            "HomeStreet": null,
+            "HomeZip": null
+        },
+        "HomePhone": "9729263602",
+        "Marital Status": "Married",
+        "MilitaryStatus": false,
+        "National Guard": false,
+        "Race": "White",
+        "SocialSecurityNumber": "843493848",
+        "SpecificTribe": null,
+        "Tribe": "No",
+        "USCitizen": true
+    },
+    "Birthdate": "1980-12-01",
+    "CellPhoneNumber": "8044024733",
+    "City": "Murphy",
+    "ContactId": "0031U00000zRzRtQAK",
+    "ContextId": "",
+    "DRId_%vlocity_namespace%__Application__c": "a0A1U00000DWAzqUAH",
+    "DRId_%vlocity_namespace%__ProgramEnrollment__c": "a321U000000vQAeQAM",
+    "Documents and eSignature": {
+        "Signature": "a"
+    },
+    "EmailOutput": "jblankenship@vlocity.com",
+    "FirstName": "Alisha",
+    "FullDayCopay": 3,
+    "HalfDayCopay": 1.5,
+    "HomePhoneOutput": "9729263602",
+    "HouseholdStep": {
+        "FamilyMemberCount": 3,
+        "HHBlock": [
+            {
+                "HHAge": "Age: 33",
+                "HHDOB": "1986-04-05T05:00:00.000Z",
+                "HHFirstName": "Steve",
+                "HHFullName": "Steve Adams",
+                "HHLastName": "Adams",
+                "HHNeedsChildCare": null,
+                "HHOtherParent": null,
+                "HHOtherParentInHome": null,
+                "HHRelationship": "Spouse",
+                "HHRelationshipLabel": "Spouse",
+                "HHSSN": "393939392",
+                "HHSpecialNeeds": false,
+                "HHSpecialNeedsVerification": null
+            },
+            {
+                "HHAge": "Age: 1",
+                "HHDOB": "2018-04-10T04:00:00.000Z",
+                "HHFirstName": "Jane",
+                "HHFullName": "Jane Adams",
+                "HHLastName": "Adams",
+                "HHNeedsChildCare": "Yes",
+                "HHOtherParent": "Steve Adams",
+                "HHOtherParentInHome": "Yes",
+                "HHRelationship": "Dependent child",
+                "HHRelationshipLabel": "Dependent child",
+                "HHSSN": "783838283",
+                "HHSpecialNeeds": false,
+                "HHSpecialNeedsVerification": null
+            }
+        ]
+    },
+    "IncomeStep": {
+        "IncomeBlock": [
+            {
+                "Amount": 1500,
+                "AmountLabel": 1500,
+                "EmployerName": "Acme Inc",
+                "End Date": null,
+                "Frequency": "Once a Month",
+                "FrequencyLabel": "Once a Month",
+                "Hours per week": 30,
+                "IncomeTypeLabel": "Wages/Employment",
+                "Self Employment Business Type": null,
+                "SelfEmploymentExpenses": null,
+                "SetSchedule": null,
+                "Start Date": "2018-01-05T05:00:00.000Z",
+                "Type": "Wages/Employment"
+            },
+            {
+                "Amount": 1000,
+                "AmountLabel": 1000,
+                "EmployerName": "ABC Corp",
+                "End Date": null,
+                "Frequency": "Once a Month",
+                "FrequencyLabel": "Once a Month",
+                "Hours per week": 20,
+                "IncomeTypeLabel": "Wages/Employment",
+                "Self Employment Business Type": null,
+                "SelfEmploymentExpenses": null,
+                "SetSchedule": null,
+                "Start Date": "2017-05-01T04:00:00.000Z",
+                "Type": "Wages/Employment"
+            }
+        ],
+        "TotalIncome": 2500
+    },
+    "LastName": "Adams",
+    "Level": "Level 3",
+    "MaritalStatus": "Married",
+    "NoticeStep": {
+        "I agree": "Yes"
+    },
+    "OmniScriptSource": "community",
+    "PostalCode": "75094",
+    "ProviderStep": {
+        "Provider-Block": {
+            "Provider": "Abacus Children’s Academy",
+            "ProviderAddress": "1226 Farm to Market 685,Pflugerville,TX,78660",
+            "ProviderAvailability": 4,
+            "ProviderId": "0011U00001IQGXBQA5",
+            "ProviderPhone": "512-252-2704"
+        }
+    },
+    "RaceOutput": "White",
+    "ReasonsStep": {
+        "AssistanceInAnotherState": "No",
+        "ChildCareLast30Days": "No",
+        "Reasons": "Employment",
+        "TeenParentInfo": null,
+        "WhichState": null
+    },
+    "SSSStep": {
+        "CalculateEligibility": "Eligible",
+        "FileBlock": null,
+        "SelfSuffStatement": "03"
+    },
+    "SocialSecurityNumberOutput": "843493848",
+    "State": "TX",
+    "StreetAddress": "432 Pleasant Run",
+    "applicationId": "a0A1U00000DWAzqUAH",
+    "applicationRefNumber": "APP-000018",
+    "error": "OK",
+    "id": "a2H1U000001I4nbUAC",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://fc-tso--vlocity-ps.visualforce.com",
+    "timeStamp": "2020-04-02T12:04:38.983Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051U000005rw41QAA",
+    "userName": "jblankenship@fc-tso.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcPersistentComponent": {
+    }
+}

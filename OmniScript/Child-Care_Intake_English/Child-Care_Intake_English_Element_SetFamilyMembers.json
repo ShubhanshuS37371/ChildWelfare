@@ -1,0 +1,80 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Child Care Intake",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Child Care/Intake/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Child Care Intake",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Child Care/Intake/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "HouseholdStep",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Child Care/Intake/English/HouseholdStep",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "HouseholdStep",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "demoButton",
+        "controlWidth": 1,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "HHBlock": [
+                {
+                    "HHAge": "Age: 34",
+                    "HHDOB": "1986-04-05T05:00:00.000Z",
+                    "HHFirstName": "Steve",
+                    "HHFullName": "Steve Adams",
+                    "HHLastName": "Adams",
+                    "HHNeedsChildCare": null,
+                    "HHOtherParent": null,
+                    "HHOtherParentInHome": null,
+                    "HHRelationship": "Spouse",
+                    "HHRelationshipLabel": "Spouse",
+                    "HHSSN": "393939392",
+                    "HHSpecialNeeds": false,
+                    "HHSpecialNeedsVerification": null
+                },
+                {
+                    "HHAge": "Age: 1",
+                    "HHDOB": "2018-04-10T04:00:00.000Z",
+                    "HHFirstName": "Jane",
+                    "HHFullName": "Jane Adams",
+                    "HHLastName": "Adams",
+                    "HHNeedsChildCare": "Yes",
+                    "HHOtherParent": "Steve Adams",
+                    "HHOtherParentInHome": "Yes",
+                    "HHRelationship": "Dependent child",
+                    "HHRelationshipLabel": "Dependent child",
+                    "HHSSN": "783838283",
+                    "HHSpecialNeeds": false,
+                    "HHSpecialNeedsVerification": null
+                }
+            ]
+        },
+        "label": ">>>",
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "CurrencyIsoCode": "USD",
+    "Name": "SetFamilyMembers",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Child Care/Intake/English/SetFamilyMembers"
+}

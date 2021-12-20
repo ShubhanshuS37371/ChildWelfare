@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Level_of_Care__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(INCLUDES(Medical_Diagnoses__c,&apos;None&apos;),INCLUDES( Mental_Health_Diagnoses__c ,&apos;None&apos;)),&apos;General&apos;,&apos;Therapeutic&apos;)</formula>
+    <label>Level of Care</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

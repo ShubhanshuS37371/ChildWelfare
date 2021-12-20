@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ps__Category__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Category</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Family Services</fullName>
+                <default>false</default>
+                <label>Family Services</label>
+            </value>
+            <value>
+                <fullName>Child Protection Services</fullName>
+                <default>true</default>
+                <label>Child Protection Services</label>
+            </value>
+            <value>
+                <fullName>Inter-Jurisdictional</fullName>
+                <default>false</default>
+                <label>Inter-Jurisdictional</label>
+            </value>
+            <value>
+                <fullName>Provider Inquiry</fullName>
+                <default>false</default>
+                <label>Provider Inquiry</label>
+            </value>
+            <value>
+                <fullName>Informational</fullName>
+                <default>false</default>
+                <label>Informational</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

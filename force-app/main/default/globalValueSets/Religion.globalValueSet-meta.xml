@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>No Religious Identification</fullName>
+        <default>false</default>
+        <label>No Religious Identification</label>
+    </customValue>
+    <customValue>
+        <fullName>Buddhism</fullName>
+        <default>false</default>
+        <label>Buddhism</label>
+    </customValue>
+    <customValue>
+        <fullName>Christianity</fullName>
+        <default>false</default>
+        <label>Christianity</label>
+    </customValue>
+    <customValue>
+        <fullName>Hinduism</fullName>
+        <default>false</default>
+        <label>Hinduism</label>
+    </customValue>
+    <customValue>
+        <fullName>Judaism</fullName>
+        <default>false</default>
+        <label>Judaism</label>
+    </customValue>
+    <masterLabel>Religion</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

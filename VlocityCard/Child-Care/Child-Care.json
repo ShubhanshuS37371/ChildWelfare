@@ -1,0 +1,106 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "filter": {
+        "['%vlocity_namespace%__Type__c']": "Child Care"
+    },
+    "sessionVars": [
+    ],
+    "states": [
+        {
+            "actionCtxId": "Id",
+            "blankStateCheck": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "View Details",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "extraParams": {
+                            "ContextId": "['Id']",
+                            "Id": "['Id']"
+                        },
+                        "hasExtraParams": true,
+                        "id": "Change of Circumstances",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Change Provider",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "Provide Feedback",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "fieldType": "standard",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Preferred_Provider__r']['Name']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "Preferred Provider",
+                    "name": "['Preferred_Provider__r']['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "fieldType": "standard",
+                    "label": "Stage",
+                    "name": "['%vlocity_namespace%__Stage__c']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['%vlocity_namespace%__Status__c']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Status",
+                    "name": "['%vlocity_namespace%__Status__c']",
+                    "type": "string"
+                }
+            ],
+            "name": "active",
+            "sObjectType": "%vlocity_namespace%__ProgramEnrollment__c",
+            "templateUrl": "card-active-slds-ps"
+        }
+    ],
+    "title": "Child Care"
+}

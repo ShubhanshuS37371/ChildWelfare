@@ -1,0 +1,76 @@
+{
+    "Availibility": {
+        "BedroomAvailability": null,
+        "FosterCareProgram": "Crisis Care;Short-Term Care",
+        "Number1": null,
+        "Radio3": null
+    },
+    "ContextId": "",
+    "DRId_Contact": "003f400000aFH3iAAG",
+    "FosterBackground": {
+        "Employer": null,
+        "Profession": null,
+        "SpokenLanguages": "Spanish;French"
+    },
+    "FosterParentInformation": {
+        "AddressTypeAhead-Block": {
+            "AddressTypeAhead": "a",
+            "City": "BENGALURU",
+            "Country": "India",
+            "PostalCode": "560037",
+            "State": "Karnataka",
+            "Street": "6uykjt"
+        },
+        "ContactInfo": {
+            "HomePhone": "9798686864",
+            "MobileNumber": "7789798968",
+            "WorkPhone": "9088564645"
+        },
+        "Email": "palbbharati@gmail.com",
+        "FirstName": "Bharati",
+        "LastName": "Pal"
+    },
+    "FosterReferenceCheck": {
+        "Block3": {
+            "Address": {
+                "RefCity": null,
+                "RefCountry": null,
+                "RefPostalCode": null,
+                "RefState": null,
+                "RefStreet": null
+            },
+            "RefEmail": "b@gmail.com",
+            "RefFirstName": "Neha",
+            "RefLastName": "Wasim",
+            "RefPhone": "9878685759",
+            "Relationship": "Spouse"
+        }
+    },
+    "PriorFosterExperience": {
+        "Block2": null,
+        "Radio1": "N",
+        "TextArea1": "dd"
+    },
+    "SourceId": "a1Hf4000002RmlqEAC",
+    "id": "a17f40000020NAlAAM",
+    "layout": "lightning",
+    "timeStamp": "2018-09-20T06:54:54.375Z",
+    "userCurrencyCode": "USD",
+    "userId": "005f4000000Z2TXAA0",
+    "userName": "sp@ps-demo.demo",
+    "userProfile": "Vlocity Administrator",
+    "userTimeZone": 330,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Availibility": 12932,
+        "DR-CreateApplicant": 1782,
+        "DR-CreateReference": 1807,
+        "FosterBackground": 7402,
+        "FosterParentInformation": 84446,
+        "FosterReferenceCheck": 106138,
+        "OmniScriptSessionToken": "f508f9ad-5ea5-415e-b69a-98b0175dc784",
+        "PriorFosterExperience": 7156,
+        "SourceExtraction": 2684
+    }
+}

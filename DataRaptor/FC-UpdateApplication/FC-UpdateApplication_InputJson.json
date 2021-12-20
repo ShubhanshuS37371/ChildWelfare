@@ -1,0 +1,107 @@
+{
+    "AvailabilitySchools": {
+        "BedroomAvailability": null,
+        "Elementary": null,
+        "FosterCareProgram": null,
+        "High": null,
+        "Middle": null,
+        "Number1": null,
+        "Radio3": null
+    },
+    "BackgroundInfo": {
+        "Alcohol": null,
+        "AutoInsurance": null,
+        "DeniedLicense": null,
+        "Driverlicense": null,
+        "Drugs": null,
+        "Felony": null,
+        "Illness": null,
+        "LicenseRevoked": null,
+        "Predator": null,
+        "RestrictionsonLicense": null
+    },
+    "Confirmation": {
+    },
+    "ContextId": null,
+    "FosterBackground": {
+        "Employer": null,
+        "Profession": null,
+        "SpokenLanguages": null
+    },
+    "FosterParentInformation": {
+        "City": null,
+        "ContactInfo": {
+            "CellPhoneNumber": null,
+            "HomePhone": null,
+            "WorkPhone": null
+        },
+        "Email": null,
+        "FirstName": null,
+        "Gender": null,
+        "LastName": null,
+        "PostalCode": null,
+        "State": null,
+        "StreetAddress": null
+    },
+    "FosterReferenceCheck": {
+        "Block3": {
+            "Address": {
+                "RefCity": null,
+                "RefPostalCode": null,
+                "RefState": null,
+                "RefStreet": null
+            },
+            "RefEmail": null,
+            "RefFirstName": null,
+            "RefLastName": null,
+            "RefPhone": null,
+            "Relationship": null
+        }
+    },
+    "MyHousehold": {
+        "FamilyMembers": {
+            "CurrentlyPregnantFamily": null,
+            "DOBFamily": null,
+            "DisabilityFamily": {
+                "DisabilitydetailsFamily": null,
+                "DisabilitydurationFamily": null,
+                "HasDisabilityFamily": null
+            },
+            "DueDateFamily": null,
+            "FamilyRelationship": null,
+            "FirstFamily": null,
+            "GenderFamily": null,
+            "LastFamily": null
+        }
+    },
+    "PriorFosterExperience": {
+        "AgeRangeFrom": null,
+        "AgeRangeTo": null,
+        "GenderPreference": null,
+        "Numberofchildren": null,
+        "Preference": null,
+        "Radio1": null,
+        "TextArea1": null,
+        "US_State": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "AvailabilitySchools": null,
+        "BackgroundInfo": null,
+        "Confirmation": null,
+        "DRGetDemoData": null,
+        "FosterBackground": null,
+        "FosterParentInformation": null,
+        "FosterReferenceCheck": null,
+        "MyHousehold": null,
+        "PriorFosterExperience": null,
+        "SaveApplication": null,
+        "UpdateApplication": null
+    }
+}

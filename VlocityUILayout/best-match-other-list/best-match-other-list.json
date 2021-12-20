@@ -1,0 +1,35 @@
+{
+    "Cards": [
+        "other-recommendations"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "obj.id",
+                "val": "0033i000003LA9dAAG"
+            }
+        ],
+        "type": null,
+        "value": {
+            "body": "",
+            "bundle": "GetMatchingHouseholds",
+            "inputMap": {
+                "ContactId": "{{obj.id}}"
+            },
+            "ipMethod": "FosterCareTechnologies_GetHighlyRecommended",
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+            },
+            "resultVar": ""
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "fct-list-table"
+        }
+    },
+    "workspace": [
+        "other-recommendations/Florida Department of Children and Families/1/1568407166877"
+    ]
+}

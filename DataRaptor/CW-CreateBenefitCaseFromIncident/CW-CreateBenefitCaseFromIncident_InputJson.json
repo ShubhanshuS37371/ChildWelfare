@@ -1,0 +1,18 @@
+{
+    "CaseName": "Rousy - Child Welfare Case",
+    "IncidentId": "a1t4T000000gEBOQA2",
+    "IncidentName": "Rousy",
+    "PartyRelationship": [
+        {
+            "Name": "Samuel Rousy",
+            "PartyId": "a2b4T000000g6qnQAA",
+            "Role": "Victim"
+        },
+        {
+            "Name": "Andrea Rousy",
+            "PartyId": "a2b4T000000g6qkQAA",
+            "Role": "Accused"
+        }
+    ],
+    "RiskAssessmentId": "a4Q4T000000CeIuUAK"
+}

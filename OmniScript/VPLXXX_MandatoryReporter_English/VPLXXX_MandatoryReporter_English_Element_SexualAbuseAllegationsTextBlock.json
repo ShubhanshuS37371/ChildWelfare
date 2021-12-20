@@ -1,0 +1,40 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "VPLXXX-ChildWelfareResponseScreen",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPLXXX/MandatoryReporter/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "VPLXXX-ChildWelfareResponseScreen",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPLXXX/MandatoryReporter/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "SexualAbuseAllegationsBlock",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPLXXX/MandatoryReporter/English/SexualAbuseAllegationsBlock",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "SexualAbuseAllegationsBlock",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": null,
+        "show": null,
+        "text": "<p>Has there been sexual act on a child by an adult caregiver or other adult in the household or are you unable to rule out a household member as the alleged perpetrator?</p>\n<p><strong>%SexualActByAdultCaregiver%</strong></p>\n<p></p>\n<p>Are there physical, behavioral, or suspicious indicators consistent with sexual abuse?</p>\n<p><strong>%PhysicalBehavioralSuspiciousIndicators%</strong></p>\n<p></p>\n<p>Have there been one or more sexual acts among siblings or other children living in the home?</p>\n<p><strong>%SexualActsAmongSiblings%</strong></p>\n<p></p>\n<p>Is there sexual exploitation?</p>\n<p><strong>%SexualExploitation%</strong></p>\n<p></p>\n<p>Is there threat of sexual abuse?</p>\n<p><strong>%ThreatOfSexualAbuse%</strong></p>\n<p></p>\n<p>Does a known or highly suspected sexual abuse perpetrator live with the child?</p>\n<p><strong>%KnownOrHighlySuspectedPerpetrator%</strong></p>\n<p></p>\n<p>Are there severely inappropriate sexual boundaries?</p>\n<p><strong>%SeverelyInappropriateSexualBoundaries%</strong></p>\n<p></p>\n<p>Is there current abuse/exploitation as evidenced by disclosure, credible witnessed account, or medical evidence?</p>\n<p><strong>%IsThereCurrentAbuseExploitation%</strong></p>\n<p></p>\n<p>Is there a non-perpetrating caregiver aware of the alleged abuse/exploitation who is demonstrating a response that is appropriate and protective of the child?</p>\n<p><strong>%IsThereNonPerpetratingCaregiver%</strong></p>",
+        "textKey": ""
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Text Block",
+    "CurrencyIsoCode": "USD",
+    "Name": "SexualAbuseAllegationsTextBlock",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPLXXX/MandatoryReporter/English/SexualAbuseAllegationsTextBlock"
+}

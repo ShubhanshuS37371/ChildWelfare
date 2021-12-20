@@ -1,0 +1,74 @@
+{
+    "ApplicantContactId": "0030a00001o3CDJAA2",
+    "ContactName": "Alisha Adams",
+    "ContextId": "a1R0a00000882qw",
+    "Family Size": 1,
+    "Income": [
+        {
+            "Amount": 1000,
+            "Type": "Wages/Employment"
+        },
+        {
+            "Amount": 200,
+            "Type": "Self-Employment"
+        }
+    ],
+    "IncomeStep": {
+        "CurrentIncome": 1700,
+        "IncomeBlock": [
+            {
+                "Amount": 1500,
+                "AmountLabel": 1500,
+                "EmployerName": "Sam's Club",
+                "End Date": "2016-05-31T05:00:00.000Z",
+                "Frequency": "Once a Month",
+                "FrequencyLabel": "Once a Month",
+                "Hours per week": 20,
+                "IncomeTypeLabel": "Wages/Employment",
+                "Self Employment Business Type": null,
+                "SelfEmploymentExpenses": null,
+                "SetSchedule": null,
+                "Start Date": "2016-03-01T06:00:00.000Z",
+                "Type": "Wages/Employment"
+            },
+            {
+                "Amount": 200,
+                "AmountLabel": 200,
+                "EmployerName": "Self",
+                "End Date": null,
+                "Frequency": "Every Week",
+                "FrequencyLabel": "Every Week",
+                "Hours per week": 18,
+                "IncomeTypeLabel": "Self-Employment",
+                "Self Employment Business Type": null,
+                "SelfEmploymentExpenses": null,
+                "SetSchedule": null,
+                "Start Date": "2016-05-01T05:00:00.000Z",
+                "Type": "Self-Employment"
+            }
+        ],
+        "deltaIncome": 500
+    },
+    "PEname": "Child Care - Adams",
+    "PrevFullDay": 3,
+    "PrevHalfDay": 1.5,
+    "PreviousIncome": 1200,
+    "ProgramLevel": "Level 3",
+    "RedeterminationDate": "2018-12-06",
+    "TypeStep": {
+        "ContactInfoChanged": false,
+        "HouseholdStructureChange": false,
+        "IncomeChanged": true
+    },
+    "id": "a170a00000733JlAAI",
+    "layout": "lightning",
+    "testContextId": "a1R0a00000882qw",
+    "timeStamp": "2018-03-06T16:56:16.651Z",
+    "userCurrencyCode": "USD",
+    "userId": "0050a00000JOvohAAD",
+    "userName": "mattq@az2.demo",
+    "userProfile": "Vlocity Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    }
+}

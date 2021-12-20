@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ps__ProgramEnrollmentMemberId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Program Enrollment Member</label>
+    <referenceTo>vlocity_ps__ProgramEnrollmentMember__c</referenceTo>
+    <relationshipLabel>Program Enrollment Members</relationshipLabel>
+    <relationshipName>ProgramEnrollmentMembers</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

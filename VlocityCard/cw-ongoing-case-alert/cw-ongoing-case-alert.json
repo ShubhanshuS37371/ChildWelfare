@@ -1,0 +1,52 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "a0h6g000002LR9DAAW"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "CW-GetOngoingCaseAlerts",
+            "inputMap": {
+                "Id": "{{params.id}}"
+            }
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['AlertMessage']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['AlertMessage']",
+                    "type": "string"
+                }
+            ],
+            "name": "Active",
+            "templateUrl": "list-card-slds"
+        }
+    ],
+    "title": "Alerts"
+}

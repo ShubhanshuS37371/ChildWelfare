@@ -1,0 +1,22 @@
+{
+    "GetCandidatePlacementHomes": {
+        "Provider": {
+            "County": "Allen",
+            "LicensedAvailability": 3,
+            "MoreThanOneYearExperience": "Yes",
+            "Name": "Weatherford Household",
+            "PreferredAvailability": 2,
+            "PrimaryContactId": "1234",
+            "WillingToAdopt": "Yes"
+        }
+    },
+    "GetFosterCareChildInformation": {
+        "FosterChild": {
+            "Age": 8,
+            "Gender": "Male",
+            "LevelOfCare": "General",
+            "Name": "Braeden Anderson",
+            "Race": "Black or African American"
+        }
+    }
+}

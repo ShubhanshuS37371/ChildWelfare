@@ -1,0 +1,26 @@
+{
+    "ContextId": null,
+    "ServicePlanDetails": {
+        "ObjectiveDescription": null,
+        "PlanObjective": null,
+        "StartDate": null,
+        "Status": null,
+        "TargetCompletionDate": null,
+        "TypeAhead1-Block": {
+            "TypeAhead1": null
+        }
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRGetParticipants": null,
+        "DRSaveObjective": null,
+        "ServicePlanDetails": null,
+        "SetContextId": null
+    }
+}

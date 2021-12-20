@@ -1,0 +1,10 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "3a2186cd-14e5-13dd-094a-22a6fd6cbbe6",
+    "%vlocity_namespace%__PropertySet__c": "{\"graph\":{\"tooltip\":{},\"path\":{\"strength\":{\"5\":{\"strokeDasharray\":\"7,7\",\"strokeColor\":\"#1E2DDD\",\"strokeType\":\"solid\",\"strokeWidth\":\"4\"},\"4\":{\"strokeDasharray\":\"5,5\",\"strokeColor\":\"#67dd5f\",\"strokeType\":\"solid\",\"strokeWidth\":\"4\"},\"3\":{\"strokeDasharray\":\"3,3\",\"strokeColor\":\"#c6dd42\",\"strokeType\":\"solid\",\"strokeWidth\":\"3\"},\"2\":{\"strokeDasharray\":\"4,4\",\"strokeColor\":\"#c41c13\",\"strokeType\":\"solid\",\"strokeWidth\":\"2\"},\"1\":{\"strokeDasharray\":\"6,6\",\"strokeColor\":\"#666666\",\"strokeType\":\"dashed\",\"strokeWidth\":\"2\"}}},\"node\":{\"highlightedNode\":{\"stroke\":{\"width\":4,\"type\":\"solid\",\"color\":\"#F460AA\"}},\"shape\":{\"shapeDefinition\":{\"female\":\"circle\",\"male\":\"rect\"},\"shapeKey\":\"\",\"default\":\"circle\"},\"stroke\":{\"width\":2,\"type\":\"solid\",\"color\":\"#F46060\"},\"spacing\":1.5,\"titleField\":\"Name\",\"imageField\":\"PhotoUrl\"},\"height\":600,\"width\":700,\"backgroundColor\":\"#ffffff\"}}",
+    "%vlocity_namespace%__RelationshipGraphNodeType__c": "Contact_RelationshipGraphNodeTypes.json",
+    "%vlocity_namespace%__RelationshipGraphTraversal__c": "Contact_RelationshipGraphTraversals.json",
+    "Name": "Contact",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__RelationshipGraph__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__RelationshipGraph__c/3a2186cd-14e5-13dd-094a-22a6fd6cbbe6"
+}

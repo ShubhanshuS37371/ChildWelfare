@@ -1,0 +1,37 @@
+{
+    "CellPhone": "720-480-9042",
+    "CommentsImages": {
+        "Comments": null,
+        "Images": null
+    },
+    "ContactId": "0030b000026MaaqAAC",
+    "ContextId": "",
+    "General": {
+        "ExteriorLight": null,
+        "Isolation": null,
+        "Lights": null,
+        "Log": null,
+        "Plan": null,
+        "Supplies": null,
+        "System": null,
+        "Toxins": null
+    },
+    "NextStage": "Assessment Complete",
+    "ProgramEnrollmentId": "aCI0b000000fzIaGAI",
+    "QuestionCount": 8,
+    "SMSmessage": "Your assessment is now complete.",
+    "Sign": {
+        "Name": null,
+        "Score": 100
+    },
+    "id": "aBX0b000000kAMjGAM",
+    "layout": "lightning",
+    "timeStamp": "2018-10-12T00:45:19.182Z",
+    "userCurrencyCode": "USD",
+    "userId": "0050b000004rJ7DAAU",
+    "userName": "mattq@ccwis.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

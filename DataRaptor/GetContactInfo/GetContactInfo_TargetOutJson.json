@@ -1,0 +1,131 @@
+{
+    "Additional Information": {
+        "Additional Info": null
+    },
+    "Affidavit": {
+    },
+    "ApplicantStep": {
+        "ApplicantFirstName": null,
+        "ApplicantLastName": null,
+        "CellPhone": null,
+        "DOB": null,
+        "Email": null,
+        "Home Address-Block": {
+            "Home Address": null,
+            "HomeCity": null,
+            "HomeState": null,
+            "HomeStreet": null,
+            "HomeZip": null
+        },
+        "HomePhone": null,
+        "Marital Status": null,
+        "MilitaryStatus": null,
+        "National Guard": null,
+        "Race": null,
+        "SocialSecurityNumber": null,
+        "SpecialNeeds": null,
+        "SpecialNeedsProof": null,
+        "SpecificTribe": null,
+        "Tribe": null,
+        "USCitizen": null
+    },
+    "ContextId": null,
+    "Documents and eSignature": {
+        "Files": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "Signature": null
+    },
+    "HouseholdStep": {
+        "EditBlock2": {
+            "Checkbox5": null,
+            "Checkbox6": null,
+            "Checkbox7": null,
+            "Checkbox8": null,
+            "Date6": null,
+            "Email2": null,
+            "Multi-select5": null,
+            "Radio7": null,
+            "Select7": null,
+            "Select8": null,
+            "Telephone4": null,
+            "Telephone5": null,
+            "Text13": null,
+            "Text14": null,
+            "Text15": null,
+            "Text16": null
+        },
+        "TypeAhead2-Block": {
+            "Select9": null,
+            "Text17": null,
+            "Text18": null,
+            "Text19": null,
+            "TypeAhead2": null
+        }
+    },
+    "IncomeStep": {
+        "Income Source": {
+            "Amount": null,
+            "EmployerName": null,
+            "End Date": null,
+            "Frequency": null,
+            "Hours per week": null,
+            "Self Employment Business Type": null,
+            "SelfEmploymentExpenses": null,
+            "SetSchedule": null,
+            "Start Date": null,
+            "Type": null
+        }
+    },
+    "IntroStep": {
+    },
+    "NoticeStep": {
+        "I agree": null
+    },
+    "ProviderStep": {
+        "Provider Address": null,
+        "ProviderName": null,
+        "ProviderPhone": null
+    },
+    "ReasonsStep": {
+        "AssistanceInAnotherState": null,
+        "ChildCareLast30Days": null,
+        "Reasons": null,
+        "TeenParentInfo": {
+            "School Name": null,
+            "Semester Begin Date": null,
+            "Semester End Date": null
+        },
+        "WhichState": null
+    },
+    "Rights & Responsibilities": {
+    },
+    "SSSStep": {
+        "SelfSuffStatement": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Additional Information": null,
+        "Affidavit": null,
+        "ApplicantStep": null,
+        "DR-GetCommunityContact": null,
+        "Documents and eSignature": null,
+        "HouseholdStep": null,
+        "IncomeStep": null,
+        "IntroStep": null,
+        "NoticeStep": null,
+        "ProviderStep": null,
+        "ReasonsStep": null,
+        "Rights & Responsibilities": null,
+        "SSSStep": null
+    }
+}

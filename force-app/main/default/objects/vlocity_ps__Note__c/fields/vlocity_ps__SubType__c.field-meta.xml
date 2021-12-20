@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ps__SubType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Description: Subtype category of the note.</description>
+    <externalId>false</externalId>
+    <label>SubType</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>In-Person Visit</fullName>
+                <default>false</default>
+                <label>In-Person Visit</label>
+            </value>
+            <value>
+                <fullName>Phone Call</fullName>
+                <default>false</default>
+                <label>Phone Call</label>
+            </value>
+            <value>
+                <fullName>Initial Contact with Alleged Victim</fullName>
+                <default>false</default>
+                <label>Initial Contact with Alleged Victim</label>
+            </value>
+            <value>
+                <fullName>Initial Contact with Alleged Perpetrator</fullName>
+                <default>false</default>
+                <label>Initial Contact with Alleged Perpetrator</label>
+            </value>
+            <value>
+                <fullName>Contact with Alleged Victim</fullName>
+                <default>false</default>
+                <label>Contact with Alleged Victim</label>
+            </value>
+            <value>
+                <fullName>Contact with Alleged Perpetrator</fullName>
+                <default>false</default>
+                <label>Contact with Alleged Perpetrator</label>
+            </value>
+            <value>
+                <fullName>Contact with Household Members</fullName>
+                <default>false</default>
+                <label>Contact with Household Members</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

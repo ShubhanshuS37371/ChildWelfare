@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Placement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Placements</value>
+    </caseValues>
+    <fieldSets>
+        <label></label>
+        <name>vlocity_ps__InterestedApplicantsFieldSet</name>
+    </fieldSets>
+    <nameFieldLabel>Placement</nameFieldLabel>
+    <recordTypes>
+        <label></label>
+        <name>Foster_Care_Placement_Request_Layout</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>vlocity_ps__MaximumNumberOfRefusals</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>vlocity_ps__StartEndDateValidationRule</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>New_Placement</name>
+    </webLinks>
+</CustomObjectTranslation>

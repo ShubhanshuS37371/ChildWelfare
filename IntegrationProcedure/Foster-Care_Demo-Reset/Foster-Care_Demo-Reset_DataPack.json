@@ -1,0 +1,31 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Deletes supporting data for Kate Miller.  Note does not delete underlying Kate Miller record.",
+    "%vlocity_namespace%__CustomJavaScript__c": "{}",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "Foster-Care_Demo-Reset_Element_GetFosterCareDemoDataIds.json",
+        "Foster-Care_Demo-Reset_Element_DeleteDemoData.json",
+        "Foster-Care_Demo-Reset_Element_GetDemoData.json",
+        "Foster-Care_Demo-Reset_Element_SetNextStage.json",
+        "Foster-Care_Demo-Reset_Element_ResetEnrollmenttoInterest.json",
+        "Foster-Care_Demo-Reset_Element_GetAlertId.json",
+        "Foster-Care_Demo-Reset_Element_SetAlertValues.json",
+        "Foster-Care_Demo-Reset_Element_UpdateAlert.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__OmniProcessType__c": "Integration Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "FosterCare_DemoReset",
+    "%vlocity_namespace%__PropertySet__c": "Foster-Care_Demo-Reset_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "Demo Reset",
+    "%vlocity_namespace%__Type__c": "Foster Care",
+    "CurrencyIsoCode": "USD",
+    "Name": "Foster Care Demo Reset",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Foster Care/Demo Reset/Procedure"
+}

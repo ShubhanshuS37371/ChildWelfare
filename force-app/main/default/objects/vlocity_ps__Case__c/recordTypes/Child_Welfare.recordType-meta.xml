@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Child_Welfare</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Ongoing_Case_Compact_Layout</compactLayoutAssignment>
+    <description>A long running benefit case for family / children in a child welfare program</description>
+    <label>Child Welfare</label>
+    <picklistValues>
+        <picklist>Recommendation__c</picklist>
+        <values>
+            <fullName>Close</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer to Ongoing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_ps__Stage__c</picklist>
+        <values>
+            <fullName>Appeal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assessment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implementation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intake</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monitoring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planning</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_ps__Status__c</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_ps__Type__c</picklist>
+        <values>
+            <fullName>Child Welfare</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Foster Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out-of-home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Permanency</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

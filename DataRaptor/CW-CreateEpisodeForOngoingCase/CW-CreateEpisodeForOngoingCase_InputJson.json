@@ -1,0 +1,25 @@
+{
+    "ContextId": null,
+    "EpisodeDetails": {
+        "Reason": null,
+        "RemovalEpisodeFrom": null,
+        "RemovalType": null,
+        "SearchChildName-Block": {
+            "ChildId": null,
+            "SearchChildName": null
+        },
+        "StartDate": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRCreateEpisode": null,
+        "EpisodeDetails": null,
+        "SetValues1": null
+    }
+}

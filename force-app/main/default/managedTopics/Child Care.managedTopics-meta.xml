@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>Child Care.Featured:Ask A Case Worker</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Ask A Case Worker</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Child Care.Featured:Child Care Services</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Child Care Services</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Child Care.Featured:FAQs</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>FAQs</name>
+        <parentName></parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Child Care.Featured:Family Support</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Family Support</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Child Care.Featured:Provider Reviews</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Provider Reviews</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Child Care.Featured:Special Needs</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Special Needs</name>
+        <parentName></parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Child Care.Navigational:Ask A Case Worker</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Ask A Case Worker</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Child Care.Navigational:Child Care Services</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Child Care Services</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Child Care.Navigational:FAQs</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>FAQs</name>
+        <parentName></parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Child Care.Navigational:Family Support</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Family Support</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Child Care.Navigational:Provider Reviews</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Provider Reviews</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Child Care.Navigational:Special Needs</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Special Needs</name>
+        <parentName></parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+</ManagedTopics>

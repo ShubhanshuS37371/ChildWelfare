@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>vlocity_ps__ConsoleAdminSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>vlocity_ps__VlocityAdmin</name>
+    </fieldSets>
+    <webLinks>
+        <label></label>
+        <name>vlocity_ps__ContentAttributes</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>vlocity_ps__Export</name>
+    </webLinks>
+</CustomObjectTranslation>

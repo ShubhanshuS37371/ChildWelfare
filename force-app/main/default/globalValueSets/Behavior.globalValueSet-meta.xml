@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>None</fullName>
+        <default>true</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>Difficulty connecting with others</fullName>
+        <default>false</default>
+        <label>Difficulty connecting with others</label>
+    </customValue>
+    <customValue>
+        <fullName>History of Chronic Lying</fullName>
+        <default>false</default>
+        <label>History of Chronic Lying</label>
+    </customValue>
+    <customValue>
+        <fullName>Lack of impulse control</fullName>
+        <default>false</default>
+        <label>Lack of impulse control</label>
+    </customValue>
+    <customValue>
+        <fullName>Physical Aggression toward Animals</fullName>
+        <default>false</default>
+        <label>Physical Aggression toward Animals</label>
+    </customValue>
+    <masterLabel>Behavior</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

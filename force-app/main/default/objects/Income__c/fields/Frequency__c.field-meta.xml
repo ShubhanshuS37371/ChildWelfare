@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Frequency__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>What is the frequency of how the person is paid?  A pay period is generally the time over which you are paid to do your job. This is usually listed on your paycheck. Often the frequency will be one month, two weeks or twice a month.</inlineHelpText>
+    <label>Frequency</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Every Week</fullName>
+                <default>false</default>
+                <label>Every Week</label>
+            </value>
+            <value>
+                <fullName>Every 2 Weeks</fullName>
+                <default>false</default>
+                <label>Every 2 Weeks</label>
+            </value>
+            <value>
+                <fullName>Twice a Month</fullName>
+                <default>false</default>
+                <label>Twice a Month</label>
+            </value>
+            <value>
+                <fullName>Once a Month</fullName>
+                <default>false</default>
+                <label>Once a Month</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

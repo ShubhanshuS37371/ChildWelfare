@@ -1,0 +1,26 @@
+{
+    "Cards": [
+        "cw-create-objectives-services"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "a0M6g000002hbhQEAQ"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "jsonMap": "{\"params.Id||params.id\":\"{{params.Id||params.id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-simple-slds"
+        }
+    },
+    "workspace": [
+        "cw-create-objectives-services/vlocityDev/1/1582135684470"
+    ]
+}

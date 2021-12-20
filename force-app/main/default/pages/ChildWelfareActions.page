@@ -1,0 +1,7 @@
+<apex:page standardController="Contact" extensions="vlocity_ps.VFPageControllerBase" showHeader="false" sidebar="false" docType="html-5.0">
+    <apex:stylesheet value="{!URLFOR($Resource.vlocity_icons, '/css/vlocity-icons.css')}"/>
+        <vlocity_ps:ActionComponent standardController="{!stdController}" 
+                            objType="Child Welfare"
+                            style="Horizontal"/>      
+
+</apex:page>

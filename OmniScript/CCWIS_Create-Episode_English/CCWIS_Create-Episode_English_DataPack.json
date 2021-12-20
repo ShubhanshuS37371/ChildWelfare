@@ -1,0 +1,33 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Wyoming demo version",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "CCWIS_Create-Episode_English_Element_SetValues1.json",
+        "CCWIS_Create-Episode_English_Element_DRGetCaseType.json",
+        "CCWIS_Create-Episode_English_Element_EpisodeDetails.json",
+        "CCWIS_Create-Episode_English_Element_SearchChildName.json",
+        "CCWIS_Create-Episode_English_Element_DRGetAllegedVictims.json",
+        "CCWIS_Create-Episode_English_Element_RemovalType.json",
+        "CCWIS_Create-Episode_English_Element_StartDate.json",
+        "CCWIS_Create-Episode_English_Element_Reason.json",
+        "CCWIS_Create-Episode_English_Element_RemovalEpisodeFrom.json",
+        "CCWIS_Create-Episode_English_Element_DRCreateEpisodeForOngoingCase.json",
+        "CCWIS_Create-Episode_English_Element_DRCreateEpisodeForInvestigation.json",
+        "CCWIS_Create-Episode_English_Element_DoneActionOngoingCase.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__OmniProcessType__c": "OmniScript",
+    "%vlocity_namespace%__PropertySet__c": "CCWIS_Create-Episode_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "Create Episode",
+    "%vlocity_namespace%__Type__c": "CCWIS",
+    "CurrencyIsoCode": "USD",
+    "Name": "CCWIS Create Episode",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CCWIS/Create Episode/English"
+}

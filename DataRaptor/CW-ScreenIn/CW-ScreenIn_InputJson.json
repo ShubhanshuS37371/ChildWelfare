@@ -1,0 +1,177 @@
+{
+    "ContextId": null,
+    "Step24HourOverrideNeglect": {
+        "BlockFor24HourOverrideResponseNeglect": {
+        }
+    },
+    "Step24HourOverridePhysicalAbuse": {
+        "BlockFor24HourOverrideResponsePhysicalAbuse": {
+        }
+    },
+    "StepEmotionalAbuseResponse": {
+        "EmotionalAbuseBlock": {
+            "CaregiverActionLedTo": null,
+            "EmotionalAbuseScoreBlock": {
+                "EmotionalAbuseScoreFormula": null
+            },
+            "ExposureToDomesticViolence": null
+        }
+    },
+    "StepNeglectResponse": {
+        "NeglectBlock": {
+            "AdditionalGeneralNeglectQuestions": {
+                "CaregiverAbsence": null,
+                "ChildrenInvolvedInCriminalActivity": null,
+                "FailureToProtect": null,
+                "InadequateClothing": null,
+                "InadequateFood": null,
+                "InadequateHealthcare": null,
+                "InadequateShelter": null,
+                "InadequateSupervision": null
+            },
+            "AdditionalSevereNeglectQuestions": {
+                "ChildHealthEndangered": null,
+                "ChildNeglectAnotherChild": null,
+                "DiagnosedMalnutrition": null,
+                "NonOrganicFailure": null
+            },
+            "AdditionalThreatOfNeglectQuestions": {
+                "ChildAllowedToUseDrugs": null,
+                "HighRiskBirth": null,
+                "PreNatalSubstanceUse": null,
+                "PriorDeathDueToNeglect": null,
+                "PriorFailedReunification": null
+            },
+            "GeneralNeglect": null,
+            "NeglectScoreBlock": {
+                "24HourOverrideFormulaNeglect": null,
+                "NeglectScoreFormula": null
+            },
+            "SevereNeglect": null,
+            "ThreatOfNeglect": null
+        }
+    },
+    "StepOverrides": {
+        "OverrideBlock": {
+            "DiscretionaryOverrideCheckbox": null,
+            "DiscretionaryOverrideReasonText": null,
+            "OverrideCaregiverActionCheckbox": null,
+            "OverrideNonAccidentalInjuryCheckbox": null,
+            "OverrideSevereInjuryCheckbox": null,
+            "OverrideSexualAbuseCheckbox": null
+        }
+    },
+    "StepPhysicalAbuseResponse": {
+        "PhysicalAbuseBlock": {
+            "AdditionalNon-AccidentalOrSuspiciousInjuryQuestions": {
+                "DeathOfAChild": null,
+                "IsItSevere": null,
+                "OtherInjuryOtherThanVeryMinor": null
+            },
+            "CaregiverAction": null,
+            "NonAccidental": null,
+            "PhysicalAbuseScoreBlock": {
+                "24HourOverrideFormulaPhysicalAbuse": null,
+                "PhysicalAbuseScoreFormula": null
+            },
+            "PriorDeath": null
+        }
+    },
+    "StepSexualAbuseResponse": {
+        "SexualAbuseBlock": {
+            "AdditionalThreatOfSexualAbuseQuestions": {
+                "KnownOrHighlySuspectedPerpetrator": null,
+                "SeverelyInappropriateSexualBoundaries": null
+            },
+            "PhysicalBehavioralSuspiciousIndicators": null,
+            "SexualAbuseScoreBlock": {
+                "SexualAbuseScoreFormula": null
+            },
+            "SexualActByAdultCaregiver": null,
+            "SexualActsAmongSiblings": null,
+            "SexualExploitation": null,
+            "ThreatOfSexualAbuse": null
+        }
+    },
+    "StepShowEmotionalAbuseDecisionTree": {
+        "CaregiversBehaviorCruelBizarreDangerous": null,
+        "ChildExhibitingBehavior": null,
+        "EmotionalAbuseTreeScoreBlock": {
+            "EmotionalAbuseTreeScoreFormula": null
+        }
+    },
+    "StepShowNeglectDecisionTree": {
+        "ChildCurrentlyUnsupervised": null,
+        "ChildRequiresImmediateMedicalMental": null,
+        "ChildsPhysicalLivingConditionsHazardous": null,
+        "NeglectTreeScoreBlock": {
+            "NeglectTreeScoreFormula": null
+        },
+        "SubstanceExposedNewbornDischargedin10Days": null
+    },
+    "StepShowPhysicalAbuseDecisionTree": {
+        "IsThereACareGiver": {
+            "IsThereNonperpetratingCaregiverOfAllegedAbuseTwo": null
+        },
+        "PhysicalAbuseDecisionTreeScoreBlock": {
+            "PhysicalAbuseDecisionTreeScoreFormula": null
+        },
+        "PhysicalAbuseDecisionTreeSubBlockOne": {
+            "AllegationOfPhysicalInjuryToNonMobileChild": null,
+            "CaregiversBehaviorAllegedToBeDangerousOrThreatening": null,
+            "MedicalCareRequiredDuetoAbuse": null
+        },
+        "PhysicalAbuseDecisionTreeSubBlockTwo": {
+            "ChildIsFearful": null,
+            "ThereIsCurrentConcernThatDomesticViolenceWillImpactSafety10Days": null,
+            "ThereIsPriorHistoryOfPhysicalAbuse": null
+        }
+    },
+    "StepShowSexualAbuseDecisionTree": {
+        "IsThereCurrentAbuseExploitation": null,
+        "NonPerpetratingQuestion": {
+            "IsThereNonPerpetratingCaregiver": null
+        },
+        "SexualAbuseTreeScoreOneBlock": {
+            "SexualAbuseDecisionTreeScoreOneFormula": null
+        },
+        "SexualAbuseTreeScoreTwoBlock": {
+            "SexualAbuseDecisionTreeScoreTwoFormula": null
+        }
+    },
+    "StepSummary": {
+        "ChildWelfareHotlineAssessmentSummaryBlock": {
+            "EmotionalAbuseAllegationsBlock": {
+            },
+            "NeglectAllegationsBlock": {
+            },
+            "PhysicalAbuseAllegationsBlock": {
+            },
+            "SexualAbuseAllegationsBlock": {
+            }
+        },
+        "FinalResponseFormula": null,
+        "ScreeningRecommendationFormula": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Step24HourOverrideNeglect": null,
+        "Step24HourOverridePhysicalAbuse": null,
+        "StepEmotionalAbuseResponse": null,
+        "StepNeglectResponse": null,
+        "StepOverrides": null,
+        "StepPhysicalAbuseResponse": null,
+        "StepSexualAbuseResponse": null,
+        "StepShowEmotionalAbuseDecisionTree": null,
+        "StepShowNeglectDecisionTree": null,
+        "StepShowPhysicalAbuseDecisionTree": null,
+        "StepShowSexualAbuseDecisionTree": null,
+        "StepSummary": null
+    }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Foster_Children</fullName>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>vlocity_ps__Stage__c</columns>
+    <columns>vlocity_ps__Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>vlocity_ps__ProgramEnrollment__c.Foster_Care_Children_Placement</value>
+    </filters>
+    <label>All Foster Children</label>
+</ListView>

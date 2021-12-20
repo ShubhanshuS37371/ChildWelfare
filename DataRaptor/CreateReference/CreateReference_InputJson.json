@@ -1,0 +1,76 @@
+{
+    "Availibility": {
+        "BedroomAvailability": null,
+        "FosterCareProgram": "Crisis Care",
+        "Number1": null,
+        "Radio3": null
+    },
+    "ContextId": "",
+    "DRId_Contact": "003f400000aFGrDAAW",
+    "FosterBackground": {
+        "Employer": null,
+        "Profession": null,
+        "SpokenLanguages": "Spanish"
+    },
+    "FosterParentInformation": {
+        "AddressTypeAhead-Block": {
+            "AddressTypeAhead": "rty",
+            "City": null,
+            "Country": null,
+            "PostalCode": null,
+            "State": null,
+            "Street": null
+        },
+        "ContactInfo": {
+            "HomePhone": null,
+            "MobileNumber": "0903639796",
+            "WorkPhone": null
+        },
+        "Email": "palbbharati@gmail.com",
+        "FirstName": "bhjg",
+        "LastName": "knbhj"
+    },
+    "FosterReferenceCheck": {
+        "Block3": {
+            "Address": {
+                "RefCity": null,
+                "RefCountry": null,
+                "RefPostalCode": null,
+                "RefState": null,
+                "RefStreet": null
+            },
+            "RefEmail": null,
+            "RefFirstName": "Neha",
+            "RefLastName": "NehaWasim",
+            "RefPhone": null,
+            "Relationship": "Spouse"
+        }
+    },
+    "PriorFosterExperience": {
+        "Block2": null,
+        "Radio1": "N",
+        "TextArea1": "dd"
+    },
+    "SourceId": "a1Hf4000002RmlgEAC",
+    "id": "a17f40000020NAlAAM",
+    "layout": "lightning",
+    "timeStamp": "2018-09-20T06:54:54.375Z",
+    "userCurrencyCode": "USD",
+    "userId": "005f4000000Z2TXAA0",
+    "userName": "sp@ps-demo.demo",
+    "userProfile": "Vlocity Administrator",
+    "userTimeZone": 330,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Availibility": 9853,
+        "DR-CreateApplicant": 964,
+        "DR-CreateReference": 1103,
+        "FosterBackground": 2029,
+        "FosterParentInformation": 40534,
+        "FosterReferenceCheck": 80607,
+        "OmniScriptSessionToken": "f508f9ad-5ea5-415e-b69a-98b0175dc784",
+        "PriorFosterExperience": 4273,
+        "SourceExtraction": 2217
+    }
+}

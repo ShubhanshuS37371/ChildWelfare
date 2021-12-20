@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investigation_Compact</fullName>
+    <fields>Name</fields>
+    <fields>vlocity_ps__DateOpened__c</fields>
+    <fields>Last_Contact__c</fields>
+    <fields>Number_of_Allegations__c</fields>
+    <fields>vlocity_ps__Status__c</fields>
+    <fields>DaysLeft__c</fields>
+    <fields>Next_Court_Date__c</fields>
+    <label>Investigation Compact</label>
+</CompactLayout>

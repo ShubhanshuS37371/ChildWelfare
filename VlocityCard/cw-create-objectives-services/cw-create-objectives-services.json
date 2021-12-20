@@ -1,0 +1,73 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "Add Objective",
+                        "hasExtraParams": false,
+                        "id": "AddObjective",
+                        "isCustomAction": true,
+                        "omniLang": "English",
+                        "omniSubType": "Create Objective",
+                        "omniType": "CCWIS",
+                        "openUrlIn": "New Tab / Window",
+                        "type": "OmniScript",
+                        "vForcewithNsPrefix": "%vlocity_namespace%__OmniScriptUniversalPageConsole",
+                        "visualForce": "OmniScriptUniversalPageConsole",
+                        "vlocityIcon": "icon-v-calendar-line"
+                    },
+                    {
+                        "collapse": false,
+                        "displayName": "Add Service",
+                        "hasExtraParams": false,
+                        "id": "AddService",
+                        "isCustomAction": true,
+                        "omniLang": "English",
+                        "omniSubType": "Create Services",
+                        "omniType": "CCWIS",
+                        "openUrlIn": "_self",
+                        "type": "OmniScript",
+                        "vForcewithNsPrefix": "%vlocity_namespace%__OmniScriptUniversalPageConsole",
+                        "visualForce": "OmniScriptUniversalPageConsole",
+                        "vlocityIcon": "icon-v-iq-line"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Id']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['Id']",
+                    "type": "string"
+                }
+            ],
+            "name": "Active",
+            "sObjectType": null,
+            "templateUrl": "cw-action-grid-card-slds"
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+RelationshipGraph:
+  VlocityDataPackType: RelationshipGraph
+  query: Select Id from %vlocity_namespace%__RelationshipGraph__c

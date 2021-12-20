@@ -1,0 +1,12 @@
+<script type="text/ng-template" id="goback.html">
+	<div ng-repeat='control in child.eleArray' class='col-md-{{::control.propSetMap.controlWidth}} col-sm-{{::control.propSetMap.controlWidth}}'>
+		<div class='vlc-no-label'>                      
+			<button
+				class='form-control btn btn-primary btn-ellipsis' 
+				ng-class="{ 'vlc-inactive': false }" 
+				title='{{::control.propSetMap.label}}' 
+				ng-click="reset(bpTree.response);sidebarNav((bpTree.children | filter:{name: control.propSetMap.elementValueMap.target})[0])">{{::control.propSetMap.label}}</button>
+		</div>
+		<div class='vlc-sub-block'></div>
+	</div>
+</script>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please select the type of employment-related income</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cash Assistance</fullName>
+                <default>false</default>
+                <label>Cash Assistance</label>
+            </value>
+            <value>
+                <fullName>Child Support/Alimony</fullName>
+                <default>false</default>
+                <label>Child Support/Alimony</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Pension/Retirement</fullName>
+                <default>false</default>
+                <label>Pension/Retirement</label>
+            </value>
+            <value>
+                <fullName>Self-Employment</fullName>
+                <default>false</default>
+                <label>Self-Employment</label>
+            </value>
+            <value>
+                <fullName>Social Security</fullName>
+                <default>false</default>
+                <label>Social Security</label>
+            </value>
+            <value>
+                <fullName>SSI</fullName>
+                <default>false</default>
+                <label>SSI</label>
+            </value>
+            <value>
+                <fullName>Tribal Payments</fullName>
+                <default>false</default>
+                <label>Tribal Payments</label>
+            </value>
+            <value>
+                <fullName>Unemployment Compensation</fullName>
+                <default>false</default>
+                <label>Unemployment Compensation</label>
+            </value>
+            <value>
+                <fullName>Veteran&apos;s Benefit</fullName>
+                <default>false</default>
+                <label>Veteran&apos;s Benefit</label>
+            </value>
+            <value>
+                <fullName>Wages/Employment</fullName>
+                <default>true</default>
+                <label>Wages/Employment</label>
+            </value>
+            <value>
+                <fullName>Worker&apos;s Compensation</fullName>
+                <default>false</default>
+                <label>Worker&apos;s Compensation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

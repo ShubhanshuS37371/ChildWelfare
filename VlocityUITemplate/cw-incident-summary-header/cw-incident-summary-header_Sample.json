@@ -1,0 +1,44 @@
+{
+    "data": {
+        "actions": [
+            {
+                "displayName": "Apply for License",
+                "vlocityIcon": "icon-v-modify-contract"
+            },
+            {
+                "displayName": "Update Communication Preferences",
+                "vlocityIcon": "icon-v-call-list"
+            },
+            {
+                "displayName": "Contact",
+                "vlocityIcon": "icon-v-email"
+            }
+        ],
+        "fields": [
+            {
+                "label": "",
+                "name": "ContactName"
+            },
+            {
+                "label": "Employer",
+                "name": "ContactEmployer"
+            },
+            {
+                "label": "Home Address",
+                "name": "ContactAddress"
+            },
+            {
+                "label": "Contact Preference",
+                "name": "ContactPreference"
+            }
+        ],
+        "title": "Event"
+    },
+    "obj": {
+        "ContactAddress": "2325 McKinley Avenue, Berkeley, CA, 94703",
+        "ContactEmployer": "XYZ Corporation",
+        "ContactName": "Rafael Garcia",
+        "ContactPreference": "SMS",
+        "PhotoURL": "/resource/RafaelGarcia"
+    }
+}

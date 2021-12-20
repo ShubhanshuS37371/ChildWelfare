@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ps__Incident_Date_Reported_Date</fullName>
+    <active>true</active>
+    <errorConditionFormula>DATEVALUE(vlocity_ps__IncidentDateTime__c) &gt; vlocity_ps__ReportedDate__c</errorConditionFormula>
+    <errorMessage>Incident date cannot be greater than Reported date</errorMessage>
+</ValidationRule>

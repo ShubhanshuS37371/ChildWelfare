@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ps__Active__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF( ( !ISNULL(vlocity_ps__StartDate__c) &amp;&amp;  ISNULL(vlocity_ps__EndDate__c) &amp;&amp;  TEXT(vlocity_ps__Status__c) == &apos;Placement Active&apos; &amp;&amp; Today() &gt;= vlocity_ps__StartDate__c) || (!ISNULL(vlocity_ps__StartDate__c) &amp;&amp; !ISNULL(vlocity_ps__EndDate__c) &amp;&amp; TEXT(vlocity_ps__Status__c) == &apos;Placement Active&apos; &amp;&amp; Today() &gt;= vlocity_ps__StartDate__c &amp;&amp; Today() &lt;= vlocity_ps__EndDate__c) , true, false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Active</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

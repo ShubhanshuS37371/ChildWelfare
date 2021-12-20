@@ -1,0 +1,45 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "VPLXXX-ChildWelfareResponseScreen",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPLXXX/MandatoryReporter/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "VPLXXX-ChildWelfareResponseScreen",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/VPLXXX/MandatoryReporter/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "StepSummary",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPLXXX/MandatoryReporter/English/StepSummary",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "StepSummary",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 0,
+        "dataType": "Text",
+        "dateFormat": "MM-dd-yyyy",
+        "disOnTplt": false,
+        "expression": "IF(OR(%ExposureToDomesticViolence%=\"Yes\",%CaregiverActionLedTo%=\"Yes\",%KnownOrHighlySuspectedPerpetrator%=\"Yes\",%SeverelyInappropriateSexualBoundaries%=\"Yes\",%PhysicalBehavioralSuspiciousIndicators%=\"Yes\",%SexualActsAmongSiblings%=\"Yes\",%SexualExploitation%=\"Yes\",%ThreatOfSexualAbuse%=\"Yes\",%SexualActByAdultCaregiver%=\"Yes\",%PriorDeathDueToNeglect%=\"Yes\",%ChildAllowedToUseDrugs%=\"Yes\",%PreNatalSubstanceUse%=\"Yes\",%HighRiskBirth%=\"Yes\",%PriorFailedReunification%=\"Yes\",%InadequateClothing%=\"Yes\",%InadequateShelter%=\"Yes\",%InadequateSupervision%=\"Yes\",%InadequateHealthcare%=\"Yes\",%CaregiverAbsence%=\"Yes\",%FailureToProtect%=\"Yes\",%ChildrenInvolvedInCriminalActivity%=\"Yes\",%InadequateFood%=\"Yes\",%NonOrganicFailure%=\"Yes\",%ChildHealthEndangered%=\"Yes\",%ChildNeglectAnotherChild%=\"Yes\",%DiagnosedMalnutrition%=\"Yes\",%ThreatOfNeglect%=\"Yes\",%GeneralNeglect%=\"Yes\",%SevereNeglect%=\"Yes\",%IsThereNonperpetratingCaregiverOfAllegedAbuseTwo%=\"Yes\",%CaregiversBehaviorAllegedToBeDangerousOrThreatening%=\"Yes\",%AllegationOfPhysicalInjuryToNonMobileChild%=\"Yes\",%MedicalCareRequiredDuetoAbuse%=\"Yes\",%ThereIsPriorHistoryOfPhysicalAbuse%=\"Yes\",%ThereIsCurrentConcernThatDomesticViolenceWillImpactSafety10Days%=\"Yes\",%ChildIsFearful%=\"Yes\",%CaregiversBehaviorCruelBizarreDangerous%=\"Yes\",%ChildExhibitingBehavior%=\"Yes\",%ChildsPhysicalLivingConditionsHazardous%=\"Yes\",%ChildCurrentlyUnsupervised%=\"Yes\",%SubstanceExposedNewbornDischargedin10Days%=\"Yes\",%ChildRequiresImmediateMedicalMental%=\"Yes\",%IsThereNonPerpetratingCaregiver%=\"No\",%IsItSevere%=\"Yes\",%OtherInjuryOtherThanVeryMinor%=\"Yes\",%DeathOfAChild%=\"Yes\",%PriorDeath%=\"Yes\",%CaregiverAction%=\"Yes\",%NonAccidental%=\"Yes\"),\"Screen-In\",\"Screen-Out\")",
+        "hide": false,
+        "hideGroupSep": false,
+        "inputWidth": 12,
+        "label": "ScreeningRecommendationFormula",
+        "mask": null,
+        "show": null,
+        "showInputWidth": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": true,
+    "%vlocity_namespace%__Type__c": "Formula",
+    "CurrencyIsoCode": "USD",
+    "Name": "ScreeningRecommendationFormula",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/VPLXXX/MandatoryReporter/English/ScreeningRecommendationFormula"
+}

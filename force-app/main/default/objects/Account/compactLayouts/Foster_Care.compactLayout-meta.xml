@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Foster_Care</fullName>
+    <fields>Name</fields>
+    <fields>X1_yr_experience__c</fields>
+    <fields>Religion__c</fields>
+    <fields>Licensed_Availability__c</fields>
+    <fields>Preferred_Availability__c</fields>
+    <fields>Willing_to_Adopt__c</fields>
+    <label>Foster Care</label>
+</CompactLayout>

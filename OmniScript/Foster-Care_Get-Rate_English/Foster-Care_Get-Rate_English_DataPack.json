@@ -1,0 +1,29 @@
+{
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "Foster-Care_Get-Rate_English_Element_SetValues1.json",
+        "Foster-Care_Get-Rate_English_Element_GetMembers.json",
+        "Foster-Care_Get-Rate_English_Element_RegularFosterCareRates.json",
+        "Foster-Care_Get-Rate_English_Element_RespiteCareRates.json",
+        "Foster-Care_Get-Rate_English_Element_SetValues2.json",
+        "Foster-Care_Get-Rate_English_Element_CalcRate.json",
+        "Foster-Care_Get-Rate_English_Element_CalculatedRate.json",
+        "Foster-Care_Get-Rate_English_Element_SaveDailyRate.json",
+        "Foster-Care_Get-Rate_English_Element_DoneAction1.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__OmniProcessType__c": "OmniScript",
+    "%vlocity_namespace%__PropertySet__c": "Foster-Care_Get-Rate_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "Get Rate",
+    "%vlocity_namespace%__Type__c": "Foster Care",
+    "CurrencyIsoCode": "USD",
+    "Name": "Foster Care Get Rate",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Foster Care/Get Rate/English"
+}

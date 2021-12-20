@@ -1,0 +1,30 @@
+{
+    "ContactId": "0030b000026MaaqAAC",
+    "ContextId": "",
+    "ProgramEnrollmentId": "aCI0b000000fzIaGAI",
+    "Select": {
+        "ClassList": [
+            {
+                "$$hashKey": "object:92",
+                "Id": "111111",
+                "class_name": "Foster Parenting 101",
+                "class_time": "6:30pm",
+                "duration": "2 hours",
+                "number": "4",
+                "schedule": "M-F-W",
+                "start_date": "10/15/2018",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "id": "aBX0b000000kAJUGA2",
+    "layout": "lightning",
+    "timeStamp": "2018-10-08T03:57:05.420Z",
+    "userCurrencyCode": "USD",
+    "userId": "0050b000004rJ7DAAU",
+    "userName": "mattq@ccwis.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

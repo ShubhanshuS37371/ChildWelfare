@@ -1,0 +1,6 @@
+[
+    "DataRaptor/CW-GetIncidentSummary",
+    "VlocityAction/CW-OpenIncident",
+    "VlocityUILayout/cw-incident-flyout-narrative",
+    "VlocityUITemplate/cw-incident-summary-header"
+]

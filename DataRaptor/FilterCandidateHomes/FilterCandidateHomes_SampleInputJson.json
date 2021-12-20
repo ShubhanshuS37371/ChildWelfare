@@ -1,0 +1,41 @@
+{
+    "FosterChild": {
+        "Age": 8,
+        "Behavior": "None",
+        "County": "Allen",
+        "Gender": "Male",
+        "InterestsActivities": "Basketball;Soccer",
+        "LevelOfCare": "General",
+        "MedicalDiagnoses": "None",
+        "MentalHealthDiagnoses": "None",
+        "Name": "Braeden Anderson",
+        "Race": "Black or African American",
+        "Religion": "Christianity"
+    },
+    "FosterHome": [
+        {
+            "County": "Allen",
+            "LicensedAvailability": 2,
+            "MatchingScore": 75,
+            "MoreThanOneYearExperience": "Yes",
+            "Name": "Bennett",
+            "PreferredAvailability": 2,
+            "PrimaryContactId": "0033i000003Lb0dAAC",
+            "Recommendation": "Highly Recommended",
+            "Religion": "Christianity",
+            "WillingToAdopt": "Yes"
+        },
+        {
+            "County": "Jefferson",
+            "LicensedAvailability": 3,
+            "MatchingScore": 25,
+            "MoreThanOneYearExperience": "Yes",
+            "Name": "Weatherford Household",
+            "PreferredAvailability": 2,
+            "PrimaryContactId": "0033i000003Q1P3AAK",
+            "Recommendation": "Highly Recommended",
+            "WillingToAdopt": "Yes",
+            "WouldConsider": "History of Chronic Lying"
+        }
+    ]
+}

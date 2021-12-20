@@ -1,0 +1,48 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Child Welfare Safety Assessment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Child Welfare/Safety Assessment/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Child Welfare Safety Assessment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Child Welfare/Safety Assessment/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "stpSafetyThreats",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Child Welfare/Safety Assessment/English/stpSafetyThreats",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "stpSafetyThreats",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "checkLabel": "2.  Child sexual abuse is suspected, AND circumstances suggest that the child’s safety may be of immediate concern.",
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "defaultValue": false,
+        "disOnTplt": false,
+        "help": true,
+        "helpText": "Suspicion of sexual abuse may be based on indicators such as: • The child discloses sexual abuse verbally. • The child displays behaviors that strongly indicate sexual abuse (e.g., excessive, age- inappropriate sexualized behavior toward self or others). • Medical findings consistent with molestation.  The caregiver or others in the household have been convicted, investigated, or accused of rape or sodomy, or have had other sexual contact with the child. • The caregiver or others in the household have forced or encouraged the child to engage in sexual performances or activities (including forcing the child to observe sexual performances or activities, or commercial sexual exploitation, including sex trafficking). » Children and youth aged 17 years old and younger are sexually exploited when they have engaged in, solicited for, or been forced to engage in sexual conduct or performance of sexual acts (e.g., stripping) in return for a benefit, such as money, food, drugs, shelter, clothing, gifts, or other goods, or for financial or some other gain for a third party. The sexual conduct may include any direct sexual contact or performing any acts, sexual or nonsexual, for the sexual gratification of others. These acts constitute sexual exploitation regardless of whether they are live, filmed, or photographed. » Commercial sexual exploitation of children/youth/young adults may include prostitution, pornography, trafficking for sexual purposes, and other forms of sexual exploitation. The youth is treated as a sexual object and as a commercial object. The sexual exploitation of the child may profit a much wider range of people than the immediate beneficiary of the transaction. The child’s safety may be of immediate concern if: • There is not a non-offending caregiver, or the non-offending caregiver is not protective (blaming the child for the sexual abuse or the investigation or denying that the sexual abuse occurred) or is otherwise influencing or coercing the child victim regarding disclosure. • Access to a child by a confirmed sexual abuse perpetrator, especially with known restrictions regarding any child under age 18, exists.",
+        "hide": false,
+        "label": "2.  Child sexual abuse is suspected, AND circumstances suggest that the child’s safety may be of immediate concern.",
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "show": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Checkbox",
+    "CurrencyIsoCode": "USD",
+    "Name": "chkSexualAbuseSuspected",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Child Welfare/Safety Assessment/English/chkSexualAbuseSuspected"
+}

@@ -1,0 +1,49 @@
+<div class="alert-card slds-theme--{{data.theme || 'shadow'}} level-{{data.obj.Priority__c}}-{{data.obj.Status__c}}"
+    ng-controller = "AlertController"
+    ng-show="showAlert"
+    ng-init="alertEnabled(obj)"
+>
+
+    <div class="slds-grid slds-wrap slds-grid--pull-padded slds-p-bottom--small slds-p-top--small alert-card-header">
+        <div class="slds-text-align--left slds-p-horizontal--small slds-shrink slds-align-middle">
+            <slds-svg-icon sprite="'utility'" icon="'warning'" size="'medium'" no-hint="true" extra-classes="'slds-col slds-no-flex'" ng-if="data.obj.Priority__c== 'High'"></slds-svg-icon>
+            <slds-svg-icon sprite="'utility'" icon="'info'" size="'medium'" no-hint="true" extra-classes="'slds-col slds-no-flex'" ng-if="data.obj.Priority__c !='High'"></slds-svg-icon>
+        </div>
+        <div class="slds-text-align--left slds-p-horizontal--small slds-shrink slds-align-middle">
+            <h1  class="slds-text-heading--small"><strong class="slds-col--padded">{{data.obj.Priority__c}} Priority {{data.title}}</strong></h1>
+        </div>
+
+
+        <span class="slds-col slds-col--padded slds-no-flex slds-container--right" style="cursor: pointer;" ng-click="dismissAlert(obj)">
+        <slds-svg-icon
+            sprite="'utility'"
+            icon="'close'"
+            size="'medium'"
+            no-hint="true"
+        ></slds-svg-icon>
+        </span>
+    
+    </div>
+    <div class="alert-card-body slds-grid--pull-padded slds-p-bottom--small">
+        <div class="slds-grid slds-grid--align-spread slds-p-bottom--small">
+            <div></div>
+        </div>
+        <div class="slds-grid slds-grid--align-spread slds-p-bottom--small">
+            <div class="slds-col slds-col--padded slds-text-align--left slds-text-heading--small" ng-repeat="field in data.fields">
+            {{field.label}} {{obj | getter : field | picker : field.type}}
+            </div>
+        </div>
+
+        <div class="slds-grid slds-grid--align-spread slds-p-bottom--small">
+            <div class="slds-text-align--left slds-p-horizontal--small slds-shrink slds-align-middle slds-text-heading--small">
+                <a ng-repeat="action in data.actions" ng-click="performAction(action)" hotkey-card-action>
+                    <i ng-if="!action.imageRef" class="icon {{action.vlocityIcon}}"></i>
+                    <span ng-if="action.imageRef">
+                        <img ng-src="{{action.imageRef}}" alt="{{action.displayName}}"/>
+                    </span>
+                    <span>{{action.displayName}}</span>
+                </a>
+            </div>
+        </div>  
+    </div>
+</div>

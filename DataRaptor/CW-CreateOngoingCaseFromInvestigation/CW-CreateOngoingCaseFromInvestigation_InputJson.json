@@ -1,0 +1,101 @@
+{
+    "CaseName": "Ongoing Case - Andrea Rousy ",
+    "CaseNote": {
+        "%vlocity_namespace%__NoteText__c": "<p>This is a test</p>",
+        "%vlocity_namespace%__SubType__c": "In-Person Visit",
+        "%vlocity_namespace%__Type__c": "Scheduled Meeting",
+        "Name": "Test"
+    },
+    "EventDetails": [
+        {
+            "%vlocity_namespace%__Description__c": "At lunch time around 11:30 am, the school nurse saw Samuel and observed what looked like a bruise on Samuel’s neck. When she talked to him, she could also see that he had other bruising as well. His arm presented a significant bruise. It is unknown whether Samuel has other bruises. When asked whether he was hurt anywhere else, he said no but would not make eye-contact when he said it. He never had a problem talking to and looking at the school nurse before. Considering the visible bruising and the lack of eye- contact, there is concern that physical abuse is present in the home.",
+            "%vlocity_namespace%__Type__c": "Abuse",
+            "CreatedDate": "2020-01-29T14:04:27.000Z",
+            "EventDate": "2020-01-29T14:04:27.000Z",
+            "EventDetails": "At lunch time around 11:30 am, the school nurse saw Samuel and observed what looked like a bruise on Samuel’s neck. When she talked to him, she could also see that he had other bruising as well. His arm presented a significant bruise. It is unknown whether Samuel has other bruises. When asked whether he was hurt anywhere else, he said no but would not make eye-contact when he said it. He never had a problem talking to and looking at the school nurse before. Considering the visible bruising and the lack of eye- contact, there is concern that physical abuse is present in the home.",
+            "EventName": "Incident Report: Rousy",
+            "EventStage": "Incident",
+            "Id": "a1t6g000000b2rMAAQ",
+            "Name": "Rousy"
+        },
+        {
+            "%vlocity_namespace%__Description__c": "Investigation Created from Incident",
+            "%vlocity_namespace%__IncidentId__c": "a1t6g000000b2rMAAQ",
+            "%vlocity_namespace%__Type__c": "Child Welfare",
+            "CreatedDate": "2020-01-29T14:42:45.000Z",
+            "EventDate": "2020-01-29T14:42:45.000Z",
+            "EventDetails": "Andrea Rousy - Investigation completed with recommendation: Transfer to Ongoing",
+            "EventName": "Investigation Started",
+            "EventStage": "Investigation",
+            "Id": "a0h6g000002LOgrAAG",
+            "Name": "Andrea Rousy - Investigation",
+            "Recommendation__c": "Transfer to Ongoing",
+            "RecordTypeId": "0126g000000m1fWAAQ"
+        },
+        {
+            "CreatedDate": "2020-01-29T14:43:39.000Z",
+            "Decision__c": "Safe",
+            "EventDate": "2020-01-29T14:43:39.000Z",
+            "EventDetails": "Safety Decision:  Safe",
+            "EventName": "Safety Assessment",
+            "EventStage": "Investigation",
+            "Id": "a4P6g000000ICuTEAW",
+            "Investigation__c": "a0h6g000002LOgrAAG",
+            "Name": "SA-000031"
+        },
+        {
+            "Abuse_Score__c": 5,
+            "Benefit_CaseId__c": "a0h6g000002LOgrAAG",
+            "CreatedDate": "2020-01-30T14:57:56.000Z",
+            "EventDate": "2020-01-30T14:57:56.000Z",
+            "EventDetails": "Final Risk Score:  High",
+            "EventName": "Risk Assessment",
+            "EventStage": "Investigation",
+            "Final_Risk_Score__c": "High",
+            "Id": "a4Q6g000000U7zQEAS",
+            "Name": "RA-0021",
+            "Neglect_Score__c": 2,
+            "Planned_Action__c": "Promote"
+        },
+        {
+            "%vlocity_namespace%__NoteText__c": "<p>This is a test</p>",
+            "%vlocity_namespace%__PSCaseId__c": "a0h6g000002LOgrAAG",
+            "%vlocity_namespace%__SubType__c": "In-Person Visit",
+            "%vlocity_namespace%__Type__c": "Scheduled Meeting",
+            "CreatedDate": "2020-01-29T14:43:23.000Z",
+            "EventDate": "2020-01-29T14:43:23.000Z",
+            "EventDetails": "<p>This is a test</p>",
+            "EventName": "Case Note: Test",
+            "EventStage": "Investigation",
+            "Id": "a256g000000J8WXAA0",
+            "Name": "Test"
+        }
+    ],
+    "Incident": {
+        "%vlocity_namespace%__IncidentId__c": "a1t6g000000b2rMAAQ"
+    },
+    "InvestigationId": "a0h6g000002LOgrAAG",
+    "PartyRelationship": [
+        {
+            "%vlocity_namespace%__PartyId__c": "a2b6g000000YoBqAAK",
+            "Name": "Samuel Rousy",
+            "Role__c": "Alleged Victim"
+        },
+        {
+            "%vlocity_namespace%__PartyId__c": "a2b6g000000YoBnAAK",
+            "Name": "Andrea Rousy",
+            "Role__c": "Accused"
+        }
+    ],
+    "RiskAssessment": {
+        "Abuse_Score__c": 5,
+        "Final_Risk_Score__c": "High",
+        "Name": "RA-0021",
+        "Neglect_Score__c": 2,
+        "Planned_Action__c": "Promote"
+    },
+    "SafetyAssessment": {
+        "Decision__c": "Safe",
+        "Name": "SA-000031"
+    }
+}

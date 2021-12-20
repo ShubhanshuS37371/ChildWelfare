@@ -1,0 +1,56 @@
+{
+    "BenefitsBlock": {
+    },
+    "ContactInfoStep": {
+    },
+    "ContextId": null,
+    "HouseholdStep": {
+    },
+    "IncomeStep": {
+        "CurrentIncome": null,
+        "IncomeBlock": {
+            "Amount": null,
+            "AmountLabel": null,
+            "EmployerName": null,
+            "End Date": null,
+            "Frequency": null,
+            "FrequencyLabel": null,
+            "Hours per week": null,
+            "IncomeId": null,
+            "IncomeTypeLabel": null,
+            "Self Employment Business Type": null,
+            "SelfEmploymentExpenses": null,
+            "SetSchedule": null,
+            "Start Date": null,
+            "Type": null
+        },
+        "deltaIncome": null
+    },
+    "TypeStep": {
+        "ContactInfoChanged": null,
+        "HouseholdStructureChange": null,
+        "IncomeChanged": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "BenefitsBlock": null,
+        "Calc-Child Care Redetermination": null,
+        "ContactInfoStep": null,
+        "DR-CreateNewEligibilityDetermination": null,
+        "DR-CurrencyFormatting": null,
+        "DR-LoadIncome": null,
+        "DR-LoadPEdata": null,
+        "DataRaptorPostAction2": null,
+        "Done-Go Back to PE": null,
+        "HouseholdStep": null,
+        "IncomeStep": null,
+        "SetValues1": null,
+        "TypeStep": null
+    }
+}

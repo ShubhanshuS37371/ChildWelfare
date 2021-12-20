@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notification_Email_Sent__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Flag for checking whether notification email has been sent to Benefit Case Party Relationships associated to the Ongoing_Case__c of the Court Hearing</description>
+    <externalId>false</externalId>
+    <label>Notification Email Sent</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ps__MaximumNumberOfRefusals</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( TEXT(vlocity_ps__Status__c)==&apos;Request Refused&apos;  &amp;&amp; vlocity_ps__ProgramEnrollmentId__r.vlocity_ps__NumberOfRefusals__c &gt;4, true, false)</errorConditionFormula>
+    <errorDisplayField>vlocity_ps__Status__c</errorDisplayField>
+    <errorMessage>You can refuse a maximum of 5 Requests for this Program Enrollment</errorMessage>
+</ValidationRule>

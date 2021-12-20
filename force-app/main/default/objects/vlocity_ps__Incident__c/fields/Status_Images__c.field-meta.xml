@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Images__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(vlocity_ps__Status__c)  = &quot;Incoming&quot;, IMAGE(&quot;/resource/Incoming&quot;, &quot;Incoming&quot;), IF(TEXT(vlocity_ps__Status__c) = &quot;Pending&quot;, IMAGE(&quot;/resource/Pending&quot;,&quot;Pending&quot;), IF(TEXT(vlocity_ps__Status__c) = &quot;Returned&quot;, IMAGE(&quot;/resource/Returned&quot;,&quot;Returned&quot;), IMAGE(&quot;/resource/Open&quot;,&quot;Open&quot;))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

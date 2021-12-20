@@ -1,0 +1,16 @@
+<div class="slds-card via-slds-card via-slds-card__open slds-m-bottom--small" data-card="card-{{cardIndex}}" ng-class="{selected:isSelected(obj.Id)}" hotkey-layout-card>
+  <div class="slds-card__body  via-slds-card__body slds-grid slds-wrap slds-theme--default slds-is-relative slds-p-bottom--medium slds-p-top--medium slds-grid--vertical-align-end slds-grid--align-center">
+    <div style="position: absolute; top: 0; left: 0; bottom: 0; right: 0;" class="slds-grid slds-grid--vertical slds-grid--vertical-align-center slds-grid--align-center">
+        <a href="#" ng-click="performAction(data.actions[0])" class="via-slds-main-action slds-text-align--center" hotkey-card-action>
+            <i ng-if="!data.actions[0].imageRef" class="icon slds-m-bottom--medium {{data.actions[0].vlocityIcon}}"></i>
+            <img ng-if="data.actions[0].imageRef" ng-src="{{data.actions[0].imageRef}}" alt="{{data.actions[0].displayName}}"/>
+            <span class=" slds-text-align--center slds-text-heading--medium">{{data.title}}</span>
+        </a>
+        <p class="slds-text-align--center slds-text-heading--medium  slds-m-top--medium">{{data.actions[0].displayName}}</p>
+      </div>
+      <a href="javascript:void(0)" class="slds-p-right--small" ng-click="performAction(action)" ng-repeat="action in data.actions.slice(1)" hotkey-card-action>
+        <span class="icon big {{action.vlocityIcon}}" aria-hidden="true"></span>{{action.displayName}}
+      </a>
+      <p><img class="watermark" ng-src="{{data.sessionVars[0].val}}" alt=""/></p>
+  </div>
+</div>

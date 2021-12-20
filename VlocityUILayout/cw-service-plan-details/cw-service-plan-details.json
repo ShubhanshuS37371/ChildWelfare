@@ -1,0 +1,32 @@
+{
+    "Cards": [
+        "cw-serviceplan-objectives",
+        "cw-serviceplan-services"
+    ],
+    "bypassSave": true,
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "a0M3h000005U4XNEA0"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "CW-GetServicePlanObjectivesServices",
+            "inputMap": {
+                "Id": "{{params.id}}"
+            }
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "LightningCards-3x"
+        }
+    },
+    "workspace": [
+        "cw-serviceplan-objectives/vlocityDev/1/1582126581010",
+        "cw-serviceplan-services/vlocityDev/1/1582130153130"
+    ]
+}

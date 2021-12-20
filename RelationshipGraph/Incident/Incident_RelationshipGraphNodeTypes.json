@@ -1,0 +1,50 @@
+[
+    {
+        "%vlocity_namespace%__FieldList__c": "[\"Id\", \"Name\", \"%vlocity_namespace%__Age__c\",\"MobilePhone\",\"Email\"]",
+        "%vlocity_namespace%__GlobalKey__c": "6fb6c45e-69d8-a226-e430-b518bbf27d45",
+        "%vlocity_namespace%__GraphId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "7f7c5cd7-2461-b5b6-e8db-f9e5c3cd37bf",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__RelationshipGraph__c/7f7c5cd7-2461-b5b6-e8db-f9e5c3cd37bf",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__RelationshipGraph__c"
+        },
+        "%vlocity_namespace%__ObjectApiName__c": "Contact",
+        "%vlocity_namespace%__RecordTypeName__c": "",
+        "Name": "Incident Contact",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__RelationshipGraphNodeType__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__RelationshipGraphNodeType__c/6fb6c45e-69d8-a226-e430-b518bbf27d45"
+    },
+    {
+        "%vlocity_namespace%__FieldList__c": "[\"Id\", \"Name\", \"%vlocity_namespace%__IncidentNumber__c\",\"%vlocity_namespace%__Stage__c\"]",
+        "%vlocity_namespace%__GlobalKey__c": "c0062b18-0248-4716-ec50-b7a9216dd0e4",
+        "%vlocity_namespace%__GraphId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "7f7c5cd7-2461-b5b6-e8db-f9e5c3cd37bf",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__RelationshipGraph__c/7f7c5cd7-2461-b5b6-e8db-f9e5c3cd37bf",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__RelationshipGraph__c"
+        },
+        "%vlocity_namespace%__ObjectApiName__c": "%vlocity_namespace%__Incident__c",
+        "%vlocity_namespace%__RecordTypeName__c": "",
+        "Name": "Incident",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__RelationshipGraphNodeType__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__RelationshipGraphNodeType__c/c0062b18-0248-4716-ec50-b7a9216dd0e4"
+    },
+    {
+        "%vlocity_namespace%__FieldList__c": "[\"Id\",\"Name\"]",
+        "%vlocity_namespace%__GlobalKey__c": "727410ce-5dc2-300b-1465-c0c831b038f1",
+        "%vlocity_namespace%__GraphId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "7f7c5cd7-2461-b5b6-e8db-f9e5c3cd37bf",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__RelationshipGraph__c/7f7c5cd7-2461-b5b6-e8db-f9e5c3cd37bf",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__RelationshipGraph__c"
+        },
+        "%vlocity_namespace%__ObjectApiName__c": "%vlocity_namespace%__Household__c",
+        "%vlocity_namespace%__RecordTypeName__c": "",
+        "Name": "Incident Household",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__RelationshipGraphNodeType__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__RelationshipGraphNodeType__c/727410ce-5dc2-300b-1465-c0c831b038f1"
+    }
+]

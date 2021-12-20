@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ps__AddSiteProducts</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Add Site Products</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&apos;/soap/ajax/26.0/connection.js&apos;)}
+{!REQUIRESCRIPT(&apos;/js/functions.js&apos;)}
+{!REQUIRESCRIPT(&apos;/resource/vlocity_ps__Jquery/jquery-1.12.4.min.js&apos;)}
+{!REQUIRESCRIPT(&apos;/resource/vlocity_ps__Jquery/ui/jquery-ui-1.9.1.custom.min.js&apos;)}
+{!REQUIRESCRIPT(&apos;/resource/vlocity_ps__Jquery/postmessage/jquery.ba-postmessage.js&apos;)}
+{!REQUIRESCRIPT(&apos;/resource/vlocity_ps__Jquery/bbq/jquery.ba-bbq.min.js&apos;)}
+
+requireCssFile(&apos;/resource/vlocity_ps__Jquery/ui/css/ui-lightness/jquery-ui-1.9.1.custom.min.css&apos;);
+ 
+function requireCssFile(filename) {
+    var fileref = document.createElement(&apos;link&apos;);
+    fileref.setAttribute(&apos;rel&apos;, &apos;stylesheet&apos;);
+    fileref.setAttribute(&apos;type&apos;, &apos;text/css&apos;);
+    fileref.setAttribute(&apos;href&apos;, filename);
+    document.getElementsByTagName(&apos;head&apos;)[0].appendChild(fileref);
+}
+
+    var j$ = jQuery.noConflict();
+    //par parentId = $CurrentPage.parameters.Id;
+    var iframe_url=&apos;/apex/vlocity_ps__AddSiteProducts?parentId={!vlocity_ps__BusinessSite__c.Id}&apos;;
+    var child_domain = iframe_url.substring(0, iframe_url.indexOf(&apos;/&apos;, 9));
+    var parent_domain = window.location.protocol + &apos;//&apos; + window.location.host;
+ 
+    /*j$.receiveMessage(
+        function(e){
+            var cross_result = j$.deparam(e.data);
+            if (cross_result.action == &apos;close_modal_dialog&apos;) {
+                j$modalDialog.dialog(&apos;close&apos;);
+            } else if (cross_result.action == &apos;close_modal_dialog_redirect&apos;) {
+                j$modalDialog.dialog(&apos;close&apos;);
+                j$(location).attr(&apos;href&apos;, cross_result.redirect_url);
+            }
+        },
+        child_domain
+    );*/
+ 
+    var j$modalDialog = j$(&apos;&lt;div&gt;&lt;/div&gt;&apos;)
+          .html(&apos;&lt;iframe id=&quot;iframeContentId&quot; src=&quot;&apos; + iframe_url + &apos;&quot; frameborder=&quot;0&quot; height=&quot;100%&quot; width=&quot;100%&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; scrolling=&quot;no&quot; /&gt;&apos;)
+        .dialog({
+            autoOpen: false,
+            title: &apos;Add Authorized Products&apos;,
+            resizable: false,
+            width: 500,
+            height: 500,
+            autoResize: true,
+            modal: true,
+            draggable: false
+        });
+ 
+    j$modalDialog.dialog(&apos;open&apos;);</url>
+</WebLink>

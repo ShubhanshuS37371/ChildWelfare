@@ -1,0 +1,20 @@
+{
+    "ChildName": "Samuel Rousy",
+    "ContextId": "a4t4R000004QZkGQAW",
+    "EpisodeChild": "0034R00003IVh6oQAD",
+    "EpisodeName": "Samuel Rousy",
+    "UseFCT": true,
+    "id": "a2H4R00000DFN8kUAH",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://jb-cc04062020--vlocity-ps.visualforce.com",
+    "timeStamp": "2020-04-13T20:35:05.094Z",
+    "userCurrencyCode": "USD",
+    "userId": "0054R000009zzOrQAI",
+    "userName": "jblankenship@jb-cc04062020.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
+}

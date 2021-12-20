@@ -1,0 +1,61 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "",
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": false,
+                        "displayName": "Create New Incident",
+                        "hasExtraParams": false,
+                        "id": "Omniscript",
+                        "isCustomAction": true,
+                        "omniLang": "English",
+                        "omniSubType": "Mandatory Reporter",
+                        "omniType": "CCWIS",
+                        "openUrlIn": "_self",
+                        "type": "OmniScript",
+                        "vForcewithNsPrefix": "%vlocity_namespace%__OmniScriptUniversalPageConsole",
+                        "visualForce": "OmniScriptUniversalPageConsole",
+                        "vlocityIcon": "icon-v-modify-contract"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Id']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Id",
+                    "name": "['Id']",
+                    "type": "string"
+                }
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "sObjectType": "CareBarrier",
+            "smartAction": {
+            },
+            "templateUrl": "cw-action-grid-card-slds"
+        }
+    ],
+    "title": "Create New Incident"
+}

@@ -1,0 +1,29 @@
+{
+    "Cards": [
+        "cw-serviceplan-outcomes"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "a0M6g000002hbhQEAQ"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "CW-GetServicePlanOutcomes",
+            "inputMap": {
+                "Id": "{{params.id}}"
+            }
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "list-table"
+        }
+    },
+    "workspace": [
+        "cw-serviceplan-outcomes/vlocityDev/1/1582216123980"
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "ApplicantContactId": "0030a00001o3CDJAA2",
+    "ContactName": "Alisha Adams",
+    "ContextId": "a1R0a00000882qw",
+    "Family Size": 1,
+    "Income": [
+        {
+            "Amount": 1000
+        },
+        {
+            "Amount": 200
+        }
+    ],
+    "IncomeStep": {
+        "CurrentIncome": 200,
+        "IncomeBlock": {
+            "Amount": 200,
+            "AmountLabel": 200,
+            "EmployerName": "Self",
+            "End Date": null,
+            "Frequency": "Once a Month",
+            "FrequencyLabel": "Once a Month",
+            "Hours per week": 18,
+            "IncomeTypeLabel": "Self-Employment",
+            "Self Employment Business Type": null,
+            "SelfEmploymentExpenses": null,
+            "SetSchedule": null,
+            "Start Date": "2016-05-01T05:00:00.000Z",
+            "Type": "Self-Employment"
+        },
+        "deltaIncome": 1000
+    },
+    "NewFullDay": 1,
+    "NewHalfDay": 0.5,
+    "NewLevel": "Level 1",
+    "PEname": "Child Care - Adams",
+    "PrevFullDay": 3,
+    "PrevHalfDay": 1.5,
+    "PreviousIncome": 1200,
+    "ProgramLevel": "Level 3",
+    "RedeterminationDate": "2018-12-06",
+    "TypeStep": {
+        "ContactInfoChanged": false,
+        "HouseholdStructureChange": false,
+        "IncomeChanged": true
+    },
+    "error": "OK",
+    "id": "a170a00000733KvAAI",
+    "layout": "lightning",
+    "testContextId": "a1R0a00000882qw",
+    "timeStamp": "2018-03-06T18:08:11.810Z",
+    "userCurrencyCode": "USD",
+    "userId": "0050a00000JOvohAAD",
+    "userName": "mattq@az2.demo",
+    "userProfile": "Vlocity Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    }
+}

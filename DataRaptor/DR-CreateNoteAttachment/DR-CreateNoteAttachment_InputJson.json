@@ -1,0 +1,30 @@
+{
+    "ContextId": null,
+    "StepNote": {
+        "CaseNote": null,
+        "NoteSubType": null,
+        "NoteText": null,
+        "NoteType": null
+    },
+    "stepImage": {
+        "Images": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ]
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DR-CreateNoteAttachment": null,
+        "StepNote": null,
+        "stepImage": null
+    }
+}

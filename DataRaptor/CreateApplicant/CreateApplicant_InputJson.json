@@ -1,0 +1,59 @@
+{
+    "Availibility": {
+        "BedroomAvailability": null,
+        "FosterCareProgram": null,
+        "Number1": null,
+        "Radio3": null
+    },
+    "ContextId": "",
+    "FosterBackground": {
+        "Employer": null,
+        "Profession": null,
+        "SpokenLanguages": null
+    },
+    "FosterParentInformation": {
+        "AddressTypeAhead-Block": {
+            "AddressTypeAhead": null,
+            "City": null,
+            "Country": null,
+            "PostalCode": null,
+            "State": null,
+            "Street": null
+        },
+        "ContactInfo": {
+            "HomePhone": null,
+            "MobileNumber": null,
+            "WorkPhone": null
+        },
+        "Email1": null,
+        "FN": null,
+        "LN": null
+    },
+    "FosterReferenceCheck": {
+        "Block3": {
+            "Address": null,
+            "Email2": null,
+            "Name": null,
+            "Phone": null,
+            "Relationship": null
+        }
+    },
+    "Home": "Mobile",
+    "PriorFosterExperience": {
+        "Block2": null,
+        "Radio1": null,
+        "TextArea1": null
+    },
+    "id": "a17f40000020NAlAAM",
+    "layout": "lightning",
+    "timeStamp": "2018-09-18T07:52:31.098Z",
+    "userCurrencyCode": "USD",
+    "userId": "005f4000000Z2TXAA0",
+    "userName": "sp@ps-demo.demo",
+    "userProfile": "Vlocity Administrator",
+    "userTimeZone": 330,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+    }
+}

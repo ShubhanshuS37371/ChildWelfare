@@ -1,0 +1,125 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "a0h6g000002KZVwAAO"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "CW-GetIncidentSummary",
+            "inputMap": {
+                "Id": "{{params.id}}"
+            }
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "['IncidentId']",
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "extraParams": {
+                            "Id": "['IncidentId']"
+                        },
+                        "hasExtraParams": true,
+                        "id": "CW-OpenIncident",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['IncidentName']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Incident Summary",
+                    "name": "['IncidentName']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['AllegedVictimName']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Alleged Victim",
+                    "name": "['AllegedVictimName']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['AllegedMatreatorName']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Alleged Maltreator",
+                    "name": "['AllegedMatreatorName']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ScreeningRecommendation']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Screening Rec",
+                    "name": "['ScreeningRecommendation']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['RecommendedResponseTime']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Rec Response",
+                    "name": "['RecommendedResponseTime']",
+                    "type": "string"
+                }
+            ],
+            "flyout": {
+                "layout": "cw-incident-flyout-narrative"
+            },
+            "isSmartAction": false,
+            "name": "Active",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "Incident Summary -",
+                    "name": "Title",
+                    "type": "string",
+                    "value": "['IncidentName']"
+                }
+            ],
+            "sObjectType": "Contact",
+            "smartAction": {
+            },
+            "templateUrl": "cw-incident-summary-header"
+        }
+    ],
+    "title": "Incident Summary"
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ps__PublishDateValidation</fullName>
+    <active>true</active>
+    <errorConditionFormula>vlocity_ps__PublishStart__c &gt; vlocity_ps__PublishEnd__c</errorConditionFormula>
+    <errorDisplayField>vlocity_ps__PublishStart__c</errorDisplayField>
+    <errorMessage>Publish Start Date cannot be greater than Publish End Date</errorMessage>
+</ValidationRule>

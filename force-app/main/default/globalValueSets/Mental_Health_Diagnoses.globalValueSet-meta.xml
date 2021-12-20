@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>None</fullName>
+        <default>true</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>Anxiety</fullName>
+        <default>false</default>
+        <label>Anxiety</label>
+    </customValue>
+    <customValue>
+        <fullName>Bipolar</fullName>
+        <default>false</default>
+        <label>Bipolar</label>
+    </customValue>
+    <customValue>
+        <fullName>Eating Disorder</fullName>
+        <default>false</default>
+        <label>Eating Disorder</label>
+    </customValue>
+    <customValue>
+        <fullName>Post-traumatic stress disorder</fullName>
+        <default>false</default>
+        <label>Post-traumatic stress disorder</label>
+    </customValue>
+    <customValue>
+        <fullName>Obsessive Compulsive Disorder</fullName>
+        <default>false</default>
+        <label>Obsessive Compulsive Disorder</label>
+    </customValue>
+    <masterLabel>Mental Health Diagnoses</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

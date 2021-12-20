@@ -1,0 +1,30 @@
+{
+    "ContextId": "a3Z6g000000hujvEAA",
+    "MatchProvider": {
+        "SelectProvider": [
+            {
+                "$$hashKey": "object:43",
+                "Id": "0016g00000Alf3DAAR",
+                "Name": "Eastside Wellness Center",
+                "ShippingCity": "Augusta",
+                "ShippingPostalCode": "04330",
+                "ShippingState": "ME",
+                "ShippingStreet": "38 Memorial Drive",
+                "vlcSelected": true
+            }
+        ]
+    },
+    "id": "a2H6g000000iY5KEAU",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://jb-vko2020--vlocity-ps.visualforce.com",
+    "timeStamp": "2020-02-26T19:21:45.571Z",
+    "userCurrencyCode": "USD",
+    "userId": "0056g000003NOAyAAO",
+    "userName": "jblankenship@jb-vko2020.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": -480,
+    "vlcPersistentComponent": {
+    }
+}

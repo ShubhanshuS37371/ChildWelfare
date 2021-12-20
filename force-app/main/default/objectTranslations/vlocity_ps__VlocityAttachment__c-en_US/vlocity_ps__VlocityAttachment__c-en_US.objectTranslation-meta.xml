@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>vlocity_ps__AttachmentListFieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>vlocity_ps__Attachments</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>vlocity_ps__ConsoleAdminSearch</name>
+    </fieldSets>
+</CustomObjectTranslation>

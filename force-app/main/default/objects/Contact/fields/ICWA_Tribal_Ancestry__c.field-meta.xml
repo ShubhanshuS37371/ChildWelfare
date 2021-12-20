@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ICWA_Tribal_Ancestry__c</fullName>
+    <externalId>false</externalId>
+    <label>ICWA / Tribal Ancestry</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No tribal ancestry</fullName>
+                <default>false</default>
+                <label>No tribal ancestry</label>
+            </value>
+            <value>
+                <fullName>Catawba Indian Nation</fullName>
+                <default>false</default>
+                <label>Catawba Indian Nation</label>
+            </value>
+            <value>
+                <fullName>Ermineskin Cree Nation</fullName>
+                <default>false</default>
+                <label>Ermineskin Cree Nation</label>
+            </value>
+            <value>
+                <fullName>Kapawe’no First Nation</fullName>
+                <default>false</default>
+                <label>Kapawe’no First Nation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

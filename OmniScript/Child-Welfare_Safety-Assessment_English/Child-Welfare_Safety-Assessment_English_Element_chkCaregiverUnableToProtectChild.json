@@ -1,0 +1,48 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Child Welfare Safety Assessment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Child Welfare/Safety Assessment/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Child Welfare Safety Assessment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Child Welfare/Safety Assessment/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+        },
+        "Name": "stpSafetyThreats",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Child Welfare/Safety Assessment/English/stpSafetyThreats",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
+    },
+    "%vlocity_namespace%__ParentElementName__c": "stpSafetyThreats",
+    "%vlocity_namespace%__ParentElementType__c": "Step",
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "checkLabel": "6.  Caregiver is unable OR unwilling to protect the child from serious harm or threatened harm by others. This may include physical abuse, sexual abuse, or neglect.",
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "defaultValue": false,
+        "disOnTplt": false,
+        "help": true,
+        "helpText": "The caregiver fails to protect the child from serious harm or threatened harm as a result of physical abuse, neglect, or sexual abuse by other family members, other household members, or others having regular access to the child. • The caregiver does not provide supervision necessary to protect the child from potentially serious harm by others based on the child’s age or developmental stage. • An individual with known violent criminal behavior/history or sexual abuse resides in the home, or the caregiver allows access to the child. Include regardless of whether the caregiver (1) knew of the history and allowed access, or (2) upon learning of the history, has not prevented further access.  • The caregiver regularly takes the child to dangerous locations where drugs are manufactured or regularly administered (e.g., meth labs or drug houses), or locations used for prostitution or pornography. • In circumstances of domestic violence, the non-offending caregiver is not able to protect him/herself or the child from immediate threat of physical and emotional harm.",
+        "hide": false,
+        "label": "6.  Caregiver is unable OR unwilling to protect the child from serious harm or threatened harm by others. This may include physical abuse, sexual abuse, or neglect.",
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "show": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Checkbox",
+    "CurrencyIsoCode": "USD",
+    "Name": "chkCaregiverUnableToProtectChild",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/Child Welfare/Safety Assessment/English/chkCaregiverUnableToProtectChild"
+}

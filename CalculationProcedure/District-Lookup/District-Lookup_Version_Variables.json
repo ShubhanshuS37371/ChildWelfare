@@ -1,0 +1,52 @@
+[
+    {
+        "%vlocity_namespace%__Alias__c": "County",
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "District Lookup",
+            "%vlocity_namespace%__VersionNumber__c": null,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/Generated834726600",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__DataType__c": "Text",
+        "%vlocity_namespace%__DefaultValue__c": "",
+        "%vlocity_namespace%__DuplicateAlias__c": false,
+        "%vlocity_namespace%__Index__c": 0,
+        "%vlocity_namespace%__IsEditable__c": false,
+        "%vlocity_namespace%__IsSelected__c": false,
+        "%vlocity_namespace%__MatrixName__c": "District Lookup",
+        "%vlocity_namespace%__Precision__c": "",
+        "%vlocity_namespace%__TypeaheadDisplayName__c": "County",
+        "%vlocity_namespace%__UserDefined__c": false,
+        "CurrencyIsoCode": "USD",
+        "Name": "County",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVariable__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVariable__c/Generated422009418"
+    },
+    {
+        "%vlocity_namespace%__Alias__c": "DistrictLookup__District",
+        "%vlocity_namespace%__CalculationProcedureVersionId__c": {
+            "%vlocity_namespace%__CalculationProcedureId__r.Name": "District Lookup",
+            "%vlocity_namespace%__VersionNumber__c": null,
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVersion__c/Generated834726600",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVersion__c"
+        },
+        "%vlocity_namespace%__DataType__c": "Text",
+        "%vlocity_namespace%__DefaultValue__c": "",
+        "%vlocity_namespace%__DuplicateAlias__c": false,
+        "%vlocity_namespace%__Index__c": 0,
+        "%vlocity_namespace%__IsEditable__c": false,
+        "%vlocity_namespace%__IsSelected__c": false,
+        "%vlocity_namespace%__MatrixName__c": "District Lookup",
+        "%vlocity_namespace%__Precision__c": "",
+        "%vlocity_namespace%__TypeaheadDisplayName__c": "District ( District Lookup )",
+        "%vlocity_namespace%__UserDefined__c": false,
+        "CurrencyIsoCode": "USD",
+        "Name": "District",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__CalculationProcedureVariable__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__CalculationProcedureVariable__c/Generated180197219"
+    }
+]

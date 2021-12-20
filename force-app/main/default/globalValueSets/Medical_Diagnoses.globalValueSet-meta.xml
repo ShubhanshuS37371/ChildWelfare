@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>None</fullName>
+        <default>true</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>Diabetes</fullName>
+        <default>false</default>
+        <label>Diabetes</label>
+    </customValue>
+    <customValue>
+        <fullName>Asthma</fullName>
+        <default>false</default>
+        <label>Asthma</label>
+    </customValue>
+    <customValue>
+        <fullName>Allergies</fullName>
+        <default>false</default>
+        <label>Allergies</label>
+    </customValue>
+    <customValue>
+        <fullName>ADHD</fullName>
+        <default>false</default>
+        <label>ADHD</label>
+    </customValue>
+    <customValue>
+        <fullName>Colic</fullName>
+        <default>false</default>
+        <label>Colic</label>
+    </customValue>
+    <masterLabel>Medical Diagnoses</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,43 @@
+{
+    "Cards": [
+        "interaction-profile-account-slds"
+    ],
+    "bypassSave": true,
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "a1F1U0000024y0JUAQ"
+            }
+        ],
+        "type": "ApexRemote",
+        "value": {
+            "inputMap": {
+                "interactionId": "{{params.id}}"
+            },
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.GetObjectFromInteraction"
+            },
+            "query": "SELECT %vlocity_namespace%__PrimaryContactId__c , %vlocity_namespace%__CustomerValue__c, \ndemo_card_formula__c,\nId, Industry,Name, BillingAddress, RecordType.DeveloperName,Type,\nPersonBirthdate , PersonEmail, Phone, PersonTitle , PhotoURL, Website, \n%vlocity_namespace%__CalculatedAddress__c\t,\n%vlocity_namespace%__Email__c\nFROM Account WHERE Id = (select accountId__c from CustomerInteraction__c where Id ='{{params.id}}')",
+            "remoteClass": "GetObjectFromInteraction",
+            "remoteMethod": "getObjectIdFromInteractionObject",
+            "remoteNSPrefix": "%vlocity_namespace%",
+            "resultVar": "records",
+            "vlocityAsync": true
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "vlocity-interaction-console-sidebar-slds"
+        }
+    },
+    "workspace": [
+        "interaction-profile-account-slds/VlocityDEV/1497038805451",
+        "interaction-profile-account-info-slds/VlocityDEV/1497038805438",
+        "interaction-profile-contact/VlocityDEV/1497038805447",
+        "interaction-profile-contact-info/VlocityDEV/1497038805481",
+        "account-info/vlocity2/1497331266813",
+        "interaction-profile-account-slds/Vlocity/1506985291523"
+    ]
+}

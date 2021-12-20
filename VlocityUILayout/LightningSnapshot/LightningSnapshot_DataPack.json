@@ -1,0 +1,27 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity Government",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "003f400000M4FtmAAF"
+            }
+        ],
+        "type": "Query",
+        "value": {
+            "query": "SELECT Id, Name, LastModifiedDate, %vlocity_namespace%__Status__c, %vlocity_namespace%__Stage__c, %vlocity_namespace%__Type__c, %vlocity_namespace%__PrimaryContactId__c, \n%vlocity_namespace%__ActiveDeterminationAmount__c,\nPreferred_Provider__r.Name FROM %vlocity_namespace%__ProgramEnrollment__c WHERE   %vlocity_namespace%__PrimaryContactId__c = '{{params.Id||params.id}}'"
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "LightningSnapshot.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "LightningSnapshot/9/Vlocity Government/1550695651305",
+    "%vlocity_namespace%__ParentID__c": "ConsoleGrid-slds/19/Illinois DCFS/1536598259670",
+    "%vlocity_namespace%__RequiredPermission__c": "",
+    "%vlocity_namespace%__Type__c": "Layout",
+    "%vlocity_namespace%__Version__c": 9,
+    "CurrencyIsoCode": "USD",
+    "Name": "LightningSnapshot",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUILayout__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUILayout__c/LightningSnapshot"
+}

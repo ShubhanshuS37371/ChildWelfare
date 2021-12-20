@@ -1,0 +1,5 @@
+[
+    "DataRaptor/CW-GetMatchingServiceProviders",
+    "DataRaptor/CW-UpdateServiceWithMatchedProvider",
+    "VlocityUITemplate/cw-matchingprovider-selectable-items"
+]

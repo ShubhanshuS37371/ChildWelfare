@@ -1,0 +1,91 @@
+{
+    "ContextId": "a1t3h000000M0WGAA0",
+    "StepEmotionalAbuseResponse": {
+        "EmotionalAbuseBlock": {
+            "CaregiverActionLedTo": null,
+            "EmotionalAbuseScoreBlock": null,
+            "ExposureToDomesticViolence": null
+        }
+    },
+    "StepNeglectResponse": {
+        "NeglectBlock": {
+            "AdditionalGeneralNeglectQuestions": null,
+            "AdditionalSevereNeglectQuestions": null,
+            "AdditionalThreatOfNeglectQuestions": null,
+            "GeneralNeglect": null,
+            "NeglectScoreBlock": null,
+            "SevereNeglect": null,
+            "ThreatOfNeglect": null
+        }
+    },
+    "StepOverrides": {
+        "OverrideBlock": {
+            "DiscretionaryOverrideCheckbox": false,
+            "DiscretionaryOverrideReasonText": null,
+            "OverrideCaregiverActionCheckbox": false,
+            "OverrideNonAccidentalInjuryCheckbox": false,
+            "OverrideSevereInjuryCheckbox": false,
+            "OverrideSexualAbuseCheckbox": false
+        }
+    },
+    "StepPhysicalAbuseResponse": {
+        "PhysicalAbuseBlock": {
+            "AdditionalNon-AccidentalOrSuspiciousInjuryQuestions": {
+                "DeathOfAChild": "Yes",
+                "IsItSevere": "Yes",
+                "OtherInjuryOtherThanVeryMinor": "Yes"
+            },
+            "CaregiverAction": "Yes",
+            "NonAccidental": "Yes",
+            "PhysicalAbuseScoreBlock": {
+                "24HourOverrideFormulaPhysicalAbuse": "24HourOverride",
+                "PhysicalAbuseScoreFormula": "Physical Abuse True"
+            },
+            "PriorDeath": "Yes"
+        }
+    },
+    "StepSexualAbuseResponse": {
+        "SexualAbuseBlock": {
+            "AdditionalThreatOfSexualAbuseQuestions": null,
+            "PhysicalBehavioralSuspiciousIndicators": null,
+            "SexualAbuseScoreBlock": null,
+            "SexualActByAdultCaregiver": null,
+            "SexualActsAmongSiblings": null,
+            "SexualExploitation": null,
+            "ThreatOfSexualAbuse": null
+        }
+    },
+    "StepShowPhysicalAbuseDecisionTree": {
+        "IsThereACareGiver": null,
+        "PhysicalAbuseDecisionTreeScoreBlock": null,
+        "PhysicalAbuseDecisionTreeSubBlockOne": {
+            "AllegationOfPhysicalInjuryToNonMobileChild": null,
+            "CaregiversBehaviorAllegedToBeDangerousOrThreatening": null,
+            "MedicalCareRequiredDuetoAbuse": null
+        },
+        "PhysicalAbuseDecisionTreeSubBlockTwo": null
+    },
+    "StepSummary": {
+        "ChildWelfareHotlineAssessmentSummaryBlock": null,
+        "FinalResponseFormula": "24 Hours",
+        "ScreeningRecommendationFormula": "Screen-In"
+    },
+    "error": "OK",
+    "id": "a2H3h000002GFPZEA4",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://dcccwis2020--vlocity-ps.visualforce.com",
+    "timeStamp": "2020-06-24T19:48:26.904Z",
+    "userCurrencyCode": "USD",
+    "userId": "0053h000002HK8CAAW",
+    "userName": "jblankenship@dc.ccwis2020.demo",
+    "userProfile": "System Administrator",
+    "userTimeZone": -300,
+    "vlcKnowledge": {
+        "knowledgeItems": [
+        ]
+    },
+    "vlcPersistentComponent": {
+    }
+}

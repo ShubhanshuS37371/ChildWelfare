@@ -1,0 +1,78 @@
+{
+    "Cards": [
+        "cw-checklist-zones",
+        "cw-investigation-summary",
+        "cw-ongoing-case-alert"
+    ],
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "cw-card-canvas-zones-slds"
+        }
+    },
+    "workspace": [
+        "cw-checklist-zones/jb-fc010820/1/1578923183819",
+        "cw-investigation-summary/jb-fc010820/1/1580325223303",
+        "cw-ongoing-case-alert/jb-fc010820/1/1580397660458"
+    ],
+    "zones": {
+        "Body1": {
+            "cardNames": [
+            ],
+            "label": "Case Alerts",
+            "layouts": [
+            ],
+            "name": "Body1",
+            "zoneCards": [
+                {
+                    "Author": "jb-fc010820",
+                    "Name": "cw-ongoing-case-alert",
+                    "Version": 1,
+                    "globalKey": "cw-ongoing-case-alert/jb-fc010820/1/1580397660458"
+                }
+            ]
+        },
+        "Body2": {
+            "cardNames": [
+            ],
+            "label": "",
+            "layouts": [
+            ],
+            "name": "Body2",
+            "zoneCards": [
+            ]
+        },
+        "Header": {
+            "cardNames": [
+            ],
+            "label": "",
+            "layouts": [
+            ],
+            "name": "Header",
+            "zoneCards": [
+                {
+                    "Author": "jb-fc010820",
+                    "Name": "cw-investigation-summary",
+                    "Version": 1,
+                    "globalKey": "cw-investigation-summary/jb-fc010820/1/1580325223303"
+                }
+            ]
+        },
+        "Left": {
+            "cardNames": [
+            ],
+            "label": "Ongoing Case Checklist",
+            "layouts": [
+            ],
+            "name": "Left",
+            "zoneCards": [
+                {
+                    "Author": "jb-fc010820",
+                    "Name": "cw-checklist-zones",
+                    "Version": 1,
+                    "globalKey": "cw-checklist-zones/jb-fc010820/1/1578923183819"
+                }
+            ]
+        }
+    }
+}

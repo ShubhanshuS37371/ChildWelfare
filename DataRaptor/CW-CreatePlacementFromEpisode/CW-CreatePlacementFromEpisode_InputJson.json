@@ -1,0 +1,26 @@
+{
+    "ContextId": null,
+    "PlacementDetails": {
+        "AvailableFosterHome": null,
+        "PlacementReason": null,
+        "PlacementStartDate": null
+    },
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "DRCreatePlacement": null,
+        "DRCreateProgramEnrollmentFromEpisodeForFCT": null,
+        "DRCreateProgramEnrollmentforFCT": null,
+        "DRGetAvailableHomes": null,
+        "DRGetEpisodeDetails": null,
+        "DoneActionUsingFCT": null,
+        "PlacementDetails": null,
+        "SetTestContextId": null,
+        "SetUseFCTOrNot": null
+    }
+}

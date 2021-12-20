@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>vlocity_ps__ScreenOutReason__c</name>
+    <picklistValues>
+        <masterLabel>It is clear from the information received that no child maltreatment occurred.</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>The allegation did not meet the State’s statutory or agency guidelines, or did not concern child abuse and neglect.</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>The alleged victim is not a child.</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>The child in the referral was the responsibility of another agency or jurisdiction, such as a military installation or a Tribe.</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>The report did not contain enough information to identify or locate the child and family.</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

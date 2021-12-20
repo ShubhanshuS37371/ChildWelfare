@@ -1,0 +1,15 @@
+<aura:component implements="lightning:recordHomeTemplate" access="global" description="Two column layout">
+
+    <aura:attribute name="left" type="Aura.Component[]" />
+    <aura:attribute name="right" type="Aura.Component[]" />
+
+    <div class="slds-grid slds-wrap">
+      <div class="slds-size_1-of-5">
+        <div class="slds-box slds-box_x-small slds-text-align_left slds-m-around_x-small">{!v.left}</div>
+      </div>
+      <div class="slds-size_4-of-5">
+        <div class="slds-box slds-box_x-small slds-text-align_left slds-m-around_x-small">{!v.right}</div>
+      </div>
+    </div>
+	
+</aura:component>

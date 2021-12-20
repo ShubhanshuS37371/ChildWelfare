@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ps__SystemRoles__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Specify Roles as picklist values. Only these roles will be considered while creating Benefit Case Parties from Incident Parties. Match criteria : Incident Party Role IN this field picklist values.</description>
+    <externalId>false</externalId>
+    <label>Incident BenefitCase Party Role Criteria</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Victim</fullName>
+                <default>false</default>
+                <label>Victim</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

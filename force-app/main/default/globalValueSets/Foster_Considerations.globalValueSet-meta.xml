@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Difficulty connecting with others</fullName>
+        <default>false</default>
+        <label>Difficulty connecting with others</label>
+    </customValue>
+    <customValue>
+        <fullName>History of Chronic Lying</fullName>
+        <default>false</default>
+        <label>History of Chronic Lying</label>
+    </customValue>
+    <customValue>
+        <fullName>Lack of impulse control</fullName>
+        <default>false</default>
+        <label>Lack of impulse control</label>
+    </customValue>
+    <customValue>
+        <fullName>Physical Aggression toward Animals</fullName>
+        <default>false</default>
+        <label>Physical Aggression toward Animals</label>
+    </customValue>
+    <customValue>
+        <fullName>Diabetes</fullName>
+        <default>false</default>
+        <label>Diabetes</label>
+    </customValue>
+    <customValue>
+        <fullName>Asthma</fullName>
+        <default>false</default>
+        <label>Asthma</label>
+    </customValue>
+    <customValue>
+        <fullName>Allergies</fullName>
+        <default>false</default>
+        <label>Allergies</label>
+    </customValue>
+    <customValue>
+        <fullName>ADHD</fullName>
+        <default>false</default>
+        <label>ADHD</label>
+    </customValue>
+    <customValue>
+        <fullName>Colic</fullName>
+        <default>false</default>
+        <label>Colic</label>
+    </customValue>
+    <customValue>
+        <fullName>Anxiety</fullName>
+        <default>false</default>
+        <label>Anxiety</label>
+    </customValue>
+    <customValue>
+        <fullName>Bipolar</fullName>
+        <default>false</default>
+        <label>Bipolar</label>
+    </customValue>
+    <customValue>
+        <fullName>Eating Disorder</fullName>
+        <default>false</default>
+        <label>Eating Disorder</label>
+    </customValue>
+    <customValue>
+        <fullName>Post-traumatic stress disorder</fullName>
+        <default>false</default>
+        <label>Post-traumatic stress disorder</label>
+    </customValue>
+    <customValue>
+        <fullName>Obsessive Compulsive Disorder</fullName>
+        <default>false</default>
+        <label>Obsessive Compulsive Disorder</label>
+    </customValue>
+    <masterLabel>Foster Considerations</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

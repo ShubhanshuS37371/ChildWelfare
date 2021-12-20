@@ -1,0 +1,121 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+            "resultVar": "Services"
+        }
+    },
+    "filter": {
+    },
+    "icon": "canvas",
+    "sprite": "standard",
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "displayName": "Edit",
+                        "hasExtraParams": false,
+                        "id": "Edit",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/apex/",
+                        "vlocityIcon": "icon-v-edit"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Update Progress",
+                        "hasExtraParams": false,
+                        "id": "Update Progress",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/apex/",
+                        "vlocityIcon": "icon-v-graph-line"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Enter Progress Note",
+                        "hasExtraParams": false,
+                        "id": "Enter Progress Note",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/apex/",
+                        "vlocityIcon": "icon-v-information"
+                    },
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "extraParams": {
+                            "ContextId": "['ServicesId']",
+                            "ServicesId": "['ServicesId']"
+                        },
+                        "hasExtraParams": true,
+                        "id": "Match Provider",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['PartyName']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['PartyName']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Product']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Product",
+                    "name": "['Product']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Quantity']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Quantity",
+                    "name": "['Quantity']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Provider']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Provider",
+                    "name": "['Provider']",
+                    "type": "string"
+                }
+            ],
+            "flyout": {
+                "layout": "cw-service-description-flyout"
+            },
+            "name": "Active",
+            "sObjectType": null,
+            "templateUrl": "card-active-slds"
+        }
+    ],
+    "title": "Service"
+}

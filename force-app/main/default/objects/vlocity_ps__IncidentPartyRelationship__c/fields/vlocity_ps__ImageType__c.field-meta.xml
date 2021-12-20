@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ps__ImageType__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF( ISBLANK(vlocity_ps__PartyId__c) || vlocity_ps__PartyType__c = &apos;Contact&apos;, &apos;Contact&apos;, IF(vlocity_ps__PartyType__c = &apos;Household&apos;, &apos;Household&apos;, IF( vlocity_ps__PartyType__c = &apos;Account&apos; &amp;&amp; vlocity_ps__IsPersonAccount__c == true, &apos;Contact&apos;, &apos;Account&apos;) ) )</formula>
+    <label>Image Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

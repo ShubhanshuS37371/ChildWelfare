@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ps__Contact</fullName>
+    <active>true</active>
+    <description>Benefit Case Contact</description>
+    <label>Contact</label>
+    <picklistValues>
+        <picklist>Role__c</picklist>
+        <values>
+            <fullName>Accused</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alleged Maltreater</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alleged Victim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investigator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Victim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Witness</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

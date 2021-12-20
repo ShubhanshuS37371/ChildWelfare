@@ -1,0 +1,19 @@
+{
+    "%vlocity_namespace%__Author__c": "vlocityDev",
+    "%vlocity_namespace%__CustomJavascript__c": "ParticipantSearchResultsTemplate.js",
+    "%vlocity_namespace%__Definition__c": "",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayOn__c": "",
+    "%vlocity_namespace%__ExternalID__c": "ParticipantSearchResultsTemplate/4/vlocityDev/1565868517351",
+    "%vlocity_namespace%__HTML__c": "ParticipantSearchResultsTemplate.html",
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleJson__c": "ParticipantSearchResultsTemplate_Sample.json",
+    "%vlocity_namespace%__Sass__c": "ParticipantSearchResultsTemplate.scss",
+    "%vlocity_namespace%__Type__c": "Selectable Items",
+    "%vlocity_namespace%__Version__c": 4,
+    "CurrencyIsoCode": "USD",
+    "Name": "ParticipantSearchResultsTemplate",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityUITemplate__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityUITemplate__c/ParticipantSearchResultsTemplate"
+}

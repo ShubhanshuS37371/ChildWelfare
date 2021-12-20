@@ -1,0 +1,26 @@
+{
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "Test_SMS_English_Element_SetValues1.json",
+        "Test_SMS_English_Element_Step1.json",
+        "Test_SMS_English_Element_phone.json",
+        "Test_SMS_English_Element_message.json",
+        "Test_SMS_English_Element_IntegrationProcedureAction1.json",
+        "Test_SMS_English_Element_Step2.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__OmniProcessType__c": "OmniScript",
+    "%vlocity_namespace%__PropertySet__c": "Test_SMS_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "SMS",
+    "%vlocity_namespace%__Type__c": "Test",
+    "CurrencyIsoCode": "USD",
+    "Name": "New OmniScript",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Test/SMS/English"
+}

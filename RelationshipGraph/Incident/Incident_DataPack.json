@@ -1,0 +1,10 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "7f7c5cd7-2461-b5b6-e8db-f9e5c3cd37bf",
+    "%vlocity_namespace%__PropertySet__c": "",
+    "%vlocity_namespace%__RelationshipGraphNodeType__c": "Incident_RelationshipGraphNodeTypes.json",
+    "%vlocity_namespace%__RelationshipGraphTraversal__c": "Incident_RelationshipGraphTraversals.json",
+    "Name": "Incident",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__RelationshipGraph__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__RelationshipGraph__c/7f7c5cd7-2461-b5b6-e8db-f9e5c3cd37bf"
+}

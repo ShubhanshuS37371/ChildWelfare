@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Waitlisted_Child_Care_Enrollments</fullName>
+    <columns>vlocity_ps__PrimaryContactId__c</columns>
+    <columns>Preferred_Provider__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>vlocity_ps__ActiveEligibilityDetermination__c</columns>
+    <columns>vlocity_ps__Stage__c</columns>
+    <columns>Program_Level__c</columns>
+    <columns>Income_Reported__c</columns>
+    <columns>of_Dependents__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>vlocity_ps__ProgramEnrollment__c.Child_Care</value>
+    </filters>
+    <filters>
+        <field>vlocity_ps__Stage__c</field>
+        <operation>equals</operation>
+        <value>Waitlist</value>
+    </filters>
+    <label>Waitlisted Child Care Enrollments</label>
+</ListView>

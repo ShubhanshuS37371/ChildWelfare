@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>Adoption</label>
+            <name>adoption</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Becoming a Foster Parent</label>
+            <name>becoming_a_foster_parent</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Education</label>
+            <name>education</name>
+        </dataCategory>
+        <dataCategory>
+            <label>FAQs</label>
+            <name>faqs</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Special Needs</label>
+            <name>special_needs</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Support Group</label>
+            <name>support_group</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Foster Parent Portal</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

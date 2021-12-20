@@ -1,0 +1,52 @@
+{
+    "Cards": [
+        "Family Member",
+        "Alert Card"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.Id",
+                "val": "a8e0b000000kBb9AAE"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "body": "[\n    {\n        \"Image\": \"https://ccwis-intake-demo.my.salesforce.com/resource/1538710374000/Sam\",\n        \"Name\": \"Ryan Silver\",\n        \"Age\": \"5\",\n        \"DOB\": \"12-01-2012\",\n        \"Gender\": \"Male\",\n        \"Joined Home\": \"Dec-01-2017\",\n        \"Status\": \"Temporary\",\n        \"Id\": \"0030b000026NY0UAAW\"\n    },\n    {\n        \"Image\": \"https://ccwis-intake-demo.my.salesforce.com/resource/1538710425000/Jenny\",\n        \"Name\": \"Kate Miller\",\n        \"Age\": \"15\",\n        \"DOB\": \"05-27-2002\",\n        \"Gender\": \"Female\",\n        \"Joined Home\": \"May-27-2014\",\n        \"Status\": \"Permanent\",\n        \"Id\": \"0030b000026MaaqAAC\"\n    }\n]",
+            "bundle": "GetFosterChildren",
+            "inputMap": {
+                "HouseholdId": "{{params.Id}}"
+            },
+            "resultVar": "Contacts"
+        }
+    },
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-3x-zones-slds"
+        }
+    },
+    "workspace": [
+        "Family Member/%vlocity_namespace%_child_welfare/1513214525380",
+        "Alert Card/CCWIS Intake Hotline/1/1538773816803"
+    ],
+    "zones": {
+        "Body": {
+            "cardNames": [
+                "Family Member"
+            ],
+            "label": "Body",
+            "layouts": [
+            ],
+            "name": "Body"
+        },
+        "Header": {
+            "cardNames": [
+                "Alert Card"
+            ],
+            "label": "Header",
+            "layouts": [
+            ],
+            "name": "Header"
+        }
+    }
+}

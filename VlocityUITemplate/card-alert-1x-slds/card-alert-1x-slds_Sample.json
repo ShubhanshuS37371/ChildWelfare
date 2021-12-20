@@ -1,0 +1,28 @@
+{
+    "data": {
+        "actions": [
+            {
+                "displayName": "Like Action",
+                "vlocityIcon": "icon-v-heart"
+            }
+        ],
+        "fields": [
+            {
+                "Name": "Message",
+                "label": "Message",
+                "type": "text"
+            }
+        ],
+        "title": "Alert"
+    },
+    "obj": {
+        "Id": "123456",
+        "LastModifiedDate": "2016-11-07T20:25:52.942Z",
+        "Name": "Object Name",
+        "cost": 150,
+        "data": {
+            "Priority": "High"
+        },
+        "description": "Some description"
+    }
+}

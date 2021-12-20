@@ -1,0 +1,133 @@
+{
+    "dataSource": {
+        "type": null,
+        "value": {
+            "resultVar": "Objective"
+        }
+    },
+    "filter": {
+    },
+    "icon": "account",
+    "sprite": "standard",
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": false,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "extraParams": {
+                            "ContextId": "['ObjectiveId']",
+                            "Id": "['ObjectiveId']",
+                            "ObjectiveId": "['ObjectiveId']"
+                        },
+                        "hasExtraParams": true,
+                        "id": "Edit Objective",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Update Progress",
+                        "hasExtraParams": false,
+                        "id": "Update Progress",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/apex/",
+                        "vlocityIcon": "icon-v-graph-line"
+                    },
+                    {
+                        "collapse": true,
+                        "displayName": "Enter Progress Note",
+                        "hasExtraParams": false,
+                        "id": "Enter Progress Note",
+                        "isCustomAction": true,
+                        "type": "Custom",
+                        "url": "/apex/",
+                        "vlocityIcon": "icon-v-information"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['PartyName']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['PartyName']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ObjectiveName']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Objective Name",
+                    "name": "['ObjectiveName']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Start_Date']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Start Date",
+                    "name": "['Start_Date']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Target_Completion_Date']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Target Completion Date",
+                    "name": "['Target_Completion_Date']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Status']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Status",
+                    "name": "['Status']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Progress']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Progress",
+                    "name": "['Progress']",
+                    "type": "string"
+                }
+            ],
+            "flyout": {
+                "layout": "cw-objective-description-flyout"
+            },
+            "name": "Active",
+            "sObjectType": null,
+            "templateUrl": "card-active-slds"
+        }
+    ],
+    "title": "Objective"
+}

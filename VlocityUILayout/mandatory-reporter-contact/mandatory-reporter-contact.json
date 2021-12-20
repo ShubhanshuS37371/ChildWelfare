@@ -1,0 +1,30 @@
+{
+    "Cards": [
+        "mandatory-reporter-contact"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "0034T000004jvM1QAI"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "CW-GetMandatoryReporterContact",
+            "inputMap": {
+                "Id": "{{params.id}}"
+            },
+            "jsonMap": "{\"params.id\":\"{{params.id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-no-search"
+        }
+    },
+    "workspace": [
+        "mandatory-reporter-contact/jb-fc09132010/1/1568724043160"
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "a323h000000hu5sAAA"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "body": "{\n    \"Name\": \"Weatherford Household\",\n    \"County\": \"Allen\",\n    \"MoreThanOneYearExperience\": \"Yes\",\n    \"WillingToAdopt\": \"Yes\",\n    \"LicensedAvailability\": 3,\n    \"PreferredAvailability\": 2,\n    \"PrimaryContactId\": \"0033i000003Q1P3AAK\",\n    \"WouldConsider\": \"History of Chronic Lying\",\n    \"WouldNotPrefer\": \"Physical Aggression toward Animals\",\n    \"Religion\": \"Christianity\",\n    \"MatchingScore\": 75,\n    \"Recommendation\": \"Highly Recommended\"\n}",
+            "bundle": "DC-RespiteCenters",
+            "inputMap": {
+                "PlacementProgramEnrollmentId": "{{params.id}}"
+            },
+            "ipMethod": "ACF_GetCapacity",
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+            }
+        }
+    },
+    "filter": {
+    },
+    "states": [
+        {
+            "actionCtxId": "",
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "conditions": {
+                            "group": [
+                            ]
+                        },
+                        "extraParams": {
+                            "InventoryItemId": "['Id']",
+                            "PlacementProgramEnrollmentId": "['PlacementProgramEnrollmentId']",
+                            "ServiceProviderId": "['ServiceProviderId']"
+                        },
+                        "hasExtraParams": true,
+                        "id": "Log a Call",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Name']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['MaximumAvailability']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Max Avail",
+                    "name": "['MaximumAvailability']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['CurrentAvailability']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Current Avail",
+                    "name": "['CurrentAvailability']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Distance']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Distance",
+                    "name": "['Distance']",
+                    "type": "string"
+                }
+            ],
+            "isSmartAction": false,
+            "name": "active",
+            "sObjectType": null,
+            "smartAction": {
+            },
+            "templateUrl": "list-table-card"
+        }
+    ],
+    "title": "Placement"
+}

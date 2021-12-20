@@ -1,0 +1,25 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Deletes supporting data for Alisha Adams.  Note does not delete underlying Alisha Adams record.",
+    "%vlocity_namespace%__CustomJavaScript__c": "{}",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "Child-Care_Demo-Reset_Element_GetChildCareDemoDataIds.json",
+        "Child-Care_Demo-Reset_Element_DeleteDemoData.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__OmniProcessType__c": "Integration Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "ChildCare_DemoReset",
+    "%vlocity_namespace%__PropertySet__c": "Child-Care_Demo-Reset_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "Demo Reset",
+    "%vlocity_namespace%__Type__c": "Child Care",
+    "CurrencyIsoCode": "USD",
+    "Name": "Child Care Demo Reset",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/Child Care/Demo Reset/Procedure"
+}

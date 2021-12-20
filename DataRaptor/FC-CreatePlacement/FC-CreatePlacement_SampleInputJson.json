@@ -1,0 +1,26 @@
+{
+    "InventoryItemId": "a1z3i000000UBVCAA4",
+    "PlacementProgramEnrollmentId": "a323i000000QqCmAAK",
+    "PossiblePlacement": {
+        "PlacementDecision": "Accepted"
+    },
+    "ProgramEnrollment": {
+        "Name": "Braedon Anderson - Placement"
+    },
+    "ServiceProvider": {
+        "Id": "0013i000005yv2DAAQ",
+        "Name": "Rodriguez Household",
+        "PrimaryContactId": "0033i0000070YAPAA2",
+        "PrimaryContactName": "Frank Rodriguez"
+    },
+    "ServiceProviderId": "0013i000005yv2DAAQ",
+    "priority": "Normal",
+    "script": {
+        "MessagingTask": true,
+        "WhatId": "a323i000000QqCmAAK",
+        "WhoId": "0033i0000070YAPAA2",
+        "description": "Discussion with Frank Rodriguez of placement of Braedon Anderson - Placement",
+        "subject": "Braedon Anderson - Placement"
+    },
+    "status": "Completed"
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investigations</fullName>
+    <columns>NAME</columns>
+    <columns>vlocity_ps__DateOpened__c</columns>
+    <columns>DaysLeft__c</columns>
+    <columns>Number_of_Allegations__c</columns>
+    <columns>Next_Court_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>vlocity_ps__Case__c.Investigation</value>
+    </filters>
+    <filters>
+        <field>vlocity_ps__Status__c</field>
+        <operation>notEqual</operation>
+        <value>Closed,Unfounded-Closed,Founded-Transfer to Ongoing</value>
+    </filters>
+    <filters>
+        <field>vlocity_ps__DateOpened__c</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Investigations</label>
+</ListView>

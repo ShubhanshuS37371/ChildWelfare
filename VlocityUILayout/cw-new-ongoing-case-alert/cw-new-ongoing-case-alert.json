@@ -1,0 +1,24 @@
+{
+    "Cards": [
+        "cw-investigation-alert"
+    ],
+    "componentName": "cfWpcBarrierActions",
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "body": "{\n  \"Priority__c\": \"High\",\n  \"Message\": \"You have been assigned a new Investigation.\"\n}",
+            "bundle": "CW-GetOngoingCaseAlert"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-simple-slds"
+        }
+    },
+    "workspace": [
+        "cw-investigation-alert/jb-fc010820/1/1580233071531"
+    ]
+}

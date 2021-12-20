@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_ps__ScreenOutReason__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Screen Out Reason</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>It is clear from the information received that no child maltreatment occurred.</fullName>
+                <default>false</default>
+                <label>It is clear from the information received that no child maltreatment occurred.</label>
+            </value>
+            <value>
+                <fullName>The allegation did not meet the State’s statutory or agency guidelines, or did not concern child abuse and neglect.</fullName>
+                <default>false</default>
+                <label>The allegation did not meet the State’s statutory or agency guidelines, or did not concern child abuse and neglect.</label>
+            </value>
+            <value>
+                <fullName>The report did not contain enough information to identify or locate the child and family.</fullName>
+                <default>false</default>
+                <label>The report did not contain enough information to identify or locate the child and family.</label>
+            </value>
+            <value>
+                <fullName>The child in the referral was the responsibility of another agency or jurisdiction, such as a military installation or a Tribe.</fullName>
+                <default>false</default>
+                <label>The child in the referral was the responsibility of another agency or jurisdiction, such as a military installation or a Tribe.</label>
+            </value>
+            <value>
+                <fullName>The alleged victim is not a child.</fullName>
+                <default>false</default>
+                <label>The alleged victim is not a child.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

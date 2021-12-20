@@ -1,0 +1,23 @@
+.via-slds .via-slds-card__open {
+    overflow:hidden;
+    .via-slds-card__body {
+        min-height: 410px;
+        
+        .via-slds-main-action {
+            span {
+                display: block;
+            }
+            .icon {
+                display: block;
+            }
+            .icon:before {
+                font-size: 400%;
+            }
+        }
+    }
+}
+
+.watermark {
+    height:370px;
+    opacity:.15;
+}

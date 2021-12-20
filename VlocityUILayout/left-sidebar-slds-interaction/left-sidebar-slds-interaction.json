@@ -1,0 +1,32 @@
+{
+    "Cards": [
+        "profile-contact-slds",
+        "profile-contact-info-slds-interaction"
+    ],
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "a1F1U0000024xsFUAQ"
+            }
+        ],
+        "type": "DataRaptor",
+        "value": {
+            "bundle": "CW-GetContactFromInteraction",
+            "inputMap": {
+                "Id": "{{params.id}}"
+            },
+            "jsonMap": "{\"params.id\":\"{{params.id}}\"}"
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "vlocity-interaction-console-sidebar-slds-cw"
+        }
+    },
+    "workspace": [
+        "profile-contact-slds/vlocity-ps/null/1521653916276",
+        "profile-contact-info-slds-interaction/Vlocity Foster Care TSO/1/1576682467286"
+    ]
+}
